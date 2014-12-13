@@ -23,6 +23,8 @@ public class Glues {
 	static VirtualRepository repository = new Repository();
 	static RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
 	static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
+	static RepositoryService grade= repository.services().lookup(new QName("semantic-repository"));
+	
 	
 	@Test
 	public void smokeTest() {
@@ -43,6 +45,17 @@ public class Glues {
 	}
 	
 	@Test
+	public void pushFaoAreas() {
+	
+		
+		WfsFeatureType asset = new WfsFeatureType("fao-areas","area:FAO_AREAS",grade);
+		
+		repository.publish(asset,load("fao-areas.xml"));
+
+	}
+	
+	
+	@Test
 	public void grabMarineRegions() {
 		
 		WfsFeatureType asset = new WfsFeatureType("marine-regions","MarineRegions:eez");
@@ -55,6 +68,15 @@ public class Glues {
 	}
 	
 
+	@Test
+	public void pushMarineRegions() {
+	
+		
+		WfsFeatureType asset = new WfsFeatureType("marine-regions","marine-regions",grade);
+		
+		repository.publish(asset,load("marine-regions.xml"));
+
+	}
 	
 	@SneakyThrows(Exception.class)
 	static void store(String name, InputStream stream) {
@@ -65,7 +87,11 @@ public class Glues {
 		
 		@Cleanup FileOutputStream out = new FileOutputStream(dest);
 	
-		while (stream.read(bytes)!=-1) 	out.write(bytes);
+		int read = 0;
+		
+		while ((read=stream.read(bytes))!=-1) 	out.write(bytes,0,read);
+		
+		out.flush();
 			
 	}
 	
