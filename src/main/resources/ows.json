@@ -3,16 +3,21 @@
    "services" : [
       {
         "name" : "fao-areas",
-        "version" : "1.1.0",
         "uri" : "http://www.fao.org/figis/geoserver/area/ows",
-        "excludes" : ["THE_GEOM"]
+        "excludeGeom" : true
       },
       {
         "name" : "vliz",
-        "version" : "1.1.0",
         "uri" : "http://geo.vliz.be/geoserver/MarineRegions/ows",
-        "excludes" : ["the_geom"]
-      }        
+        "excludeGeom" : true
+      } , 
+      
+      {
+        "name" : "intersections",
+        "uri" : "http://www.fao.org/figis/geoserver/GeoRelationship/ows",
+        "excludeGeom" : true
+      }  
+         
    ]
    
 }

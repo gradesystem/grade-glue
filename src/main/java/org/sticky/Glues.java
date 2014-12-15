@@ -23,6 +23,7 @@ public class Glues {
 	static VirtualRepository repository = new Repository();
 	static RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
 	static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
+	static RepositoryService intersections = repository.services().lookup(new QName("intersections"));
 	static RepositoryService grade= repository.services().lookup(new QName("semantic-repository"));
 	
 	
@@ -33,7 +34,7 @@ public class Glues {
 	}
 	
 	@Test
-	public void grabFaoAreas() {
+	public void grabFsaHierarchy() {
 		
 		WfsFeatureType asset = new WfsFeatureType("fao-areas","area:FAO_AREAS");
 		
@@ -45,10 +46,10 @@ public class Glues {
 	}
 	
 	@Test
-	public void pushFaoAreas() {
+	public void pushFsaHierarchy() {
 	
 		
-		WfsFeatureType asset = new WfsFeatureType("fao-areas","area:FAO_AREAS",grade);
+		WfsFeatureType asset = new WfsFeatureType("fsa-hierarchy","fsa-hierarchy",grade);
 		
 		repository.publish(asset,load("fao-areas.xml"));
 
@@ -77,6 +78,32 @@ public class Glues {
 		repository.publish(asset,load("marine-regions.xml"));
 
 	}
+	
+	@Test
+	public void grabEezFsa() {
+		
+		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","GeoRelationship:FAO_AREAS_x_EEZ_HIGHSEAS");
+		
+		asset.setService(intersections);
+		
+		InputStream stream = repository.retrieve(asset, InputStream.class);
+		
+		store("intersections.xml",stream);
+	}
+	
+	
+	@Test
+	public void pushEezFsa() {
+	
+		
+		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","eez-fsa_intersection",grade);
+		
+		repository.publish(asset,load("intersections.xml"));
+
+	}
+	
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	@SneakyThrows(Exception.class)
 	static void store(String name, InputStream stream) {
