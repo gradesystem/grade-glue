@@ -144,10 +144,8 @@ public class FsaGlue {
 			}
 			
 			//build new feature
-			System.out.println(trgFeatureType.getProperties(false).size());
 			for(PropertyType prop : f.getType().getProperties(false)){
 				if(trgFeatureType.getProperties(false).contains(prop)){
-					System.out.println(prop.getName().toString());
 					Property property = f.getProperty(prop.getName().toString());
 					Object value = null;
 					if(property != null) value = property.getValue();
