@@ -6,26 +6,31 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import javax.xml.namespace.QName;
 
 import lombok.Cleanup;
 import lombok.SneakyThrows;
 
+import org.opengis.feature.Feature;
 import org.junit.Test;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.VirtualRepository;
 import org.virtualrepository.impl.Repository;
+import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
 
 public class Glues {
-
+	
 	static VirtualRepository repository = new Repository();
 	static RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
 	static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
 	static RepositoryService intersections = repository.services().lookup(new QName("intersections"));
 	static RepositoryService grade= repository.services().lookup(new QName("semantic-repository"));
-	
 	
 	@Test
 	public void smokeTest() {
@@ -33,27 +38,7 @@ public class Glues {
 		assertTrue(repository.services().size()>=2);
 	}
 	
-	@Test
-	public void grabFsaHierarchy() {
-		
-		WfsFeatureType asset = new WfsFeatureType("fao-areas","area:FAO_AREAS");
-		
-		asset.setService(faoareas);
-		
-		InputStream stream = repository.retrieve(asset, InputStream.class);
-		
-		store("fao-areas.xml",stream);
-	}
 	
-	@Test
-	public void pushFsaHierarchy() {
-	
-		
-		WfsFeatureType asset = new WfsFeatureType("fsa-hierarchy","fsa-hierarchy",grade);
-		
-		repository.publish(asset,load("fao-areas.xml"));
-
-	}
 	
 	
 	@Test
