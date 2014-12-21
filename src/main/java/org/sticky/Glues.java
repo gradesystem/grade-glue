@@ -6,22 +6,15 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.util.Iterator;
-import java.util.List;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
-
 import javax.xml.namespace.QName;
 
 import lombok.Cleanup;
 import lombok.SneakyThrows;
 
-import org.opengis.feature.Feature;
 import org.junit.Test;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.VirtualRepository;
 import org.virtualrepository.impl.Repository;
-import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
 
 public class Glues {
