@@ -1,24 +1,13 @@
 package org.sticky;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-import lombok.Cleanup;
-import lombok.SneakyThrows;
-
-import org.geotoolkit.data.FeatureCollection;
-import org.geotoolkit.data.FeatureStoreUtilities;
 import org.geotoolkit.feature.FeatureTypeBuilder;
 import org.geotoolkit.feature.simple.SimpleFeatureBuilder;
 import org.geotoolkit.feature.simple.SimpleFeatureType;
 import org.geotoolkit.feature.type.GeometryType;
-import org.geotoolkit.feature.xml.XmlFeatureWriter;
-import org.geotoolkit.feature.xml.jaxp.JAXPStreamFeatureWriter;
 import org.junit.Test;
 import org.opengis.feature.AttributeType;
 import org.opengis.feature.Feature;
@@ -106,16 +95,17 @@ public class FsaGlue {
 				String name = prop.getName().toString();
 				
 				//reducing nb of properties for more transparency for grade
-				if(name.equals("F_CODE")
-				   || name.equals("F_LEVEL")
-				   || name.equals("F_STATUS")
-				   || name.contains("OCEAN")){
-					
-					ftb.add(name,((AttributeType) prop).getValueClass());
+				if(name.equals("F_AREA")
+				   || name.equals("F_SUBAREA")
+				   || name.equals("F_DIVISION")
+				   || name.equals("F_SUBDIVIS")
+				   || name.equals("F_SUBUNIT")){
+					name = name.replaceFirst("F_", "PARTOF_");
 				}
+				System.out.println(name);
+				ftb.add(name,((AttributeType) prop).getValueClass());
 			}
 		}
-		ftb.add("PART_OF", String.class);
 		
 		FeatureType trgFeatureType = ftb.buildSimpleFeatureType();
 		
@@ -144,15 +134,21 @@ public class FsaGlue {
 			}
 			
 			//build new feature
-			for(PropertyType prop : f.getType().getProperties(false)){
-				if(trgFeatureType.getProperties(false).contains(prop)){
-					Property property = f.getProperty(prop.getName().toString());
-					Object value = null;
-					if(property != null) value = property.getValue();
-					sfb.add(value);
+			for(PropertyType prop : trgFeatureType.getProperties(false)){
+				
+				String propertyName = prop.getName().toString();
+				if(propertyName.startsWith("PARTOF_")) propertyName = propertyName.replaceFirst("PARTOF_", "F_");
+				Property property = f.getProperty(propertyName);
+				
+				String value = null;
+				if(property != null && !propertyName.equals(fsaLevel.attribute())) {
+					value = property.getValue().toString();
+					if(value.startsWith("_")) value = value.substring(1,value.length());
 				}
+				
+				sfb.add(value);
+				
 			}
-			sfb.add(partOf);
 			
 			//add trgFeature
 			trgFeatureList.add(sfb.buildFeature("fao-area-"+code));

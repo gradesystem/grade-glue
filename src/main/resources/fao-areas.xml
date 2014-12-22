@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs"
-	xmlns:gml="http://www.opengis.net/gml" gml:id="" timeStamp="2014-12-21T22:06:36"
+	xmlns:gml="http://www.opengis.net/gml" gml:id="" timeStamp="2014-12-22T12:03:34"
 	numberOfFeatures="370">
 	<gml:featureMember>
 		<FAO_AREAS gml:id="fao-area-31.8.2">
@@ -8,8 +8,9 @@
 			<F_CODE>31.8.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.8</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -18,8 +19,10 @@
 			<F_CODE>21.5.Z.e</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.5.Z</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5.Z</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -28,8 +31,9 @@
 			<F_CODE>31.8.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.8</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -38,8 +42,8 @@
 			<F_CODE>57.6</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -48,8 +52,8 @@
 			<F_CODE>57.5</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -58,8 +62,10 @@
 			<F_CODE>27.5.b.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -68,8 +74,10 @@
 			<F_CODE>27.12.a.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.12.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -78,8 +86,10 @@
 			<F_CODE>27.5.b.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -88,8 +98,10 @@
 			<F_CODE>27.12.a.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.12.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -98,8 +110,10 @@
 			<F_CODE>34.1.11</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -108,8 +122,10 @@
 			<F_CODE>27.12.a.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.12.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -118,8 +134,8 @@
 			<F_CODE>34.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -128,8 +144,10 @@
 			<F_CODE>27.12.a.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.12.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -138,8 +156,10 @@
 			<F_CODE>34.1.13</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -148,8 +168,8 @@
 			<F_CODE>57.2</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -158,8 +178,8 @@
 			<F_CODE>34.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -168,8 +188,10 @@
 			<F_CODE>34.1.12</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -178,8 +200,8 @@
 			<F_CODE>34.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -188,8 +210,8 @@
 			<F_CODE>57.1</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -198,8 +220,8 @@
 			<F_CODE>57.4</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -208,8 +230,8 @@
 			<F_CODE>34.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -218,8 +240,8 @@
 			<F_CODE>57.3</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -228,8 +250,11 @@
 			<F_CODE>21.5.Z.c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.5.Z</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>21.5.Z.e</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5.Z.e</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -238,8 +263,9 @@
 			<F_CODE>27.8.e</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -248,8 +274,9 @@
 			<F_CODE>27.8.d</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -258,8 +285,9 @@
 			<F_CODE>27.8.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -268,8 +296,9 @@
 			<F_CODE>27.8.c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -278,8 +307,9 @@
 			<F_CODE>27.8.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -288,8 +318,9 @@
 			<F_CODE>71.6.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
+			<PARTOF_SUBAREA>71.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>71.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -298,8 +329,9 @@
 			<F_CODE>71.6.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
+			<PARTOF_SUBAREA>71.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>71.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -308,8 +340,9 @@
 			<F_CODE>34.1.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -318,8 +351,9 @@
 			<F_CODE>21.4.R</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -328,8 +362,9 @@
 			<F_CODE>34.1.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -338,8 +373,9 @@
 			<F_CODE>21.4.S</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -348,8 +384,9 @@
 			<F_CODE>34.1.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -358,8 +395,9 @@
 			<F_CODE>21.4.T</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -386,8 +424,9 @@
 			<F_CODE>21.4.V</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -396,8 +435,9 @@
 			<F_CODE>21.4.W</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -415,8 +455,9 @@
 			<F_CODE>21.4.X</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -425,8 +466,10 @@
 			<F_CODE>27.2.a.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.2.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -435,8 +478,10 @@
 			<F_CODE>27.2.a.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.2.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -445,8 +490,9 @@
 			<F_CODE>37.2.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -455,8 +501,9 @@
 			<F_CODE>37.2.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -465,8 +512,9 @@
 			<F_CODE>27.7.j</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -475,8 +523,9 @@
 			<F_CODE>27.7.k</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -485,8 +534,8 @@
 			<F_CODE>71.7</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -495,8 +544,8 @@
 			<F_CODE>71.8</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -505,8 +554,8 @@
 			<F_CODE>71.5</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -515,8 +564,8 @@
 			<F_CODE>71.6</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -525,8 +574,9 @@
 			<F_CODE>27.7.f</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -535,8 +585,9 @@
 			<F_CODE>27.7.e</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -545,8 +596,9 @@
 			<F_CODE>27.7.h</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -555,8 +607,9 @@
 			<F_CODE>27.7.g</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -565,8 +618,8 @@
 			<F_CODE>71.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -575,8 +628,9 @@
 			<F_CODE>27.7.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -585,8 +639,8 @@
 			<F_CODE>71.4</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -595,8 +649,9 @@
 			<F_CODE>27.7.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -605,8 +660,8 @@
 			<F_CODE>71.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -615,8 +670,9 @@
 			<F_CODE>27.7.d</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -625,8 +681,8 @@
 			<F_CODE>71.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>7</SUBOCEAN>
+			<PARTOF_AREA>71</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>71</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -635,8 +691,9 @@
 			<F_CODE>27.7.c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -645,8 +702,9 @@
 			<F_CODE>41.3.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -655,8 +713,9 @@
 			<F_CODE>41.3.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -665,8 +724,9 @@
 			<F_CODE>41.3.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -675,8 +735,10 @@
 			<F_CODE>21.4.5.n</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.4.V</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4.V</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -685,8 +747,9 @@
 			<F_CODE>21.5.Y</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -695,8 +758,9 @@
 			<F_CODE>21.5.Z</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -705,8 +769,9 @@
 			<F_CODE>37.3.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -715,8 +780,9 @@
 			<F_CODE>37.3.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -725,8 +791,10 @@
 			<F_CODE>21.4.5.s</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.4.V</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.4.V</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -735,8 +803,9 @@
 			<F_CODE>87.3.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -745,8 +814,11 @@
 			<F_CODE>27.5.b.1.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.b</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>27.5.b.1</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.b.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -755,8 +827,11 @@
 			<F_CODE>27.5.b.1.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.b</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>27.5.b.1</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.b.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -765,8 +840,8 @@
 			<F_CODE>51.4</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -775,8 +850,8 @@
 			<F_CODE>51.3</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -785,8 +860,8 @@
 			<F_CODE>51.6</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -795,8 +870,9 @@
 			<F_CODE>27.6.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -805,8 +881,8 @@
 			<F_CODE>51.5</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -815,8 +891,8 @@
 			<F_CODE>51.8</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -825,8 +901,8 @@
 			<F_CODE>51.7</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -853,8 +929,9 @@
 			<F_CODE>87.3.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -863,8 +940,9 @@
 			<F_CODE>87.3.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -873,8 +951,9 @@
 			<F_CODE>27.6.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -883,8 +962,8 @@
 			<F_CODE>51.2</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -902,8 +981,8 @@
 			<F_CODE>51.1</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>51</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>51</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -912,8 +991,9 @@
 			<F_CODE>41.2.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -922,8 +1002,9 @@
 			<F_CODE>21.6.A</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -932,8 +1013,10 @@
 			<F_CODE>27.6.b.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.6</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.6.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.6.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -942,8 +1025,9 @@
 			<F_CODE>21.6.B</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -952,8 +1036,9 @@
 			<F_CODE>21.6.C</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -962,8 +1047,9 @@
 			<F_CODE>41.2.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -972,8 +1058,9 @@
 			<F_CODE>21.6.D</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -982,8 +1069,10 @@
 			<F_CODE>27.6.b.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.6</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.6.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.6.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -992,8 +1081,9 @@
 			<F_CODE>21.6.E</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1002,8 +1092,9 @@
 			<F_CODE>41.2.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1012,8 +1103,9 @@
 			<F_CODE>21.6.F</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1022,8 +1114,9 @@
 			<F_CODE>41.2.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1032,8 +1125,9 @@
 			<F_CODE>21.6.G</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1042,8 +1136,8 @@
 			<F_CODE>48.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1052,8 +1146,9 @@
 			<F_CODE>21.6.H</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.6</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.6</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1062,8 +1157,8 @@
 			<F_CODE>48.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1072,8 +1167,9 @@
 			<F_CODE>34.3.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1082,8 +1178,8 @@
 			<F_CODE>48.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1092,8 +1188,9 @@
 			<F_CODE>34.3.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1102,8 +1199,8 @@
 			<F_CODE>48.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1112,8 +1209,10 @@
 			<F_CODE>87.3.23</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1122,8 +1221,10 @@
 			<F_CODE>87.3.22</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1132,8 +1233,9 @@
 			<F_CODE>34.3.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1142,8 +1244,9 @@
 			<F_CODE>34.3.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1152,8 +1255,10 @@
 			<F_CODE>87.3.21</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1162,8 +1267,9 @@
 			<F_CODE>34.3.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1172,8 +1278,9 @@
 			<F_CODE>34.3.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1191,8 +1298,9 @@
 			<F_CODE>58.5.2</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1201,8 +1309,9 @@
 			<F_CODE>58.5.1</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1211,8 +1320,8 @@
 			<F_CODE>48.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1221,8 +1330,8 @@
 			<F_CODE>48.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>9</SUBOCEAN>
+			<PARTOF_AREA>48</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>48</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1231,8 +1340,10 @@
 			<F_CODE>27.14.b.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.14</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.14.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.14.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1241,8 +1352,9 @@
 			<F_CODE>31.10.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.10</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1251,8 +1363,10 @@
 			<F_CODE>27.14.b.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.14</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.14.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.14.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1261,8 +1375,9 @@
 			<F_CODE>37.4.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1271,8 +1386,9 @@
 			<F_CODE>31.10.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.10</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1281,8 +1397,9 @@
 			<F_CODE>27.10.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.10</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1291,8 +1408,9 @@
 			<F_CODE>37.4.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1301,8 +1419,9 @@
 			<F_CODE>27.10.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.10</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1320,8 +1439,9 @@
 			<F_CODE>31.10.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.10</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1339,8 +1459,9 @@
 			<F_CODE>37.4.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1349,8 +1470,9 @@
 			<F_CODE>31.10.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.10</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.10</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1359,8 +1481,8 @@
 			<F_CODE>27.12</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1369,8 +1491,8 @@
 			<F_CODE>27.10</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1379,8 +1501,9 @@
 			<F_CODE>31.7.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.7</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1389,8 +1512,9 @@
 			<F_CODE>31.7.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.7</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1399,8 +1523,9 @@
 			<F_CODE>31.7.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.7</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.7</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1409,8 +1534,8 @@
 			<F_CODE>27.14</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1419,8 +1544,8 @@
 			<F_CODE>58.5</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1429,8 +1554,8 @@
 			<F_CODE>58.4</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1439,8 +1564,10 @@
 			<F_CODE>87.3.13</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1449,8 +1576,8 @@
 			<F_CODE>58.7</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1459,8 +1586,10 @@
 			<F_CODE>87.3.12</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1469,8 +1598,8 @@
 			<F_CODE>58.6</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1479,8 +1608,10 @@
 			<F_CODE>87.3.11</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1489,8 +1620,10 @@
 			<F_CODE>34.1.31</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.1.3</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1499,8 +1632,9 @@
 			<F_CODE>27.5.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1518,8 +1652,9 @@
 			<F_CODE>27.5.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1528,8 +1663,10 @@
 			<F_CODE>34.1.32</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.1.3</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.1.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1547,8 +1684,8 @@
 			<F_CODE>47.D</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1557,8 +1694,9 @@
 			<F_CODE>41.1.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1567,8 +1705,9 @@
 			<F_CODE>41.1.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1577,8 +1716,8 @@
 			<F_CODE>47.A</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1587,8 +1726,9 @@
 			<F_CODE>41.1.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1597,8 +1737,8 @@
 			<F_CODE>47.B</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1607,8 +1747,9 @@
 			<F_CODE>41.1.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
+			<PARTOF_SUBAREA>41.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1617,8 +1758,8 @@
 			<F_CODE>47.C</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1627,8 +1768,10 @@
 			<F_CODE>21.5.Z.w</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.5.Z</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5.Z</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1637,8 +1780,8 @@
 			<F_CODE>47.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1647,8 +1790,10 @@
 			<F_CODE>27.2.b.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.2.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1657,8 +1802,8 @@
 			<F_CODE>47.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1667,8 +1812,11 @@
 			<F_CODE>21.5.Z.u</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.5.Z</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>21.5.Z.e</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.5.Z.e</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1686,8 +1834,10 @@
 			<F_CODE>27.2.b.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.2.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1705,8 +1855,10 @@
 			<F_CODE>87.2.27</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1715,8 +1867,10 @@
 			<F_CODE>87.2.26</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1725,8 +1879,10 @@
 			<F_CODE>87.2.25</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1735,8 +1891,10 @@
 			<F_CODE>87.2.24</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1745,8 +1903,10 @@
 			<F_CODE>87.2.23</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1755,8 +1915,10 @@
 			<F_CODE>87.2.22</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1765,8 +1927,10 @@
 			<F_CODE>87.2.21</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1775,8 +1939,9 @@
 			<F_CODE>27.4.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1785,8 +1950,9 @@
 			<F_CODE>27.4.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1795,8 +1961,9 @@
 			<F_CODE>27.4.c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1805,8 +1972,9 @@
 			<F_CODE>31.4.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.4</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1824,8 +1992,9 @@
 			<F_CODE>21.0.A</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.0</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.0</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1834,8 +2003,9 @@
 			<F_CODE>31.4.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.4</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1844,8 +2014,9 @@
 			<F_CODE>21.0.B</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.0</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.0</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1854,8 +2025,9 @@
 			<F_CODE>87.1.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1864,8 +2036,9 @@
 			<F_CODE>47.C.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.C</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.C</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1874,8 +2047,9 @@
 			<F_CODE>87.1.4</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1884,8 +2058,9 @@
 			<F_CODE>87.1.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1894,8 +2069,9 @@
 			<F_CODE>87.1.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1904,8 +2080,9 @@
 			<F_CODE>47.C.0</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.C</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.C</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1914,8 +2091,8 @@
 			<F_CODE>27.9</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1924,8 +2101,8 @@
 			<F_CODE>27.8</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1934,8 +2111,10 @@
 			<F_CODE>27.7.j.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.j</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.j</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1944,8 +2123,8 @@
 			<F_CODE>27.7</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1954,8 +2133,8 @@
 			<F_CODE>27.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1964,8 +2143,10 @@
 			<F_CODE>27.7.j.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.j</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.j</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1974,8 +2155,8 @@
 			<F_CODE>27.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1984,8 +2165,10 @@
 			<F_CODE>87.2.17</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -1994,8 +2177,8 @@
 			<F_CODE>27.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2004,8 +2187,10 @@
 			<F_CODE>87.2.16</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2014,8 +2199,8 @@
 			<F_CODE>27.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2024,8 +2209,10 @@
 			<F_CODE>87.2.15</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2034,8 +2221,8 @@
 			<F_CODE>27.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2044,8 +2231,10 @@
 			<F_CODE>87.2.14</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2054,8 +2243,10 @@
 			<F_CODE>87.2.13</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2064,8 +2255,10 @@
 			<F_CODE>87.2.12</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2074,8 +2267,10 @@
 			<F_CODE>87.2.11</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.2.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2084,8 +2279,8 @@
 			<F_CODE>88.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>11</SUBOCEAN>
+			<PARTOF_AREA>88</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>88</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2094,8 +2289,9 @@
 			<F_CODE>27.12.c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2104,8 +2300,8 @@
 			<F_CODE>88.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>11</SUBOCEAN>
+			<PARTOF_AREA>88</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>88</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2114,8 +2310,10 @@
 			<F_CODE>27.3.23</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.b, c</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.b, c</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2124,8 +2322,10 @@
 			<F_CODE>27.10.a.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.10</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.10.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.10.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2134,8 +2334,8 @@
 			<F_CODE>88.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>11</SUBOCEAN>
+			<PARTOF_AREA>88</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>88</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2144,8 +2344,10 @@
 			<F_CODE>27.3.22</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.b, c</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.b, c</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2154,8 +2356,8 @@
 			<F_CODE>27.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2164,8 +2366,9 @@
 			<F_CODE>27.3.b, c</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2174,8 +2377,10 @@
 			<F_CODE>27.10.a.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.10</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.10.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.10.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2184,8 +2389,9 @@
 			<F_CODE>27.12.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2194,8 +2400,9 @@
 			<F_CODE>27.12.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.12</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.12</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2204,8 +2411,9 @@
 			<F_CODE>57.5.1</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
+			<PARTOF_SUBAREA>57.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2214,8 +2422,9 @@
 			<F_CODE>87.2.6</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2224,8 +2433,9 @@
 			<F_CODE>87.2.4</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2234,8 +2444,9 @@
 			<F_CODE>87.2.5</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2244,8 +2455,9 @@
 			<F_CODE>57.5.2</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>5</SUBOCEAN>
+			<PARTOF_AREA>57</PARTOF_AREA>
+			<PARTOF_SUBAREA>57.5</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>57.5</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2254,8 +2466,8 @@
 			<F_CODE>37.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2264,8 +2476,8 @@
 			<F_CODE>37.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2274,8 +2486,9 @@
 			<F_CODE>27.3.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2293,8 +2506,10 @@
 			<F_CODE>34.3.11</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2303,8 +2518,10 @@
 			<F_CODE>34.3.13</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2313,8 +2530,9 @@
 			<F_CODE>27.3.d</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2323,8 +2541,10 @@
 			<F_CODE>34.3.12</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>34.3.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.3.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2333,8 +2553,10 @@
 			<F_CODE>27.3.d.31</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2343,8 +2565,10 @@
 			<F_CODE>27.3.d.30</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2353,8 +2577,8 @@
 			<F_CODE>37.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2363,8 +2587,8 @@
 			<F_CODE>37.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2373,8 +2597,10 @@
 			<F_CODE>27.3.d.32</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2383,8 +2609,9 @@
 			<F_CODE>21.1.A</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2393,8 +2620,9 @@
 			<F_CODE>87.2.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2403,8 +2631,9 @@
 			<F_CODE>47.D.0</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.D</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.D</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2422,8 +2651,9 @@
 			<F_CODE>21.1.B</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2432,8 +2662,9 @@
 			<F_CODE>87.2.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2442,8 +2673,9 @@
 			<F_CODE>47.D.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.D</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.D</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2461,8 +2693,9 @@
 			<F_CODE>21.1.C</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2471,8 +2704,9 @@
 			<F_CODE>87.2.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2481,8 +2715,9 @@
 			<F_CODE>21.1.D</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2491,8 +2726,9 @@
 			<F_CODE>21.1.E</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2501,8 +2737,9 @@
 			<F_CODE>21.1.F</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2511,8 +2748,10 @@
 			<F_CODE>87.1.25</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2521,8 +2760,10 @@
 			<F_CODE>87.1.23</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2531,8 +2772,10 @@
 			<F_CODE>87.1.24</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2541,8 +2784,10 @@
 			<F_CODE>87.1.21</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2551,8 +2796,10 @@
 			<F_CODE>87.1.22</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.2</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2561,8 +2808,9 @@
 			<F_CODE>34.4.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2571,8 +2819,10 @@
 			<F_CODE>27.7.k.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.k</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.k</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2581,8 +2831,11 @@
 			<F_CODE>27.3.d.28.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>27.3.d.28</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d.28</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2591,8 +2844,9 @@
 			<F_CODE>34.4.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>34</PARTOF_AREA>
+			<PARTOF_SUBAREA>34.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>34.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2601,8 +2855,10 @@
 			<F_CODE>27.7.k.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.k</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.k</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2611,8 +2867,11 @@
 			<F_CODE>27.3.d.28.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
+			<PARTOF_SUBDIVIS>27.3.d.28</PARTOF_SUBDIVIS>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d.28</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2621,8 +2880,8 @@
 			<F_CODE>87.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2631,8 +2890,8 @@
 			<F_CODE>41.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2641,8 +2900,8 @@
 			<F_CODE>87.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2651,8 +2910,8 @@
 			<F_CODE>41.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2661,8 +2920,9 @@
 			<F_CODE>58.4.1</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2680,8 +2940,8 @@
 			<F_CODE>87.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2690,8 +2950,9 @@
 			<F_CODE>58.4.3</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2700,8 +2961,9 @@
 			<F_CODE>58.4.2</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2710,8 +2972,9 @@
 			<F_CODE>58.4.4</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2720,8 +2983,10 @@
 			<F_CODE>27.3.d.24</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2739,8 +3004,10 @@
 			<F_CODE>27.7.c.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.c</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.c</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2749,8 +3016,10 @@
 			<F_CODE>27.7.c.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.7</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.7.c</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.7.c</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2759,8 +3028,10 @@
 			<F_CODE>27.3.d.26</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2769,8 +3040,10 @@
 			<F_CODE>27.3.d.25</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2779,8 +3052,10 @@
 			<F_CODE>27.3.d.28</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2789,8 +3064,10 @@
 			<F_CODE>27.3.d.27</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2799,8 +3076,10 @@
 			<F_CODE>27.3.d.29</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.3.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.3.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2809,8 +3088,8 @@
 			<F_CODE>41.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>41</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>41</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2819,8 +3098,9 @@
 			<F_CODE>31.2.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2829,8 +3109,9 @@
 			<F_CODE>31.2.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2839,8 +3120,8 @@
 			<F_CODE>31.10</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2849,8 +3130,10 @@
 			<F_CODE>87.1.14</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2859,8 +3142,10 @@
 			<F_CODE>87.1.15</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2869,8 +3154,8 @@
 			<F_CODE>31.11</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2879,8 +3164,10 @@
 			<F_CODE>87.1.12</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2889,8 +3176,10 @@
 			<F_CODE>87.1.13</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2899,8 +3188,10 @@
 			<F_CODE>87.1.11</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>87</PARTOF_AREA>
+			<PARTOF_SUBAREA>87.1</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>87.1.1</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>87.1.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2909,8 +3200,9 @@
 			<F_CODE>27.2.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2919,8 +3211,10 @@
 			<F_CODE>27.8.e.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.8.e</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8.e</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2929,8 +3223,9 @@
 			<F_CODE>27.2.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2939,8 +3234,10 @@
 			<F_CODE>27.8.e.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.8.e</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8.e</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2949,8 +3246,9 @@
 			<F_CODE>31.2.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2959,8 +3257,9 @@
 			<F_CODE>31.2.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2969,8 +3268,9 @@
 			<F_CODE>31.2.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2979,8 +3279,9 @@
 			<F_CODE>31.2.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.2</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2989,8 +3290,9 @@
 			<F_CODE>47.A.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.A</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.A</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -2999,8 +3301,9 @@
 			<F_CODE>47.A.0</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.A</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.A</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3009,8 +3312,9 @@
 			<F_CODE>21.2.G</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3019,8 +3323,9 @@
 			<F_CODE>21.2.H</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3029,8 +3334,9 @@
 			<F_CODE>21.2.J</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3039,8 +3345,9 @@
 			<F_CODE>47.1.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3049,8 +3356,9 @@
 			<F_CODE>47.1.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3059,8 +3367,10 @@
 			<F_CODE>21.3.P.s</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.3.P</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3.P</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3069,8 +3379,9 @@
 			<F_CODE>47.1.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3079,8 +3390,9 @@
 			<F_CODE>47.1.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3089,8 +3401,9 @@
 			<F_CODE>47.1.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3099,8 +3412,9 @@
 			<F_CODE>47.1.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3109,8 +3423,9 @@
 			<F_CODE>27.14.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.14</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.14</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3119,8 +3434,9 @@
 			<F_CODE>27.14.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.14</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.14</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3129,8 +3445,10 @@
 			<F_CODE>21.3.P.n</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>21.3.P</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3.P</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3139,8 +3457,8 @@
 			<F_CODE>21.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3149,8 +3467,9 @@
 			<F_CODE>81.1.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
+			<PARTOF_SUBAREA>81.1</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3159,8 +3478,8 @@
 			<F_CODE>21.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3169,8 +3488,9 @@
 			<F_CODE>81.1.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
+			<PARTOF_SUBAREA>81.1</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3179,8 +3499,8 @@
 			<F_CODE>21.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3189,8 +3509,8 @@
 			<F_CODE>21.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3199,8 +3519,8 @@
 			<F_CODE>21.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3209,8 +3529,10 @@
 			<F_CODE>58.4.3.a</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>58.4.3</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3219,8 +3541,8 @@
 			<F_CODE>21.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3229,8 +3551,10 @@
 			<F_CODE>58.4.3.b</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>58.4.3</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3239,8 +3563,8 @@
 			<F_CODE>21.0</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3249,8 +3573,8 @@
 			<F_CODE>31.9</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3259,8 +3583,10 @@
 			<F_CODE>27.8.d.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.8.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3269,8 +3595,8 @@
 			<F_CODE>31.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3279,8 +3605,10 @@
 			<F_CODE>27.5.a.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3289,8 +3617,8 @@
 			<F_CODE>31.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3299,8 +3627,10 @@
 			<F_CODE>27.5.a.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.5</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.5.a</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.5.a</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3309,8 +3639,8 @@
 			<F_CODE>31.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3319,8 +3649,8 @@
 			<F_CODE>31.4</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3329,8 +3659,8 @@
 			<F_CODE>31.5</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3339,8 +3669,8 @@
 			<F_CODE>31.6</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3349,8 +3679,10 @@
 			<F_CODE>27.8.d.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.8</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.8.d</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.8.d</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3359,8 +3691,9 @@
 			<F_CODE>27.1.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3369,8 +3702,8 @@
 			<F_CODE>31.7</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3379,8 +3712,9 @@
 			<F_CODE>27.1.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3389,8 +3723,8 @@
 			<F_CODE>31.8</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3399,8 +3733,9 @@
 			<F_CODE>31.3.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.3</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3409,8 +3744,10 @@
 			<F_CODE>27.9.b.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.9</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.9.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.9.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3419,8 +3756,9 @@
 			<F_CODE>31.3.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.3</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3429,8 +3767,10 @@
 			<F_CODE>27.9.b.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.9</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>27.9.b</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.9.b</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3439,8 +3779,9 @@
 			<F_CODE>31.3.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>31</PARTOF_AREA>
+			<PARTOF_SUBAREA>31.3</PARTOF_SUBAREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>31.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3449,8 +3790,9 @@
 			<F_CODE>47.B.0</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.B</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.B</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3459,8 +3801,9 @@
 			<F_CODE>27.9.b</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.9</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.9</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3469,8 +3812,9 @@
 			<F_CODE>47.B.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.B</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.B</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3479,8 +3823,9 @@
 			<F_CODE>27.9.a</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>27</PARTOF_AREA>
+			<PARTOF_SUBAREA>27.9</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>27.9</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3489,8 +3834,9 @@
 			<F_CODE>21.3.K</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3499,8 +3845,9 @@
 			<F_CODE>21.3.L</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3509,8 +3856,9 @@
 			<F_CODE>21.3.M</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3519,8 +3867,9 @@
 			<F_CODE>21.3.N</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3529,8 +3878,9 @@
 			<F_CODE>47.2.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3539,8 +3889,9 @@
 			<F_CODE>21.3.O</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3549,8 +3900,9 @@
 			<F_CODE>21.3.P</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>2</SUBOCEAN>
+			<PARTOF_AREA>21</PARTOF_AREA>
+			<PARTOF_SUBAREA>21.3</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>21.3</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3559,8 +3911,9 @@
 			<F_CODE>47.2.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>4</SUBOCEAN>
+			<PARTOF_AREA>47</PARTOF_AREA>
+			<PARTOF_SUBAREA>47.2</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>47.2</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3569,8 +3922,8 @@
 			<F_CODE>81.6</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3579,8 +3932,8 @@
 			<F_CODE>81.7</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3589,8 +3942,9 @@
 			<F_CODE>37.1.1</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3599,8 +3953,8 @@
 			<F_CODE>81.1</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3609,8 +3963,9 @@
 			<F_CODE>37.1.3</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3619,8 +3974,9 @@
 			<F_CODE>37.1.2</F_CODE>
 			<OCEAN>Atlantic</OCEAN>
 			<SUBOCEAN>3</SUBOCEAN>
+			<PARTOF_AREA>37</PARTOF_AREA>
+			<PARTOF_SUBAREA>37.1</PARTOF_SUBAREA>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>37.1</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3629,8 +3985,8 @@
 			<F_CODE>81.4</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3639,8 +3995,10 @@
 			<F_CODE>58.4.4.b</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>58.4.4</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3649,8 +4007,8 @@
 			<F_CODE>81.5</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3659,8 +4017,8 @@
 			<F_CODE>81.2</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3669,8 +4027,8 @@
 			<F_CODE>81.3</F_CODE>
 			<OCEAN>Pacific</OCEAN>
 			<SUBOCEAN>8</SUBOCEAN>
+			<PARTOF_AREA>81</PARTOF_AREA>
 			<F_STATUS>0</F_STATUS>
-			<PART_OF>81</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 	<gml:featureMember>
@@ -3679,8 +4037,10 @@
 			<F_CODE>58.4.4.a</F_CODE>
 			<OCEAN>Indian</OCEAN>
 			<SUBOCEAN>10</SUBOCEAN>
+			<PARTOF_AREA>58</PARTOF_AREA>
+			<PARTOF_SUBAREA>58.4</PARTOF_SUBAREA>
+			<PARTOF_DIVISION>58.4.4</PARTOF_DIVISION>
 			<F_STATUS>1</F_STATUS>
-			<PART_OF>58.4.4</PART_OF>
 		</FAO_AREAS>
 	</gml:featureMember>
 </wfs:FeatureCollection>
