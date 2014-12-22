@@ -11,14 +11,18 @@
         "name" : "vliz",
         "uri" : "http://geo.vliz.be/geoserver/MarineRegions/ows",
         "excludeGeom" : true
-      } , 
-      
+      }, 
       {
         "name" : "intersections",
         "uri" : "http://www.fao.org/figis/geoserver/GeoRelationship/ows",
         "excludeGeom" : true
+      },
+      {
+      	"name" : "data.fao.org",
+      	"uri" : "http://data.fao.org/maps/ows?",
+      	"excludeGeom" : true,
+      	"compress" : true
       }  
-         
    ]
    
 }

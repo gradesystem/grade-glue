@@ -21,6 +21,7 @@ public class Glues {
 	
 	static VirtualRepository repository = new Repository();
 	static RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
+	static RepositoryService faodata = repository.services().lookup(new QName("data.fao.org"));
 	static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
 	static RepositoryService intersections = repository.services().lookup(new QName("intersections"));
 	static RepositoryService grade= repository.services().lookup(new QName("semantic-repository"));
