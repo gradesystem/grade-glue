@@ -15,7 +15,6 @@ import org.junit.Test;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.VirtualRepository;
 import org.virtualrepository.impl.Repository;
-import org.virtualrepository.ows.WfsFeatureType;
 
 public class Glues {
 	
@@ -31,56 +30,7 @@ public class Glues {
 		
 		assertTrue(repository.services().size()>=2);
 	}
-	
-	
-	
-	
-	@Test
-	public void grabMarineRegions() {
-		
-		WfsFeatureType asset = new WfsFeatureType("marine-regions","MarineRegions:eez");
-		
-		asset.setService(vliz);
-		
-		InputStream stream = repository.retrieve(asset, InputStream.class);
-		
-		store("marine-regions.xml",stream);
-	}
-	
 
-	@Test
-	public void pushMarineRegions() {
-	
-		
-		WfsFeatureType asset = new WfsFeatureType("marine-regions","marine-regions",grade);
-		
-		repository.publish(asset,load("marine-regions.xml"));
-
-	}
-	
-	@Test
-	public void grabEezFsa() {
-		
-		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","GeoRelationship:FAO_AREAS_x_EEZ_HIGHSEAS");
-		
-		asset.setService(intersections);
-		
-		InputStream stream = repository.retrieve(asset, InputStream.class);
-		
-		store("intersections.xml",stream);
-	}
-	
-	
-	@Test
-	public void pushEezFsa() {
-	
-		
-		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","eez-fsa_intersection",grade);
-		
-		repository.publish(asset,load("intersections.xml"));
-
-	}
-	
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////
 	
