@@ -75,7 +75,7 @@ public class FsaGlue {
 		Features trgFeatures = buildFsaHierarchy(features);
 		
 		//write enriched features to GML (xml)
-		storeAsGml("fao-areas.xml", trgFeatures);
+		Glues.storeAsGml("fao-areas.xml", trgFeatures);
 	}
 
 	@Test
@@ -160,23 +160,6 @@ public class FsaGlue {
 		
 		Features trgFeatures = new Features(trgFeatureList);
 		return(trgFeatures);
-	}
-	
-	@SuppressWarnings({ "deprecation", "unchecked" })
-	@SneakyThrows(Exception.class)
-	static void storeAsGml(String name, Features features){
-		
-		@Cleanup OutputStream out = new FileOutputStream(new File("src/main/resources", name));
-		XmlFeatureWriter featureWriter = new JAXPStreamFeatureWriter();
-		
-		final Collection<org.geotoolkit.feature.Feature> geotkFeatures = new ArrayList<org.geotoolkit.feature.Feature>();
-		for(Feature f : features.all()){
-			geotkFeatures.add((org.geotoolkit.feature.Feature) f);
-		}
-		final FeatureCollection<org.geotoolkit.feature.Feature> fc = FeatureStoreUtilities
-				.collection((org.geotoolkit.feature.type.FeatureType) features.all().get(0).getType(), geotkFeatures);
-		
-		featureWriter.write(fc, out);
 	}
 	
 }
