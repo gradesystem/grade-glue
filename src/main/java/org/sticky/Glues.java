@@ -18,6 +18,8 @@ import javax.xml.namespace.QName;
 import lombok.Cleanup;
 import lombok.SneakyThrows;
 
+import org.fao.fi.comet.mapping.model.MappingData;
+import org.fao.fi.comet.mapping.model.utils.jaxb.JAXBDeSerializationUtils;
 import org.geotoolkit.data.FeatureCollection;
 import org.geotoolkit.data.FeatureStoreUtilities;
 import org.geotoolkit.feature.xml.XmlFeatureWriter;
@@ -103,6 +105,20 @@ public class Glues {
 				.collection((org.geotoolkit.feature.type.FeatureType) features.all().get(0).getType(), geotkFeatures);
 		
 		featureWriter.write(fc, out);
+	}
+	
+	@SneakyThrows(Exception.class)
+	static void storeMapping(String name, MappingData mapping){
+		
+		String xml = JAXBDeSerializationUtils.toXML(mapping);
+		
+		File dest = new File("src/main/resources",name);
+		
+		@Cleanup FileOutputStream out = new FileOutputStream(dest);
+		
+		out.write(xml.getBytes());
+		out.flush();
+		
 	}
 	
 	@SneakyThrows(Exception.class)

@@ -1,0 +1,4361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs"
+	xmlns:gml="http://www.opengis.net/gml" xmlns:ns0="geo.vliz.be/MarineRegions"
+	gml:id="" timeStamp="2014-12-25T20:57:34" numberOfFeatures="249">
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.230">
+			<ns0:objectid>390</ns0:objectid>
+			<ns0:eez>Moroccan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Morocco</ns0:country>
+			<ns0:id>62</ns0:id>
+			<ns0:sovereign>Morocco</ns0:sovereign>
+			<ns0:sov_id>62</ns0:sov_id>
+			<ns0:eez_id>62</ns0:eez_id>
+			<ns0:iso_3digit>MAR</ns0:iso_3digit>
+			<ns0:mrgid>8367.00000000</ns0:mrgid>
+			<ns0:area_m2>2.755520159E11</ns0:area_m2>
+			<ns0:longitude>-9.814382242752</ns0:longitude>
+			<ns0:latitude>32.792147989681</ns0:latitude>
+			<ns0:mrgid_eez>8367</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.113">
+			<ns0:objectid>115</ns0:objectid>
+			<ns0:eez>Fishieries Zone around Jan Mayen</ns0:eez>
+			<ns0:country>Jan Mayen</ns0:country>
+			<ns0:id>144</ns0:id>
+			<ns0:sovereign>Norway</ns0:sovereign>
+			<ns0:sov_id>223</ns0:sov_id>
+			<ns0:eez_id>144</ns0:eez_id>
+			<ns0:iso_3digit>SJM</ns0:iso_3digit>
+			<ns0:mrgid>8437.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.912546727E11</ns0:area_m2>
+			<ns0:longitude>-5.241117606263</ns0:longitude>
+			<ns0:latitude>71.113374497745</ns0:latitude>
+			<ns0:mrgid_eez>8437</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.234">
+			<ns0:objectid>1579</ns0:objectid>
+			<ns0:eez>Aruban Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Aruba</ns0:country>
+			<ns0:id>244</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>250</ns0:eez_id>
+			<ns0:iso_3digit>ABW</ns0:iso_3digit>
+			<ns0:mrgid>26519.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>2.533185304E10</ns0:area_m2>
+			<ns0:longitude>-69.769473451902</ns0:longitude>
+			<ns0:latitude>13.574060521098</ns0:latitude>
+			<ns0:mrgid_eez>26519</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.233">
+			<ns0:objectid>1570</ns0:objectid>
+			<ns0:eez>Qatari Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Qatar</ns0:country>
+			<ns0:id>190</ns0:id>
+			<ns0:sovereign>Qatar</ns0:sovereign>
+			<ns0:sov_id>190</ns0:sov_id>
+			<ns0:eez_id>190</ns0:eez_id>
+			<ns0:iso_3digit>QAT</ns0:iso_3digit>
+			<ns0:mrgid>8468.00000000</ns0:mrgid>
+			<ns0:area_m2>3.193456642E10</ns0:area_m2>
+			<ns0:longitude>51.880460053341</ns0:longitude>
+			<ns0:latitude>25.847739089016</ns0:latitude>
+			<ns0:mrgid_eez>8468</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.112">
+			<ns0:objectid>114</ns0:objectid>
+			<ns0:eez>Faeroe Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Faeroe Islands</ns0:country>
+			<ns0:id>141</ns0:id>
+			<ns0:sovereign>Denmark</ns0:sovereign>
+			<ns0:sov_id>175</ns0:sov_id>
+			<ns0:eez_id>141</ns0:eez_id>
+			<ns0:iso_3digit>FRO</ns0:iso_3digit>
+			<ns0:mrgid>8435.00000000</ns0:mrgid>
+			<ns0:area_m2>2.657874592E11</ns0:area_m2>
+			<ns0:longitude>-7.015078305087</ns0:longitude>
+			<ns0:latitude>62.612020126424</ns0:latitude>
+			<ns0:mrgid_eez>8435</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.111">
+			<ns0:objectid>1586</ns0:objectid>
+			<ns0:eez>Guadeloupean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guadeloupe</ns0:country>
+			<ns0:id>251</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>251</ns0:eez_id>
+			<ns0:iso_3digit>GLP</ns0:iso_3digit>
+			<ns0:mrgid>33177.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>9.072919991E10</ns0:area_m2>
+			<ns0:longitude>-59.855682916265</ns0:longitude>
+			<ns0:latitude>16.794522367962</ns0:latitude>
+			<ns0:mrgid_eez>33177</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.232">
+			<ns0:objectid>399</ns0:objectid>
+			<ns0:eez>Montenegrin Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Montenegro</ns0:country>
+			<ns0:id>186</ns0:id>
+			<ns0:sovereign>Montenegro</ns0:sovereign>
+			<ns0:sov_id>186</ns0:sov_id>
+			<ns0:eez_id>186</ns0:eez_id>
+			<ns0:iso_3digit>MNE</ns0:iso_3digit>
+			<ns0:mrgid>5691.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>7.479867106E9</ns0:area_m2>
+			<ns0:longitude>18.692989850949</ns0:longitude>
+			<ns0:latitude>41.816317624963</ns0:latitude>
+			<ns0:mrgid_eez>5691</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.231">
+			<ns0:objectid>397</ns0:objectid>
+			<ns0:eez>Equatorial Guinean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Equatorial Guinea</ns0:country>
+			<ns0:id>104</ns0:id>
+			<ns0:sovereign>Equatorial Guinea</ns0:sovereign>
+			<ns0:sov_id>104</ns0:sov_id>
+			<ns0:eez_id>104</ns0:eez_id>
+			<ns0:iso_3digit>GNQ</ns0:iso_3digit>
+			<ns0:mrgid>8398.00000000</ns0:mrgid>
+			<ns0:area_m2>3.09747323E11</ns0:area_m2>
+			<ns0:longitude>5.479210095068</ns0:longitude>
+			<ns0:latitude>-1.357439262864</ns0:latitude>
+			<ns0:mrgid_eez>8398</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.110">
+			<ns0:objectid>112</ns0:objectid>
+			<ns0:eez>Venezuelan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Venezuela</ns0:country>
+			<ns0:id>139</ns0:id>
+			<ns0:sovereign>Venezuela</ns0:sovereign>
+			<ns0:sov_id>139</ns0:sov_id>
+			<ns0:eez_id>139</ns0:eez_id>
+			<ns0:iso_3digit>VEN</ns0:iso_3digit>
+			<ns0:mrgid>8433.00000000</ns0:mrgid>
+			<ns0:area_m2>4.755806132E11</ns0:area_m2>
+			<ns0:longitude>-65.914151574805</ns0:longitude>
+			<ns0:latitude>12.792301188562</ns0:latitude>
+			<ns0:mrgid_eez>8433</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.227">
+			<ns0:objectid>369</ns0:objectid>
+			<ns0:eez>German Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Germany</ns0:country>
+			<ns0:id>176</ns0:id>
+			<ns0:sovereign>Germany</ns0:sovereign>
+			<ns0:sov_id>176</ns0:sov_id>
+			<ns0:eez_id>176</ns0:eez_id>
+			<ns0:iso_3digit>DEU</ns0:iso_3digit>
+			<ns0:mrgid>5669.00000000</ns0:mrgid>
+			<ns0:date_chang>2009-08-11</ns0:date_chang>
+			<ns0:area_m2>5.680046886E10</ns0:area_m2>
+			<ns0:longitude>8.405659526628</ns0:longitude>
+			<ns0:latitude>54.554922856546</ns0:latitude>
+			<ns0:mrgid_eez>5669</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.106">
+			<ns0:objectid>108</ns0:objectid>
+			<ns0:eez>Panamanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Panama</ns0:country>
+			<ns0:id>129</ns0:id>
+			<ns0:sovereign>Panama</ns0:sovereign>
+			<ns0:sov_id>129</ns0:sov_id>
+			<ns0:eez_id>129</ns0:eez_id>
+			<ns0:iso_3digit>PAN</ns0:iso_3digit>
+			<ns0:mrgid>8423.00000000</ns0:mrgid>
+			<ns0:area_m2>3.33015379E11</ns0:area_m2>
+			<ns0:longitude>-80.347043942167</ns0:longitude>
+			<ns0:latitude>8.289779924859</ns0:latitude>
+			<ns0:mrgid_eez>8423</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.105">
+			<ns0:objectid>107</ns0:objectid>
+			<ns0:eez>Curaçaoan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Curaçao</ns0:country>
+			<ns0:id>245</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>244</ns0:eez_id>
+			<ns0:iso_3digit>CUW</ns0:iso_3digit>
+			<ns0:mrgid>26517.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>3.050159706E10</ns0:area_m2>
+			<ns0:longitude>-69.01156922987</ns0:longitude>
+			<ns0:latitude>13.421758287657</ns0:latitude>
+			<ns0:mrgid_eez>26517</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.226">
+			<ns0:objectid>366</ns0:objectid>
+			<ns0:eez>Swedish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sweden</ns0:country>
+			<ns0:id>222</ns0:id>
+			<ns0:sovereign>Sweden</ns0:sovereign>
+			<ns0:sov_id>222</ns0:sov_id>
+			<ns0:eez_id>222</ns0:eez_id>
+			<ns0:iso_3digit>SWE</ns0:iso_3digit>
+			<ns0:mrgid>5694.00000000</ns0:mrgid>
+			<ns0:area_m2>1.598650025E11</ns0:area_m2>
+			<ns0:longitude>18.141086507192</ns0:longitude>
+			<ns0:latitude>59.521172910679</ns0:latitude>
+			<ns0:mrgid_eez>5694</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.104">
+			<ns0:objectid>106</ns0:objectid>
+			<ns0:eez>Saint Vincent and the Grenadines Exclusive Economic Zone
+			</ns0:eez>
+			<ns0:country>Saint Vincent and the Grenadines</ns0:country>
+			<ns0:id>127</ns0:id>
+			<ns0:sovereign>Saint Vincent and the Grenadines</ns0:sovereign>
+			<ns0:sov_id>127</ns0:sov_id>
+			<ns0:eez_id>127</ns0:eez_id>
+			<ns0:iso_3digit>VCT</ns0:iso_3digit>
+			<ns0:mrgid>8421.00000000</ns0:mrgid>
+			<ns0:area_m2>3.649335749E10</ns0:area_m2>
+			<ns0:longitude>-61.692505126123</ns0:longitude>
+			<ns0:latitude>13.151333362129</ns0:latitude>
+			<ns0:mrgid_eez>8421</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.225">
+			<ns0:objectid>362</ns0:objectid>
+			<ns0:eez>Spanish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Spain</ns0:country>
+			<ns0:id>182</ns0:id>
+			<ns0:sovereign>Spain</ns0:sovereign>
+			<ns0:sov_id>182</ns0:sov_id>
+			<ns0:eez_id>182</ns0:eez_id>
+			<ns0:iso_3digit>ESP</ns0:iso_3digit>
+			<ns0:mrgid>5693.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>5.547217774E11</ns0:area_m2>
+			<ns0:longitude>-4.081703787763</ns0:longitude>
+			<ns0:latitude>41.626523879852</ns0:latitude>
+			<ns0:mrgid_eez>5693</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.103">
+			<ns0:objectid>105</ns0:objectid>
+			<ns0:eez>Trinidad and Tobago Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Trinidad and Tobago</ns0:country>
+			<ns0:id>126</ns0:id>
+			<ns0:sovereign>Trinidad and Tobago</ns0:sovereign>
+			<ns0:sov_id>126</ns0:sov_id>
+			<ns0:eez_id>126</ns0:eez_id>
+			<ns0:iso_3digit>TTO</ns0:iso_3digit>
+			<ns0:mrgid>8420.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.577982449E10</ns0:area_m2>
+			<ns0:longitude>-59.966919086817</ns0:longitude>
+			<ns0:latitude>10.94591888142</ns0:latitude>
+			<ns0:mrgid_eez>8420</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.224">
+			<ns0:objectid>358</ns0:objectid>
+			<ns0:eez>Costa Rican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Costa Rica</ns0:country>
+			<ns0:id>130</ns0:id>
+			<ns0:sovereign>Costa Rica</ns0:sovereign>
+			<ns0:sov_id>130</ns0:sov_id>
+			<ns0:eez_id>130</ns0:eez_id>
+			<ns0:iso_3digit>CRI</ns0:iso_3digit>
+			<ns0:mrgid>8424.00000000</ns0:mrgid>
+			<ns0:area_m2>5.745995114E11</ns0:area_m2>
+			<ns0:longitude>-86.610420901005</ns0:longitude>
+			<ns0:latitude>6.673138710293</ns0:latitude>
+			<ns0:mrgid_eez>8424</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.109">
+			<ns0:objectid>111</ns0:objectid>
+			<ns0:eez>Peruvian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Peru</ns0:country>
+			<ns0:id>138</ns0:id>
+			<ns0:sovereign>Peru</ns0:sovereign>
+			<ns0:sov_id>138</ns0:sov_id>
+			<ns0:eez_id>138</ns0:eez_id>
+			<ns0:iso_3digit>PER</ns0:iso_3digit>
+			<ns0:mrgid>8432.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>8.345203061E11</ns0:area_m2>
+			<ns0:longitude>-78.823913435443</ns0:longitude>
+			<ns0:latitude>-11.896299747788</ns0:latitude>
+			<ns0:mrgid_eez>8432</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.108">
+			<ns0:objectid>110</ns0:objectid>
+			<ns0:eez>Ecuadorean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ecuador</ns0:country>
+			<ns0:id>137</ns0:id>
+			<ns0:sovereign>Ecuador</ns0:sovereign>
+			<ns0:sov_id>137</ns0:sov_id>
+			<ns0:eez_id>137</ns0:eez_id>
+			<ns0:iso_3digit>ECU</ns0:iso_3digit>
+			<ns0:mrgid>8431.00000000</ns0:mrgid>
+			<ns0:area_m2>2.379985707E11</ns0:area_m2>
+			<ns0:longitude>-82.224735671631</ns0:longitude>
+			<ns0:latitude>-0.981174169788</ns0:latitude>
+			<ns0:mrgid_eez>8431</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.229">
+			<ns0:objectid>385</ns0:objectid>
+			<ns0:eez>Monégasque Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Monaco</ns0:country>
+			<ns0:id>185</ns0:id>
+			<ns0:sovereign>Monaco</ns0:sovereign>
+			<ns0:sov_id>185</ns0:sov_id>
+			<ns0:eez_id>185</ns0:eez_id>
+			<ns0:iso_3digit>MCO</ns0:iso_3digit>
+			<ns0:mrgid>21790.0000000</ns0:mrgid>
+			<ns0:area_m2>2.856618805E8</ns0:area_m2>
+			<ns0:longitude>7.584789165983</ns0:longitude>
+			<ns0:latitude>43.355774680341</ns0:latitude>
+			<ns0:mrgid_eez>21790</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.107">
+			<ns0:objectid>109</ns0:objectid>
+			<ns0:eez>El Salvador Exclusive Economic Zone</ns0:eez>
+			<ns0:country>El Salvador</ns0:country>
+			<ns0:id>134</ns0:id>
+			<ns0:sovereign>El Salvador</ns0:sovereign>
+			<ns0:sov_id>134</ns0:sov_id>
+			<ns0:eez_id>134</ns0:eez_id>
+			<ns0:iso_3digit>SLV</ns0:iso_3digit>
+			<ns0:mrgid>8428.00000000</ns0:mrgid>
+			<ns0:area_m2>9.420085741E10</ns0:area_m2>
+			<ns0:longitude>-89.731203293488</ns0:longitude>
+			<ns0:latitude>11.848214238622</ns0:latitude>
+			<ns0:mrgid_eez>8428</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.228">
+			<ns0:objectid>375</ns0:objectid>
+			<ns0:eez>Iranian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Iran</ns0:country>
+			<ns0:id>191</ns0:id>
+			<ns0:sovereign>Iran</ns0:sovereign>
+			<ns0:sov_id>191</ns0:sov_id>
+			<ns0:eez_id>191</ns0:eez_id>
+			<ns0:iso_3digit>IRN</ns0:iso_3digit>
+			<ns0:mrgid>8469.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>2.244809368E11</ns0:area_m2>
+			<ns0:longitude>53.883104787951</ns0:longitude>
+			<ns0:latitude>29.820002765589</ns0:latitude>
+			<ns0:mrgid_eez>8469</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.223">
+			<ns0:objectid>357</ns0:objectid>
+			<ns0:eez>Joint Japan - Korea</ns0:eez>
+			<ns0:country>Japan - Korea</ns0:country>
+			<ns0:id>211</ns0:id>
+			<ns0:sovereign>Joint Regime</ns0:sovereign>
+			<ns0:remarks>Japan / Korea</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>211</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21796.0000000</ns0:mrgid>
+			<ns0:area_m2>8.341926412E10</ns0:area_m2>
+			<ns0:longitude>127.58929315086</ns0:longitude>
+			<ns0:latitude>30.818046561893</ns0:latitude>
+			<ns0:mrgid_eez>21796</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.102">
+			<ns0:objectid>104</ns0:objectid>
+			<ns0:eez>Grenadian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Grenada</ns0:country>
+			<ns0:id>125</ns0:id>
+			<ns0:sovereign>Grenada</ns0:sovereign>
+			<ns0:sov_id>125</ns0:sov_id>
+			<ns0:eez_id>125</ns0:eez_id>
+			<ns0:iso_3digit>GRD</ns0:iso_3digit>
+			<ns0:mrgid>8419.00000000</ns0:mrgid>
+			<ns0:area_m2>2.625091477E10</ns0:area_m2>
+			<ns0:longitude>-62.014955507826</ns0:longitude>
+			<ns0:latitude>12.213399427028</ns0:latitude>
+			<ns0:mrgid_eez>8419</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.222">
+			<ns0:objectid>352</ns0:objectid>
+			<ns0:eez>North Korean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>North Korea</ns0:country>
+			<ns0:id>21</ns0:id>
+			<ns0:sovereign>North Korea</ns0:sovereign>
+			<ns0:sov_id>21</ns0:sov_id>
+			<ns0:eez_id>21</ns0:eez_id>
+			<ns0:iso_3digit>PRK</ns0:iso_3digit>
+			<ns0:mrgid>8328.00000000</ns0:mrgid>
+			<ns0:area_m2>1.156674731E11</ns0:area_m2>
+			<ns0:longitude>129.048039532079</ns0:longitude>
+			<ns0:latitude>39.925949805746</ns0:latitude>
+			<ns0:mrgid_eez>8328</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.101">
+			<ns0:objectid>103</ns0:objectid>
+			<ns0:eez>Barbados Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Barbados</ns0:country>
+			<ns0:id>124</ns0:id>
+			<ns0:sovereign>Barbados</ns0:sovereign>
+			<ns0:sov_id>124</ns0:sov_id>
+			<ns0:eez_id>124</ns0:eez_id>
+			<ns0:iso_3digit>BRB</ns0:iso_3digit>
+			<ns0:mrgid>8418.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.845965152E11</ns0:area_m2>
+			<ns0:longitude>-58.003791867855</ns0:longitude>
+			<ns0:latitude>13.331075370133</ns0:latitude>
+			<ns0:mrgid_eez>8418</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.221">
+			<ns0:objectid>351</ns0:objectid>
+			<ns0:eez>Palau Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Palau</ns0:country>
+			<ns0:id>8</ns0:id>
+			<ns0:sovereign>Palau</ns0:sovereign>
+			<ns0:sov_id>8</ns0:sov_id>
+			<ns0:eez_id>8</ns0:eez_id>
+			<ns0:iso_3digit>PLW</ns0:iso_3digit>
+			<ns0:mrgid>8315.00000000</ns0:mrgid>
+			<ns0:area_m2>6.069648823E11</ns0:area_m2>
+			<ns0:longitude>133.076292628049</ns0:longitude>
+			<ns0:latitude>6.383705706122</ns0:latitude>
+			<ns0:mrgid_eez>8315</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.100">
+			<ns0:objectid>102</ns0:objectid>
+			<ns0:eez>Dominican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Dominica</ns0:country>
+			<ns0:id>123</ns0:id>
+			<ns0:sovereign>Dominica</ns0:sovereign>
+			<ns0:sov_id>123</ns0:sov_id>
+			<ns0:eez_id>123</ns0:eez_id>
+			<ns0:iso_3digit>DMA</ns0:iso_3digit>
+			<ns0:mrgid>8417.00000000</ns0:mrgid>
+			<ns0:area_m2>2.864723318E10</ns0:area_m2>
+			<ns0:longitude>-60.719774981001</ns0:longitude>
+			<ns0:latitude>15.497667082801</ns0:latitude>
+			<ns0:mrgid_eez>8417</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.220">
+			<ns0:objectid>349</ns0:objectid>
+			<ns0:eez>Malaysian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Malaysia</ns0:country>
+			<ns0:id>206</ns0:id>
+			<ns0:sovereign>Malaysia</ns0:sovereign>
+			<ns0:sov_id>206</ns0:sov_id>
+			<ns0:eez_id>206</ns0:eez_id>
+			<ns0:iso_3digit>MYS</ns0:iso_3digit>
+			<ns0:mrgid>8483.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.51895128E11</ns0:area_m2>
+			<ns0:longitude>108.73300881993</ns0:longitude>
+			<ns0:latitude>4.815541174487</ns0:latitude>
+			<ns0:mrgid_eez>8483</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.216">
+			<ns0:objectid>335</ns0:objectid>
+			<ns0:eez>Belizean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Belize</ns0:country>
+			<ns0:id>164</ns0:id>
+			<ns0:sovereign>Belize</ns0:sovereign>
+			<ns0:sov_id>164</ns0:sov_id>
+			<ns0:eez_id>164</ns0:eez_id>
+			<ns0:iso_3digit>BLZ</ns0:iso_3digit>
+			<ns0:mrgid>8457.00000000</ns0:mrgid>
+			<ns0:area_m2>3.611326637E10</ns0:area_m2>
+			<ns0:longitude>-87.553421978079</ns0:longitude>
+			<ns0:latitude>17.217928074811</ns0:latitude>
+			<ns0:mrgid_eez>8457</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.215">
+			<ns0:objectid>334</ns0:objectid>
+			<ns0:eez>Mexican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Mexico</ns0:country>
+			<ns0:id>135</ns0:id>
+			<ns0:sovereign>Mexico</ns0:sovereign>
+			<ns0:sov_id>135</ns0:sov_id>
+			<ns0:eez_id>135</ns0:eez_id>
+			<ns0:iso_3digit>MEX</ns0:iso_3digit>
+			<ns0:mrgid>8429.00000000</ns0:mrgid>
+			<ns0:area_m2>3.279348079E12</ns0:area_m2>
+			<ns0:longitude>-105.854571968186</ns0:longitude>
+			<ns0:latitude>21.513744587502</ns0:latitude>
+			<ns0:mrgid_eez>8429</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.214">
+			<ns0:objectid>332</ns0:objectid>
+			<ns0:eez>Guatemalan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guatemala</ns0:country>
+			<ns0:id>136</ns0:id>
+			<ns0:sovereign>Guatemala</ns0:sovereign>
+			<ns0:sov_id>136</ns0:sov_id>
+			<ns0:eez_id>136</ns0:eez_id>
+			<ns0:iso_3digit>GTM</ns0:iso_3digit>
+			<ns0:mrgid>8430.00000000</ns0:mrgid>
+			<ns0:area_m2>1.18239097E11</ns0:area_m2>
+			<ns0:longitude>-92.187805373263</ns0:longitude>
+			<ns0:latitude>12.579319166892</ns0:latitude>
+			<ns0:mrgid_eez>8430</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.213">
+			<ns0:objectid>329</ns0:objectid>
+			<ns0:eez>South Korean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>South Korea</ns0:country>
+			<ns0:id>20</ns0:id>
+			<ns0:sovereign>South Korea</ns0:sovereign>
+			<ns0:sov_id>20</ns0:sov_id>
+			<ns0:eez_id>20</ns0:eez_id>
+			<ns0:iso_3digit>KOR</ns0:iso_3digit>
+			<ns0:mrgid>8327.00000000</ns0:mrgid>
+			<ns0:area_m2>3.265842953E11</ns0:area_m2>
+			<ns0:longitude>126.933043947413</ns0:longitude>
+			<ns0:latitude>35.419468510082</ns0:latitude>
+			<ns0:mrgid_eez>8327</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.219">
+			<ns0:objectid>346</ns0:objectid>
+			<ns0:eez>French Exclusive Economic Zone</ns0:eez>
+			<ns0:country>France</ns0:country>
+			<ns0:id>179</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>179</ns0:eez_id>
+			<ns0:iso_3digit>FRA</ns0:iso_3digit>
+			<ns0:mrgid>5677.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>3.444407403E11</ns0:area_m2>
+			<ns0:longitude>-1.935623841041</ns0:longitude>
+			<ns0:latitude>46.022949041672</ns0:latitude>
+			<ns0:mrgid_eez>5677</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.218">
+			<ns0:objectid>339</ns0:objectid>
+			<ns0:eez>Honduran Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Honduras</ns0:country>
+			<ns0:id>133</ns0:id>
+			<ns0:sovereign>Honduras</ns0:sovereign>
+			<ns0:sov_id>133</ns0:sov_id>
+			<ns0:eez_id>133</ns0:eez_id>
+			<ns0:iso_3digit>HND</ns0:iso_3digit>
+			<ns0:mrgid>8427.00000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>2.197957309E11</ns0:area_m2>
+			<ns0:longitude>-83.805928367916</ns0:longitude>
+			<ns0:latitude>16.992511703074</ns0:latitude>
+			<ns0:mrgid_eez>8427</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.217">
+			<ns0:objectid>338</ns0:objectid>
+			<ns0:eez>Nicaraguan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Nicaragua</ns0:country>
+			<ns0:id>131</ns0:id>
+			<ns0:sovereign>Nicaragua</ns0:sovereign>
+			<ns0:sov_id>131</ns0:sov_id>
+			<ns0:eez_id>131</ns0:eez_id>
+			<ns0:iso_3digit>NIC</ns0:iso_3digit>
+			<ns0:mrgid>8425.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.2356857E11</ns0:area_m2>
+			<ns0:longitude>-83.322609853092</ns0:longitude>
+			<ns0:latitude>12.788717880629</ns0:latitude>
+			<ns0:mrgid_eez>8425</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.212">
+			<ns0:objectid>322</ns0:objectid>
+			<ns0:eez>Kiribati Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Kiribati</ns0:country>
+			<ns0:id>212</ns0:id>
+			<ns0:sovereign>Kiribati</ns0:sovereign>
+			<ns0:sov_id>212</ns0:sov_id>
+			<ns0:eez_id>212</ns0:eez_id>
+			<ns0:iso_3digit>KIR</ns0:iso_3digit>
+			<ns0:mrgid>8488.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.05345248E12</ns0:area_m2>
+			<ns0:longitude>172.850961309416</ns0:longitude>
+			<ns0:latitude>-0.271412896191</ns0:latitude>
+			<ns0:mrgid_eez>8488</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.211">
+			<ns0:objectid>321</ns0:objectid>
+			<ns0:eez>United States Exclusive Exclusive Economic Zone (Alaska)
+			</ns0:eez>
+			<ns0:country>Alaska</ns0:country>
+			<ns0:id>170</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>170</ns0:eez_id>
+			<ns0:iso_3digit>USA</ns0:iso_3digit>
+			<ns0:mrgid>8463.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>3.691256116E12</ns0:area_m2>
+			<ns0:longitude>-120.228984325035</ns0:longitude>
+			<ns0:latitude>59.147724532172</ns0:latitude>
+			<ns0:mrgid_eez>8463</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.210">
+			<ns0:objectid>320</ns0:objectid>
+			<ns0:eez>Wallis and Futuna Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Wallis and Futuna</ns0:country>
+			<ns0:id>161</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>161</ns0:eez_id>
+			<ns0:iso_3digit>WLF</ns0:iso_3digit>
+			<ns0:mrgid>8454.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.623405663E11</ns0:area_m2>
+			<ns0:longitude>-172.760112094094</ns0:longitude>
+			<ns0:latitude>-12.806437940783</ns0:latitude>
+			<ns0:mrgid_eez>8454</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.205">
+			<ns0:objectid>234</ns0:objectid>
+			<ns0:eez>Uruguayan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Uruguay</ns0:country>
+			<ns0:id>173</ns0:id>
+			<ns0:sovereign>Uruguay</ns0:sovereign>
+			<ns0:sov_id>173</ns0:sov_id>
+			<ns0:eez_id>173</ns0:eez_id>
+			<ns0:iso_3digit>URY</ns0:iso_3digit>
+			<ns0:mrgid>8467.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>1.297361664E11</ns0:area_m2>
+			<ns0:longitude>-53.267596672137</ns0:longitude>
+			<ns0:latitude>-35.704939430441</ns0:latitude>
+			<ns0:mrgid_eez>8467</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.204">
+			<ns0:objectid>211</ns0:objectid>
+			<ns0:eez>Chinese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>China</ns0:country>
+			<ns0:id>209</ns0:id>
+			<ns0:sovereign>China</ns0:sovereign>
+			<ns0:sov_id>209</ns0:sov_id>
+			<ns0:eez_id>209</ns0:eez_id>
+			<ns0:iso_3digit>CHN</ns0:iso_3digit>
+			<ns0:mrgid>8486.00000000</ns0:mrgid>
+			<ns0:area_m2>8.831948196E11</ns0:area_m2>
+			<ns0:longitude>118.590213911429</ns0:longitude>
+			<ns0:latitude>28.564482403385</ns0:latitude>
+			<ns0:mrgid_eez>8486</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.203">
+			<ns0:objectid>210</ns0:objectid>
+			<ns0:eez>Vietnamese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Vietnam</ns0:country>
+			<ns0:id>207</ns0:id>
+			<ns0:sovereign>Vietnam</ns0:sovereign>
+			<ns0:sov_id>207</ns0:sov_id>
+			<ns0:eez_id>207</ns0:eez_id>
+			<ns0:iso_3digit>VNM</ns0:iso_3digit>
+			<ns0:mrgid>8484.00000000</ns0:mrgid>
+			<ns0:area_m2>6.489364236E11</ns0:area_m2>
+			<ns0:longitude>108.319328600245</ns0:longitude>
+			<ns0:latitude>11.086988893842</ns0:latitude>
+			<ns0:mrgid_eez>8484</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.202">
+			<ns0:objectid>209</ns0:objectid>
+			<ns0:eez>Polish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Poland</ns0:country>
+			<ns0:id>178</ns0:id>
+			<ns0:sovereign>Poland</ns0:sovereign>
+			<ns0:sov_id>178</ns0:sov_id>
+			<ns0:eez_id>178</ns0:eez_id>
+			<ns0:iso_3digit>POL</ns0:iso_3digit>
+			<ns0:mrgid>5687.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>3.188119585E10</ns0:area_m2>
+			<ns0:longitude>17.165191327969</ns0:longitude>
+			<ns0:latitude>54.912204785205</ns0:latitude>
+			<ns0:mrgid_eez>5687</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.209">
+			<ns0:objectid>319</ns0:objectid>
+			<ns0:eez>Tuvaluan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tuvalu</ns0:country>
+			<ns0:id>19</ns0:id>
+			<ns0:sovereign>Tuvalu</ns0:sovereign>
+			<ns0:sov_id>19</ns0:sov_id>
+			<ns0:eez_id>19</ns0:eez_id>
+			<ns0:iso_3digit>TUV</ns0:iso_3digit>
+			<ns0:mrgid>8326.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.552979295E11</ns0:area_m2>
+			<ns0:longitude>73.689482577239</ns0:longitude>
+			<ns0:latitude>-7.821483696093</ns0:latitude>
+			<ns0:mrgid_eez>8326</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.208">
+			<ns0:objectid>285</ns0:objectid>
+			<ns0:eez>Russia-Japan conflict zone</ns0:eez>
+			<ns0:country>Southern Kuriles</ns0:country>
+			<ns0:id>27</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>Russia / Japan</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>27</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21799.0000000</ns0:mrgid>
+			<ns0:area_m2>2.141480513E11</ns0:area_m2>
+			<ns0:longitude>147.990273513091</ns0:longitude>
+			<ns0:latitude>43.893015361375</ns0:latitude>
+			<ns0:mrgid_eez>21799</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.207">
+			<ns0:objectid>284</ns0:objectid>
+			<ns0:eez>Russian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Russia</ns0:country>
+			<ns0:id>73</ns0:id>
+			<ns0:sovereign>Russia</ns0:sovereign>
+			<ns0:sov_id>73</ns0:sov_id>
+			<ns0:eez_id>73</ns0:eez_id>
+			<ns0:iso_3digit>RUS</ns0:iso_3digit>
+			<ns0:mrgid>5690.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.636833755E12</ns0:area_m2>
+			<ns0:longitude>93.47331228735</ns0:longitude>
+			<ns0:latitude>71.350519806394</ns0:latitude>
+			<ns0:mrgid_eez>5690</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.206">
+			<ns0:objectid>235</ns0:objectid>
+			<ns0:eez>Argentinean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Argentina</ns0:country>
+			<ns0:id>172</ns0:id>
+			<ns0:sovereign>Argentina</ns0:sovereign>
+			<ns0:sov_id>172</ns0:sov_id>
+			<ns0:eez_id>172</ns0:eez_id>
+			<ns0:iso_3digit>ARG</ns0:iso_3digit>
+			<ns0:mrgid>8466.00000000</ns0:mrgid>
+			<ns0:area_m2>1.082107803E12</ns0:area_m2>
+			<ns0:longitude>-62.106200680183</ns0:longitude>
+			<ns0:latitude>-47.009575803105</ns0:latitude>
+			<ns0:mrgid_eez>8466</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.201">
+			<ns0:objectid>208</ns0:objectid>
+			<ns0:eez>Conflict Zone</ns0:eez>
+			<ns0:country>Conflict Zone</ns0:country>
+			<ns0:id>217</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>China / Taiwan / Japan</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>217</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21793.0000000</ns0:mrgid>
+			<ns0:area_m2>7.321529789E10</ns0:area_m2>
+			<ns0:longitude>124.129589999908</ns0:longitude>
+			<ns0:latitude>26.501032814002</ns0:latitude>
+			<ns0:mrgid_eez>21793</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.200">
+			<ns0:objectid>207</ns0:objectid>
+			<ns0:eez>Indian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>India</ns0:country>
+			<ns0:id>203</ns0:id>
+			<ns0:sovereign>India</ns0:sovereign>
+			<ns0:sov_id>203</ns0:sov_id>
+			<ns0:eez_id>203</ns0:eez_id>
+			<ns0:iso_3digit>IND</ns0:iso_3digit>
+			<ns0:mrgid>8480.00000000</ns0:mrgid>
+			<ns0:area_m2>1.635912245E12</ns0:area_m2>
+			<ns0:longitude>76.307812997318</ns0:longitude>
+			<ns0:latitude>14.664279673689</ns0:latitude>
+			<ns0:mrgid_eez>8480</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.10">
+			<ns0:objectid>10</ns0:objectid>
+			<ns0:eez>Marshall Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Marshall Islands</ns0:country>
+			<ns0:id>11</ns0:id>
+			<ns0:sovereign>Marshall Islands</ns0:sovereign>
+			<ns0:sov_id>11</ns0:sov_id>
+			<ns0:eez_id>11</ns0:eez_id>
+			<ns0:iso_3digit>MHL</ns0:iso_3digit>
+			<ns0:mrgid>8318.00000000</ns0:mrgid>
+			<ns0:area_m2>2.000366271E12</ns0:area_m2>
+			<ns0:longitude>167.491329465304</ns0:longitude>
+			<ns0:latitude>10.115343534924</ns0:latitude>
+			<ns0:mrgid_eez>8318</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.11">
+			<ns0:objectid>11</ns0:objectid>
+			<ns0:eez>Wake Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Wake Island</ns0:country>
+			<ns0:id>12</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>12</ns0:eez_id>
+			<ns0:iso_3digit>UMI</ns0:iso_3digit>
+			<ns0:mrgid>8319.00000000</ns0:mrgid>
+			<ns0:area_m2>4.084343005E11</ns0:area_m2>
+			<ns0:longitude>166.543271630192</ns0:longitude>
+			<ns0:latitude>19.473296045548</ns0:latitude>
+			<ns0:mrgid_eez>8319</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.12">
+			<ns0:objectid>12</ns0:objectid>
+			<ns0:eez>Northern Mariana Islands and Guam Exclusive Economic Zone
+			</ns0:eez>
+			<ns0:country>Northern Mariana Islands and Guam</ns0:country>
+			<ns0:id>13</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>13</ns0:eez_id>
+			<ns0:iso_3digit>MNP</ns0:iso_3digit>
+			<ns0:mrgid>8320.00000000</ns0:mrgid>
+			<ns0:area_m2>9.741835876E11</ns0:area_m2>
+			<ns0:longitude>145.377483317443</ns0:longitude>
+			<ns0:latitude>17.156497485937</ns0:latitude>
+			<ns0:mrgid_eez>8320</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.13">
+			<ns0:objectid>13</ns0:objectid>
+			<ns0:eez>Taiwanese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Taiwan</ns0:country>
+			<ns0:id>14</ns0:id>
+			<ns0:sovereign>Taiwan</ns0:sovereign>
+			<ns0:remarks>Taiwans sovereignity is disputed by China</ns0:remarks>
+			<ns0:sov_id>14</ns0:sov_id>
+			<ns0:eez_id>14</ns0:eez_id>
+			<ns0:iso_3digit>TWN</ns0:iso_3digit>
+			<ns0:mrgid>8321.00000000</ns0:mrgid>
+			<ns0:area_m2>3.422704168E11</ns0:area_m2>
+			<ns0:longitude>118.862924984144</ns0:longitude>
+			<ns0:latitude>21.573988411648</ns0:latitude>
+			<ns0:mrgid_eez>8321</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.14">
+			<ns0:objectid>14</ns0:objectid>
+			<ns0:eez>Philippines Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Philippines</ns0:country>
+			<ns0:id>15</ns0:id>
+			<ns0:sovereign>Philippines</ns0:sovereign>
+			<ns0:sov_id>15</ns0:sov_id>
+			<ns0:eez_id>15</ns0:eez_id>
+			<ns0:iso_3digit>PHL</ns0:iso_3digit>
+			<ns0:mrgid>8322.00000000</ns0:mrgid>
+			<ns0:area_m2>1.835412559E12</ns0:area_m2>
+			<ns0:longitude>122.598014669963</ns0:longitude>
+			<ns0:latitude>12.393404848428</ns0:latitude>
+			<ns0:mrgid_eez>8322</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.15">
+			<ns0:objectid>15</ns0:objectid>
+			<ns0:eez>Papua New Guinean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Papua New Guinea</ns0:country>
+			<ns0:id>17</ns0:id>
+			<ns0:sovereign>Papua New Guinea</ns0:sovereign>
+			<ns0:sov_id>17</ns0:sov_id>
+			<ns0:eez_id>17</ns0:eez_id>
+			<ns0:iso_3digit>PNG</ns0:iso_3digit>
+			<ns0:mrgid>8324.00000000</ns0:mrgid>
+			<ns0:area_m2>2.405135144E12</ns0:area_m2>
+			<ns0:longitude>150.71725194451</ns0:longitude>
+			<ns0:latitude>-5.472738277517</ns0:latitude>
+			<ns0:mrgid_eez>8324</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.16">
+			<ns0:objectid>16</ns0:objectid>
+			<ns0:eez>Paracel Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Paracel Islands</ns0:country>
+			<ns0:id>22</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>China / Taiwan / Vietnam</ns0:remarks>
+			<ns0:sov_id>22</ns0:sov_id>
+			<ns0:eez_id>22</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>8329.00000000</ns0:mrgid>
+			<ns0:area_m2>2.940129815E11</ns0:area_m2>
+			<ns0:longitude>113.144115125736</ns0:longitude>
+			<ns0:latitude>16.246311673732</ns0:latitude>
+			<ns0:mrgid_eez>8329</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.8">
+			<ns0:objectid>8</ns0:objectid>
+			<ns0:eez>Micronesian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Micronesia</ns0:country>
+			<ns0:id>9</ns0:id>
+			<ns0:sovereign>Micronesia</ns0:sovereign>
+			<ns0:sov_id>9</ns0:sov_id>
+			<ns0:eez_id>9</ns0:eez_id>
+			<ns0:iso_3digit>FSM</ns0:iso_3digit>
+			<ns0:mrgid>8316.00000000</ns0:mrgid>
+			<ns0:area_m2>3.005498043E12</ns0:area_m2>
+			<ns0:longitude>150.326472209984</ns0:longitude>
+			<ns0:latitude>6.774224072894</ns0:latitude>
+			<ns0:mrgid_eez>8316</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.17">
+			<ns0:objectid>17</ns0:objectid>
+			<ns0:eez>Spratly Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Spratly Islands</ns0:country>
+			<ns0:id>23</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>China / Philippines / Viet Nam / Taiwan / Malaysia
+			</ns0:remarks>
+			<ns0:sov_id>23</ns0:sov_id>
+			<ns0:eez_id>23</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>8330.00000000</ns0:mrgid>
+			<ns0:area_m2>4.407579349E11</ns0:area_m2>
+			<ns0:longitude>114.357974983098</ns0:longitude>
+			<ns0:latitude>10.63516385823</ns0:latitude>
+			<ns0:mrgid_eez>8330</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.9">
+			<ns0:objectid>9</ns0:objectid>
+			<ns0:eez>Nauruan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Nauru</ns0:country>
+			<ns0:id>10</ns0:id>
+			<ns0:sovereign>Nauru</ns0:sovereign>
+			<ns0:sov_id>10</ns0:sov_id>
+			<ns0:eez_id>10</ns0:eez_id>
+			<ns0:iso_3digit>NRU</ns0:iso_3digit>
+			<ns0:mrgid>8317.00000000</ns0:mrgid>
+			<ns0:area_m2>3.09883393E11</ns0:area_m2>
+			<ns0:longitude>166.12372212131</ns0:longitude>
+			<ns0:latitude>-0.581042350712</ns0:latitude>
+			<ns0:mrgid_eez>8317</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.18">
+			<ns0:objectid>18</ns0:objectid>
+			<ns0:eez>Cambodian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cambodia</ns0:country>
+			<ns0:id>24</ns0:id>
+			<ns0:sovereign>Cambodia</ns0:sovereign>
+			<ns0:sov_id>24</ns0:sov_id>
+			<ns0:eez_id>24</ns0:eez_id>
+			<ns0:iso_3digit>KHM</ns0:iso_3digit>
+			<ns0:mrgid>8331.00000000</ns0:mrgid>
+			<ns0:area_m2>4.820256332E10</ns0:area_m2>
+			<ns0:longitude>102.563625069265</ns0:longitude>
+			<ns0:latitude>10.234390507178</ns0:latitude>
+			<ns0:mrgid_eez>8331</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.6">
+			<ns0:objectid>6</ns0:objectid>
+			<ns0:eez>Vanuatu Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Vanuatu</ns0:country>
+			<ns0:id>6</ns0:id>
+			<ns0:sovereign>Vanuatu</ns0:sovereign>
+			<ns0:sov_id>6</ns0:sov_id>
+			<ns0:eez_id>6</ns0:eez_id>
+			<ns0:iso_3digit>VUT</ns0:iso_3digit>
+			<ns0:mrgid>8313.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>6.210226652E11</ns0:area_m2>
+			<ns0:longitude>168.580700022732</ns0:longitude>
+			<ns0:latitude>-16.587592092492</ns0:latitude>
+			<ns0:mrgid_eez>8313</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.19">
+			<ns0:objectid>19</ns0:objectid>
+			<ns0:eez>Indian Exclusive Economic Zone (Andaman and Nicobar Islands)
+			</ns0:eez>
+			<ns0:country>Andaman and Nicobar</ns0:country>
+			<ns0:id>26</ns0:id>
+			<ns0:sovereign>India</ns0:sovereign>
+			<ns0:sov_id>203</ns0:sov_id>
+			<ns0:eez_id>26</ns0:eez_id>
+			<ns0:iso_3digit>IND</ns0:iso_3digit>
+			<ns0:mrgid>8333.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>6.627252142E11</ns0:area_m2>
+			<ns0:longitude>92.20372191896</ns0:longitude>
+			<ns0:latitude>9.981974139637</ns0:latitude>
+			<ns0:mrgid_eez>8333</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.7">
+			<ns0:objectid>7</ns0:objectid>
+			<ns0:eez>Solomon Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Solomon Islands</ns0:country>
+			<ns0:id>7</ns0:id>
+			<ns0:sovereign>Solomon Islands</ns0:sovereign>
+			<ns0:sov_id>7</ns0:sov_id>
+			<ns0:eez_id>7</ns0:eez_id>
+			<ns0:iso_3digit>SLB</ns0:iso_3digit>
+			<ns0:mrgid>8314.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.606705524E12</ns0:area_m2>
+			<ns0:longitude>163.649672612077</ns0:longitude>
+			<ns0:latitude>-10.047548421753</ns0:latitude>
+			<ns0:mrgid_eez>8314</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.4">
+			<ns0:objectid>4</ns0:objectid>
+			<ns0:eez>Australian Exclusive Economic Zone (Macquarie Island)
+			</ns0:eez>
+			<ns0:country>Macquarie Island</ns0:country>
+			<ns0:id>4</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>4</ns0:eez_id>
+			<ns0:iso_3digit>AUS</ns0:iso_3digit>
+			<ns0:mrgid>8311.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>4.742318198E11</ns0:area_m2>
+			<ns0:longitude>158.65342378619</ns0:longitude>
+			<ns0:latitude>-54.875958482495</ns0:latitude>
+			<ns0:mrgid_eez>8311</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.5">
+			<ns0:objectid>5</ns0:objectid>
+			<ns0:eez>New Caledonian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>New Caledonia</ns0:country>
+			<ns0:id>5</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>5</ns0:eez_id>
+			<ns0:iso_3digit>NCL</ns0:iso_3digit>
+			<ns0:mrgid>8312.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.373337096E12</ns0:area_m2>
+			<ns0:longitude>164.432624141628</ns0:longitude>
+			<ns0:latitude>-21.319839392997</ns0:latitude>
+			<ns0:mrgid_eez>8312</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.2">
+			<ns0:objectid>2</ns0:objectid>
+			<ns0:eez>Christmas Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Christmas Island</ns0:country>
+			<ns0:id>2</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>2</ns0:eez_id>
+			<ns0:iso_3digit>CXR</ns0:iso_3digit>
+			<ns0:mrgid>8309.00000000</ns0:mrgid>
+			<ns0:area_m2>3.294382003E11</ns0:area_m2>
+			<ns0:longitude>105.365343191397</ns0:longitude>
+			<ns0:latitude>-11.243213614649</ns0:latitude>
+			<ns0:mrgid_eez>8309</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.3">
+			<ns0:objectid>3</ns0:objectid>
+			<ns0:eez>Norfolk Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Norfolk Island</ns0:country>
+			<ns0:id>3</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>3</ns0:eez_id>
+			<ns0:iso_3digit>NFK</ns0:iso_3digit>
+			<ns0:mrgid>8310.00000000</ns0:mrgid>
+			<ns0:area_m2>4.316253358E11</ns0:area_m2>
+			<ns0:longitude>167.92917030034</ns0:longitude>
+			<ns0:latitude>-29.095626980378</ns0:latitude>
+			<ns0:mrgid_eez>8310</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.1">
+			<ns0:objectid>1</ns0:objectid>
+			<ns0:eez>Cocos Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cocos Islands</ns0:country>
+			<ns0:id>1</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>1</ns0:eez_id>
+			<ns0:iso_3digit>CCK</ns0:iso_3digit>
+			<ns0:mrgid>8308.00000000</ns0:mrgid>
+			<ns0:area_m2>4.690651025E11</ns0:area_m2>
+			<ns0:longitude>96.853338250294</ns0:longitude>
+			<ns0:latitude>-12.031984528968</ns0:latitude>
+			<ns0:mrgid_eez>8308</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.30">
+			<ns0:objectid>30</ns0:objectid>
+			<ns0:eez>Sri Lankan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sri Lanka</ns0:country>
+			<ns0:id>40</ns0:id>
+			<ns0:sovereign>Sri Lanka</ns0:sovereign>
+			<ns0:sov_id>40</ns0:sov_id>
+			<ns0:eez_id>40</ns0:eez_id>
+			<ns0:iso_3digit>LKA</ns0:iso_3digit>
+			<ns0:mrgid>8346.00000000</ns0:mrgid>
+			<ns0:area_m2>5.330583974E11</ns0:area_m2>
+			<ns0:longitude>81.634499210451</ns0:longitude>
+			<ns0:latitude>6.554559681539</ns0:latitude>
+			<ns0:mrgid_eez>8346</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.31">
+			<ns0:objectid>31</ns0:objectid>
+			<ns0:eez>Mozambican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Mozambique</ns0:country>
+			<ns0:id>41</ns0:id>
+			<ns0:sovereign>Mozambique</ns0:sovereign>
+			<ns0:sov_id>41</ns0:sov_id>
+			<ns0:eez_id>41</ns0:eez_id>
+			<ns0:iso_3digit>MOZ</ns0:iso_3digit>
+			<ns0:mrgid>8347.00000000</ns0:mrgid>
+			<ns0:area_m2>5.735775163E11</ns0:area_m2>
+			<ns0:longitude>37.953490754108</ns0:longitude>
+			<ns0:latitude>-20.394890541464</ns0:latitude>
+			<ns0:mrgid_eez>8347</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.32">
+			<ns0:objectid>32</ns0:objectid>
+			<ns0:eez>Madagascan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Madagascar</ns0:country>
+			<ns0:id>42</ns0:id>
+			<ns0:sovereign>Madagascar</ns0:sovereign>
+			<ns0:sov_id>42</ns0:sov_id>
+			<ns0:eez_id>42</ns0:eez_id>
+			<ns0:iso_3digit>MDG</ns0:iso_3digit>
+			<ns0:mrgid>8348.00000000</ns0:mrgid>
+			<ns0:area_m2>1.201731625E12</ns0:area_m2>
+			<ns0:longitude>47.260878837519</ns0:longitude>
+			<ns0:latitude>-20.864669912333</ns0:latitude>
+			<ns0:mrgid_eez>8348</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.33">
+			<ns0:objectid>33</ns0:objectid>
+			<ns0:eez>Kenyan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Kenya</ns0:country>
+			<ns0:id>43</ns0:id>
+			<ns0:sovereign>Kenya</ns0:sovereign>
+			<ns0:sov_id>43</ns0:sov_id>
+			<ns0:eez_id>43</ns0:eez_id>
+			<ns0:iso_3digit>KEN</ns0:iso_3digit>
+			<ns0:mrgid>8349.00000000</ns0:mrgid>
+			<ns0:area_m2>1.122955481E11</ns0:area_m2>
+			<ns0:longitude>41.760207202741</ns0:longitude>
+			<ns0:latitude>-3.54221149257</ns0:latitude>
+			<ns0:mrgid_eez>8349</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.34">
+			<ns0:objectid>34</ns0:objectid>
+			<ns0:eez>Somali Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Somalia</ns0:country>
+			<ns0:id>44</ns0:id>
+			<ns0:sovereign>Somalia</ns0:sovereign>
+			<ns0:sov_id>44</ns0:sov_id>
+			<ns0:eez_id>44</ns0:eez_id>
+			<ns0:iso_3digit>SOM</ns0:iso_3digit>
+			<ns0:mrgid>8350.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.8251912E11</ns0:area_m2>
+			<ns0:longitude>48.712245703591</ns0:longitude>
+			<ns0:latitude>5.381232769682</ns0:latitude>
+			<ns0:mrgid_eez>8350</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.35">
+			<ns0:objectid>35</ns0:objectid>
+			<ns0:eez>Eritrean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Eritrea</ns0:country>
+			<ns0:id>45</ns0:id>
+			<ns0:sovereign>Eritrea</ns0:sovereign>
+			<ns0:sov_id>45</ns0:sov_id>
+			<ns0:eez_id>45</ns0:eez_id>
+			<ns0:iso_3digit>ERI</ns0:iso_3digit>
+			<ns0:mrgid>8351.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.948900813E10</ns0:area_m2>
+			<ns0:longitude>40.605577924663</ns0:longitude>
+			<ns0:latitude>15.805295772555</ns0:latitude>
+			<ns0:mrgid_eez>8351</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.36">
+			<ns0:objectid>36</ns0:objectid>
+			<ns0:eez>Djiboutian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Djibouti</ns0:country>
+			<ns0:id>46</ns0:id>
+			<ns0:sovereign>Djibouti</ns0:sovereign>
+			<ns0:sov_id>46</ns0:sov_id>
+			<ns0:eez_id>46</ns0:eez_id>
+			<ns0:iso_3digit>DJI</ns0:iso_3digit>
+			<ns0:mrgid>8352.00000000</ns0:mrgid>
+			<ns0:area_m2>7.040662245E9</ns0:area_m2>
+			<ns0:longitude>43.433455458215</ns0:longitude>
+			<ns0:latitude>12.003652817692</ns0:latitude>
+			<ns0:mrgid_eez>8352</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.37">
+			<ns0:objectid>37</ns0:objectid>
+			<ns0:eez>Yemeni Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Yemen</ns0:country>
+			<ns0:id>47</ns0:id>
+			<ns0:sovereign>Yemen</ns0:sovereign>
+			<ns0:sov_id>47</ns0:sov_id>
+			<ns0:eez_id>47</ns0:eez_id>
+			<ns0:iso_3digit>YEM</ns0:iso_3digit>
+			<ns0:mrgid>8353.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>5.469066808E11</ns0:area_m2>
+			<ns0:longitude>52.171513802394</ns0:longitude>
+			<ns0:latitude>12.94227115946</ns0:latitude>
+			<ns0:mrgid_eez>8353</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.38">
+			<ns0:objectid>38</ns0:objectid>
+			<ns0:eez>Kuwaiti Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Kuwait</ns0:country>
+			<ns0:id>51</ns0:id>
+			<ns0:sovereign>Kuwait</ns0:sovereign>
+			<ns0:sov_id>51</ns0:sov_id>
+			<ns0:eez_id>51</ns0:eez_id>
+			<ns0:iso_3digit>KWT</ns0:iso_3digit>
+			<ns0:mrgid>8357.00000000</ns0:mrgid>
+			<ns0:area_m2>1.248762123E10</ns0:area_m2>
+			<ns0:longitude>48.601722166975</ns0:longitude>
+			<ns0:latitude>29.232390681593</ns0:latitude>
+			<ns0:mrgid_eez>8357</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.39">
+			<ns0:objectid>39</ns0:objectid>
+			<ns0:eez>Pakistani Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Pakistan</ns0:country>
+			<ns0:id>53</ns0:id>
+			<ns0:sovereign>Pakistan</ns0:sovereign>
+			<ns0:sov_id>53</ns0:sov_id>
+			<ns0:eez_id>53</ns0:eez_id>
+			<ns0:iso_3digit>PAK</ns0:iso_3digit>
+			<ns0:mrgid>8359.00000000</ns0:mrgid>
+			<ns0:area_m2>2.219411118E11</ns0:area_m2>
+			<ns0:longitude>64.697942854205</ns0:longitude>
+			<ns0:latitude>23.548575769249</ns0:latitude>
+			<ns0:mrgid_eez>8359</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.20">
+			<ns0:objectid>20</ns0:objectid>
+			<ns0:eez>Comoran Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Comoro Islands</ns0:country>
+			<ns0:id>28</ns0:id>
+			<ns0:sovereign>Comoro Islands</ns0:sovereign>
+			<ns0:sov_id>28</ns0:sov_id>
+			<ns0:eez_id>28</ns0:eez_id>
+			<ns0:iso_3digit>COM</ns0:iso_3digit>
+			<ns0:mrgid>8334.00000000</ns0:mrgid>
+			<ns0:area_m2>1.651807635E11</ns0:area_m2>
+			<ns0:longitude>43.48880995517</ns0:longitude>
+			<ns0:latitude>-11.39320999581</ns0:latitude>
+			<ns0:mrgid_eez>8334</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.21">
+			<ns0:objectid>21</ns0:objectid>
+			<ns0:eez>Mayotte Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Mayotte</ns0:country>
+			<ns0:id>29</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>29</ns0:eez_id>
+			<ns0:iso_3digit>MYT</ns0:iso_3digit>
+			<ns0:mrgid>8335.00000000</ns0:mrgid>
+			<ns0:area_m2>6.31698325E10</ns0:area_m2>
+			<ns0:longitude>45.324131174981</ns0:longitude>
+			<ns0:latitude>-13.211869590942</ns0:latitude>
+			<ns0:mrgid_eez>8335</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.22">
+			<ns0:objectid>22</ns0:objectid>
+			<ns0:eez>Glorioso Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Glorioso Islands</ns0:country>
+			<ns0:id>30</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>30</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8336.00000000</ns0:mrgid>
+			<ns0:area_m2>4.358160376E10</ns0:area_m2>
+			<ns0:longitude>47.081054708108</ns0:longitude>
+			<ns0:latitude>-11.610546426469</ns0:latitude>
+			<ns0:mrgid_eez>8336</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.23">
+			<ns0:objectid>23</ns0:objectid>
+			<ns0:eez>Seychellois Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Seychelles</ns0:country>
+			<ns0:id>31</ns0:id>
+			<ns0:sovereign>Seychelles</ns0:sovereign>
+			<ns0:sov_id>31</ns0:sov_id>
+			<ns0:eez_id>31</ns0:eez_id>
+			<ns0:iso_3digit>SYC</ns0:iso_3digit>
+			<ns0:mrgid>8337.00000000</ns0:mrgid>
+			<ns0:area_m2>1.338038557E12</ns0:area_m2>
+			<ns0:longitude>52.48133694654</ns0:longitude>
+			<ns0:latitude>-6.541903352125</ns0:latitude>
+			<ns0:mrgid_eez>8337</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.24">
+			<ns0:objectid>24</ns0:objectid>
+			<ns0:eez>Réunion Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Réunion</ns0:country>
+			<ns0:id>32</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>32</ns0:eez_id>
+			<ns0:iso_3digit>REU</ns0:iso_3digit>
+			<ns0:mrgid>8338.00000000</ns0:mrgid>
+			<ns0:area_m2>3.157046599E11</ns0:area_m2>
+			<ns0:longitude>54.701945030624</ns0:longitude>
+			<ns0:latitude>-21.742322165638</ns0:latitude>
+			<ns0:mrgid_eez>8338</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.25">
+			<ns0:objectid>25</ns0:objectid>
+			<ns0:eez>Juan de Nova Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Juan de Nova Island</ns0:country>
+			<ns0:id>33</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>33</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8339.00000000</ns0:mrgid>
+			<ns0:area_m2>6.241600534E10</ns0:area_m2>
+			<ns0:longitude>42.112654034337</ns0:longitude>
+			<ns0:latitude>-17.292331805128</ns0:latitude>
+			<ns0:mrgid_eez>8339</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.26">
+			<ns0:objectid>26</ns0:objectid>
+			<ns0:eez>Bassas da India Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bassas da India</ns0:country>
+			<ns0:id>34</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>34</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8340.00000000</ns0:mrgid>
+			<ns0:area_m2>1.219061526E11</ns0:area_m2>
+			<ns0:longitude>39.437119030137</ns0:longitude>
+			<ns0:latitude>-20.843800300929</ns0:latitude>
+			<ns0:mrgid_eez>8340</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.27">
+			<ns0:objectid>27</ns0:objectid>
+			<ns0:eez>Ile Europa Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ile Europa</ns0:country>
+			<ns0:id>35</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>35</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8341.00000000</ns0:mrgid>
+			<ns0:area_m2>1.253577363E11</ns0:area_m2>
+			<ns0:longitude>40.111721163895</ns0:longitude>
+			<ns0:latitude>-23.500062531446</ns0:latitude>
+			<ns0:mrgid_eez>8341</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.28">
+			<ns0:objectid>28</ns0:objectid>
+			<ns0:eez>Ile Tromelin Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ile Tromelin</ns0:country>
+			<ns0:id>36</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>36</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8342.00000000</ns0:mrgid>
+			<ns0:area_m2>2.714477638E11</ns0:area_m2>
+			<ns0:longitude>54.687826046728</ns0:longitude>
+			<ns0:latitude>-15.683255373901</ns0:latitude>
+			<ns0:mrgid_eez>8342</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.29">
+			<ns0:objectid>29</ns0:objectid>
+			<ns0:eez>Mauritian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Mauritius</ns0:country>
+			<ns0:id>37</ns0:id>
+			<ns0:sovereign>Mauritius</ns0:sovereign>
+			<ns0:sov_id>37</ns0:sov_id>
+			<ns0:eez_id>37</ns0:eez_id>
+			<ns0:iso_3digit>MUS</ns0:iso_3digit>
+			<ns0:mrgid>8343.00000000</ns0:mrgid>
+			<ns0:area_m2>1.276957974E12</ns0:area_m2>
+			<ns0:longitude>60.092601979794</ns0:longitude>
+			<ns0:latitude>-16.775578090807</ns0:latitude>
+			<ns0:mrgid_eez>8343</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.197">
+			<ns0:objectid>204</ns0:objectid>
+			<ns0:eez>Area of overlap between Australian Seabed Jurisdiction and
+				Indonesian Exclusive Economic Zone Jurisdiction</ns0:eez>
+			<ns0:country>Australia/Indonesia</ns0:country>
+			<ns0:id>250</ns0:id>
+			<ns0:sovereign>Australia/Indonesia</ns0:sovereign>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>251</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>26555.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>4.614181032E10</ns0:area_m2>
+			<ns0:longitude>128.100913394832</ns0:longitude>
+			<ns0:latitude>-10.274984142125</ns0:latitude>
+			<ns0:mrgid_eez>26555</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.196">
+			<ns0:objectid>203</ns0:objectid>
+			<ns0:eez>Thailand Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Thailand</ns0:country>
+			<ns0:id>25</ns0:id>
+			<ns0:sovereign>Thailand</ns0:sovereign>
+			<ns0:sov_id>25</ns0:sov_id>
+			<ns0:eez_id>25</ns0:eez_id>
+			<ns0:iso_3digit>THA</ns0:iso_3digit>
+			<ns0:mrgid>8332.00000000</ns0:mrgid>
+			<ns0:area_m2>3.080416054E11</ns0:area_m2>
+			<ns0:longitude>99.705443507161</ns0:longitude>
+			<ns0:latitude>9.127076961627</ns0:latitude>
+			<ns0:mrgid_eez>8332</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.195">
+			<ns0:objectid>202</ns0:objectid>
+			<ns0:eez>Israeli Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Israel</ns0:country>
+			<ns0:id>79</ns0:id>
+			<ns0:sovereign>Israel</ns0:sovereign>
+			<ns0:sov_id>79</ns0:sov_id>
+			<ns0:eez_id>79</ns0:eez_id>
+			<ns0:iso_3digit>ISR</ns0:iso_3digit>
+			<ns0:mrgid>8375.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-05-12</ns0:date_chang>
+			<ns0:area_m2>2.775691177E10</ns0:area_m2>
+			<ns0:longitude>34.083459055393</ns0:longitude>
+			<ns0:latitude>32.546814624226</ns0:latitude>
+			<ns0:mrgid_eez>8375</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.194">
+			<ns0:objectid>201</ns0:objectid>
+			<ns0:eez>Disputed Sudan-Egypt</ns0:eez>
+			<ns0:country>Egypt</ns0:country>
+			<ns0:id>214</ns0:id>
+			<ns0:sovereign>Egypt</ns0:sovereign>
+			<ns0:sov_id>214</ns0:sov_id>
+			<ns0:eez_id>214</ns0:eez_id>
+			<ns0:iso_3digit>EGY</ns0:iso_3digit>
+			<ns0:mrgid>26582</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>2.5988007E10</ns0:area_m2>
+			<ns0:longitude>36.848542313412</ns0:longitude>
+			<ns0:latitude>22.767700265191</ns0:latitude>
+			<ns0:mrgid_eez>26582</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.199">
+			<ns0:objectid>206</ns0:objectid>
+			<ns0:eez>Colombian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Colombia</ns0:country>
+			<ns0:id>132</ns0:id>
+			<ns0:sovereign>Colombia</ns0:sovereign>
+			<ns0:sov_id>132</ns0:sov_id>
+			<ns0:eez_id>132</ns0:eez_id>
+			<ns0:iso_3digit>COL</ns0:iso_3digit>
+			<ns0:mrgid>8426.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.223990846E11</ns0:area_m2>
+			<ns0:longitude>-78.063293903295</ns0:longitude>
+			<ns0:latitude>8.594603881365</ns0:latitude>
+			<ns0:mrgid_eez>8426</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.198">
+			<ns0:objectid>205</ns0:objectid>
+			<ns0:eez>Australian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Australia</ns0:country>
+			<ns0:id>16</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>0</ns0:eez_id>
+			<ns0:iso_3digit>AUS</ns0:iso_3digit>
+			<ns0:mrgid>8323.00000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>6.944401037E12</ns0:area_m2>
+			<ns0:longitude>137.948998712644</ns0:longitude>
+			<ns0:latitude>-27.240717639963</ns0:latitude>
+			<ns0:mrgid_eez>8323</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.193">
+			<ns0:objectid>200</ns0:objectid>
+			<ns0:eez>Egyptian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Egypt</ns0:country>
+			<ns0:id>214</ns0:id>
+			<ns0:sovereign>Egypt</ns0:sovereign>
+			<ns0:sov_id>214</ns0:sov_id>
+			<ns0:eez_id>214</ns0:eez_id>
+			<ns0:iso_3digit>EGY</ns0:iso_3digit>
+			<ns0:mrgid>8490.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>2.365806438E11</ns0:area_m2>
+			<ns0:longitude>31.016538879311</ns0:longitude>
+			<ns0:latitude>30.620099129994</ns0:latitude>
+			<ns0:mrgid_eez>8490</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.192">
+			<ns0:objectid>199</ns0:objectid>
+			<ns0:eez>United Arab Emirates Exclusive Economic Zone</ns0:eez>
+			<ns0:country>United Arab Emirates</ns0:country>
+			<ns0:id>54</ns0:id>
+			<ns0:sovereign>United Arab Emirates</ns0:sovereign>
+			<ns0:sov_id>54</ns0:sov_id>
+			<ns0:eez_id>54</ns0:eez_id>
+			<ns0:iso_3digit>ARE</ns0:iso_3digit>
+			<ns0:mrgid>8360.00000000</ns0:mrgid>
+			<ns0:area_m2>5.522850536E10</ns0:area_m2>
+			<ns0:longitude>53.975142392612</ns0:longitude>
+			<ns0:latitude>24.977730660487</ns0:latitude>
+			<ns0:mrgid_eez>8360</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.191">
+			<ns0:objectid>198</ns0:objectid>
+			<ns0:eez>New Zealand Exclusive Economic Zone</ns0:eez>
+			<ns0:country>New Zealand</ns0:country>
+			<ns0:id>162</ns0:id>
+			<ns0:sovereign>New Zealand</ns0:sovereign>
+			<ns0:sov_id>162</ns0:sov_id>
+			<ns0:eez_id>162</ns0:eez_id>
+			<ns0:iso_3digit>NZL</ns0:iso_3digit>
+			<ns0:mrgid>8455.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>4.098906808E12</ns0:area_m2>
+			<ns0:longitude>71.723704293864</ns0:longitude>
+			<ns0:latitude>-42.765069358776</ns0:latitude>
+			<ns0:mrgid_eez>8455</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.50">
+			<ns0:objectid>50</ns0:objectid>
+			<ns0:eez>Libyan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Libya</ns0:country>
+			<ns0:id>67</ns0:id>
+			<ns0:sovereign>Libya</ns0:sovereign>
+			<ns0:sov_id>67</ns0:sov_id>
+			<ns0:eez_id>67</ns0:eez_id>
+			<ns0:iso_3digit>LBY</ns0:iso_3digit>
+			<ns0:mrgid>8372.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>3.57016012E11</ns0:area_m2>
+			<ns0:longitude>18.460503878263</ns0:longitude>
+			<ns0:latitude>33.100823124937</ns0:latitude>
+			<ns0:mrgid_eez>8372</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.190">
+			<ns0:objectid>197</ns0:objectid>
+			<ns0:eez>Fijian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Fiji</ns0:country>
+			<ns0:id>18</ns0:id>
+			<ns0:sovereign>Fiji</ns0:sovereign>
+			<ns0:sov_id>18</ns0:sov_id>
+			<ns0:eez_id>18</ns0:eez_id>
+			<ns0:iso_3digit>FJI</ns0:iso_3digit>
+			<ns0:mrgid>8325.00000000</ns0:mrgid>
+			<ns0:area_m2>1.286744252E12</ns0:area_m2>
+			<ns0:longitude>94.927161584095</ns0:longitude>
+			<ns0:latitude>-17.98690038751</ns0:latitude>
+			<ns0:mrgid_eez>8325</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.51">
+			<ns0:objectid>51</ns0:objectid>
+			<ns0:eez>Maltese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Malta</ns0:country>
+			<ns0:id>68</ns0:id>
+			<ns0:sovereign>Malta</ns0:sovereign>
+			<ns0:sov_id>68</ns0:sov_id>
+			<ns0:eez_id>68</ns0:eez_id>
+			<ns0:iso_3digit>MLT</ns0:iso_3digit>
+			<ns0:mrgid>5685.00000000</ns0:mrgid>
+			<ns0:area_m2>5.540880868E10</ns0:area_m2>
+			<ns0:longitude>15.295556566863</ns0:longitude>
+			<ns0:latitude>35.294581914826</ns0:latitude>
+			<ns0:mrgid_eez>5685</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.52">
+			<ns0:objectid>52</ns0:objectid>
+			<ns0:eez>Latvian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Latvia</ns0:country>
+			<ns0:id>69</ns0:id>
+			<ns0:sovereign>Latvia</ns0:sovereign>
+			<ns0:sov_id>69</ns0:sov_id>
+			<ns0:eez_id>69</ns0:eez_id>
+			<ns0:iso_3digit>LVA</ns0:iso_3digit>
+			<ns0:mrgid>5683.00000000</ns0:mrgid>
+			<ns0:area_m2>2.877995857E10</ns0:area_m2>
+			<ns0:longitude>21.302990909828</ns0:longitude>
+			<ns0:latitude>57.077163714155</ns0:latitude>
+			<ns0:mrgid_eez>5683</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.53">
+			<ns0:objectid>53</ns0:objectid>
+			<ns0:eez>Estonian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Estonia</ns0:country>
+			<ns0:id>70</ns0:id>
+			<ns0:sovereign>Estonia</ns0:sovereign>
+			<ns0:sov_id>70</ns0:sov_id>
+			<ns0:eez_id>70</ns0:eez_id>
+			<ns0:iso_3digit>EST</ns0:iso_3digit>
+			<ns0:mrgid>5675.00000000</ns0:mrgid>
+			<ns0:area_m2>3.577319554E10</ns0:area_m2>
+			<ns0:longitude>22.994998180138</ns0:longitude>
+			<ns0:latitude>58.769917704295</ns0:latitude>
+			<ns0:mrgid_eez>5675</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.54">
+			<ns0:objectid>54</ns0:objectid>
+			<ns0:eez>Bulgarian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bulgaria</ns0:country>
+			<ns0:id>71</ns0:id>
+			<ns0:sovereign>Bulgaria</ns0:sovereign>
+			<ns0:sov_id>71</ns0:sov_id>
+			<ns0:eez_id>71</ns0:eez_id>
+			<ns0:iso_3digit>BGR</ns0:iso_3digit>
+			<ns0:mrgid>5672.00000000</ns0:mrgid>
+			<ns0:area_m2>3.517557582E10</ns0:area_m2>
+			<ns0:longitude>29.216318828692</ns0:longitude>
+			<ns0:latitude>42.942501135956</ns0:latitude>
+			<ns0:mrgid_eez>5672</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.55">
+			<ns0:objectid>55</ns0:objectid>
+			<ns0:eez>Romanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Romania</ns0:country>
+			<ns0:id>72</ns0:id>
+			<ns0:sovereign>Romania</ns0:sovereign>
+			<ns0:sov_id>72</ns0:sov_id>
+			<ns0:eez_id>72</ns0:eez_id>
+			<ns0:iso_3digit>ROU</ns0:iso_3digit>
+			<ns0:mrgid>5689.00000000</ns0:mrgid>
+			<ns0:area_m2>2.971705162E10</ns0:area_m2>
+			<ns0:longitude>30.046602404966</ns0:longitude>
+			<ns0:latitude>44.260346562954</ns0:latitude>
+			<ns0:mrgid_eez>5689</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.56">
+			<ns0:objectid>56</ns0:objectid>
+			<ns0:eez>Georgian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Georgia</ns0:country>
+			<ns0:id>74</ns0:id>
+			<ns0:sovereign>Georgia</ns0:sovereign>
+			<ns0:sov_id>74</ns0:sov_id>
+			<ns0:eez_id>74</ns0:eez_id>
+			<ns0:iso_3digit>GEO</ns0:iso_3digit>
+			<ns0:mrgid>5678.00000000</ns0:mrgid>
+			<ns0:area_m2>2.276292204E10</ns0:area_m2>
+			<ns0:longitude>40.55461199613</ns0:longitude>
+			<ns0:latitude>42.445649161974</ns0:latitude>
+			<ns0:mrgid_eez>5678</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.57">
+			<ns0:objectid>57</ns0:objectid>
+			<ns0:eez>Ukrainian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ukraine</ns0:country>
+			<ns0:id>75</ns0:id>
+			<ns0:sovereign>Ukraine</ns0:sovereign>
+			<ns0:sov_id>75</ns0:sov_id>
+			<ns0:eez_id>75</ns0:eez_id>
+			<ns0:iso_3digit>UKR</ns0:iso_3digit>
+			<ns0:mrgid>5695.00000000</ns0:mrgid>
+			<ns0:area_m2>1.357140736E11</ns0:area_m2>
+			<ns0:longitude>33.611483221202</ns0:longitude>
+			<ns0:latitude>44.958076979017</ns0:latitude>
+			<ns0:mrgid_eez>5695</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.58">
+			<ns0:objectid>58</ns0:objectid>
+			<ns0:eez>Turkish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Turkey</ns0:country>
+			<ns0:id>76</ns0:id>
+			<ns0:sovereign>Turkey</ns0:sovereign>
+			<ns0:sov_id>76</ns0:sov_id>
+			<ns0:eez_id>76</ns0:eez_id>
+			<ns0:iso_3digit>TUR</ns0:iso_3digit>
+			<ns0:mrgid>5697.00000000</ns0:mrgid>
+			<ns0:area_m2>2.565390468E11</ns0:area_m2>
+			<ns0:longitude>33.319242976518</ns0:longitude>
+			<ns0:latitude>40.594537134163</ns0:latitude>
+			<ns0:mrgid_eez>5697</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.59">
+			<ns0:objectid>59</ns0:objectid>
+			<ns0:eez>Syrian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Syria</ns0:country>
+			<ns0:id>77</ns0:id>
+			<ns0:sovereign>Syria</ns0:sovereign>
+			<ns0:sov_id>77</ns0:sov_id>
+			<ns0:eez_id>77</ns0:eez_id>
+			<ns0:iso_3digit>SYR</ns0:iso_3digit>
+			<ns0:mrgid>8373.00000000</ns0:mrgid>
+			<ns0:area_m2>1.023901653E10</ns0:area_m2>
+			<ns0:longitude>35.499344287674</ns0:longitude>
+			<ns0:latitude>35.338190278302</ns0:latitude>
+			<ns0:mrgid_eez>8373</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.186">
+			<ns0:objectid>193</ns0:objectid>
+			<ns0:eez>Saudi Arabian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saudi Arabia</ns0:country>
+			<ns0:id>50</ns0:id>
+			<ns0:sovereign>Saudi Arabia</ns0:sovereign>
+			<ns0:sov_id>50</ns0:sov_id>
+			<ns0:eez_id>50</ns0:eez_id>
+			<ns0:iso_3digit>SAU</ns0:iso_3digit>
+			<ns0:mrgid>8356.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>2.212657871E11</ns0:area_m2>
+			<ns0:longitude>40.523592805998</ns0:longitude>
+			<ns0:latitude>22.505819157307</ns0:latitude>
+			<ns0:mrgid_eez>8356</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.185">
+			<ns0:objectid>192</ns0:objectid>
+			<ns0:eez>United States Exclusive Economic Zone</ns0:eez>
+			<ns0:country>United States</ns0:country>
+			<ns0:id>163</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>163</ns0:eez_id>
+			<ns0:iso_3digit>USA</ns0:iso_3digit>
+			<ns0:mrgid>8456.00000000</ns0:mrgid>
+			<ns0:date_chang>2009-08-11</ns0:date_chang>
+			<ns0:area_m2>2.451460176E12</ns0:area_m2>
+			<ns0:longitude>-95.818438328389</ns0:longitude>
+			<ns0:latitude>34.757948484709</ns0:latitude>
+			<ns0:mrgid_eez>8456</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.184">
+			<ns0:objectid>1590</ns0:objectid>
+			<ns0:eez>Fisheries Zone around Svalbard</ns0:eez>
+			<ns0:country>Svalbard</ns0:country>
+			<ns0:id>253</ns0:id>
+			<ns0:sovereign>Norway</ns0:sovereign>
+			<ns0:sov_id>223</ns0:sov_id>
+			<ns0:eez_id>253</ns0:eez_id>
+			<ns0:iso_3digit>SJM</ns0:iso_3digit>
+			<ns0:mrgid>33181.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.890675045E11</ns0:area_m2>
+			<ns0:longitude>18.283401517597</ns0:longitude>
+			<ns0:latitude>78.717417390985</ns0:latitude>
+			<ns0:mrgid_eez>33181</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.183">
+			<ns0:objectid>190</ns0:objectid>
+			<ns0:eez>Jordanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Jordan</ns0:country>
+			<ns0:id>215</ns0:id>
+			<ns0:sovereign>Jordan</ns0:sovereign>
+			<ns0:sov_id>215</ns0:sov_id>
+			<ns0:eez_id>215</ns0:eez_id>
+			<ns0:iso_3digit>JOR</ns0:iso_3digit>
+			<ns0:mrgid>8491.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>9.120594065E7</ns0:area_m2>
+			<ns0:longitude>34.945398152506</ns0:longitude>
+			<ns0:latitude>29.437584380789</ns0:latitude>
+			<ns0:mrgid_eez>8491</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.189">
+			<ns0:objectid>196</ns0:objectid>
+			<ns0:eez>Japanese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Japan</ns0:country>
+			<ns0:id>210</ns0:id>
+			<ns0:sovereign>Japan</ns0:sovereign>
+			<ns0:sov_id>210</ns0:sov_id>
+			<ns0:eez_id>210</ns0:eez_id>
+			<ns0:iso_3digit>JPN</ns0:iso_3digit>
+			<ns0:mrgid>8487.00000000</ns0:mrgid>
+			<ns0:area_m2>4.033971253E12</ns0:area_m2>
+			<ns0:longitude>138.47172715965</ns0:longitude>
+			<ns0:latitude>29.508733583439</ns0:latitude>
+			<ns0:mrgid_eez>8487</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.188">
+			<ns0:objectid>195</ns0:objectid>
+			<ns0:eez>Canadian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Canada</ns0:country>
+			<ns0:id>218</ns0:id>
+			<ns0:sovereign>Canada</ns0:sovereign>
+			<ns0:sov_id>218</ns0:sov_id>
+			<ns0:eez_id>218</ns0:eez_id>
+			<ns0:iso_3digit>CAN</ns0:iso_3digit>
+			<ns0:mrgid>8493.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>5.717902341E12</ns0:area_m2>
+			<ns0:longitude>-89.992586611104</ns0:longitude>
+			<ns0:latitude>68.558054901305</ns0:latitude>
+			<ns0:mrgid_eez>8493</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.187">
+			<ns0:objectid>194</ns0:objectid>
+			<ns0:eez>Omani Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Oman</ns0:country>
+			<ns0:id>48</ns0:id>
+			<ns0:sovereign>Oman</ns0:sovereign>
+			<ns0:sov_id>48</ns0:sov_id>
+			<ns0:eez_id>48</ns0:eez_id>
+			<ns0:iso_3digit>OMN</ns0:iso_3digit>
+			<ns0:mrgid>8354.00000000</ns0:mrgid>
+			<ns0:area_m2>5.375853949E11</ns0:area_m2>
+			<ns0:longitude>58.754416971748</ns0:longitude>
+			<ns0:latitude>19.086390512927</ns0:latitude>
+			<ns0:mrgid_eez>8354</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.182">
+			<ns0:objectid>188</ns0:objectid>
+			<ns0:eez>United Kingdom Exclusive Economic Zone</ns0:eez>
+			<ns0:country>United Kingdom</ns0:country>
+			<ns0:id>180</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>180</ns0:eez_id>
+			<ns0:iso_3digit>GBR</ns0:iso_3digit>
+			<ns0:mrgid>5696.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.231922153E11</ns0:area_m2>
+			<ns0:longitude>-4.25800343825</ns0:longitude>
+			<ns0:latitude>56.819307567363</ns0:latitude>
+			<ns0:mrgid_eez>5696</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.181">
+			<ns0:objectid>185</ns0:objectid>
+			<ns0:eez>Turkmen Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Turkmenistan</ns0:country>
+			<ns0:id>243</ns0:id>
+			<ns0:sovereign>Turkmenistan</ns0:sovereign>
+			<ns0:sov_id>236</ns0:sov_id>
+			<ns0:eez_id>243</ns0:eez_id>
+			<ns0:iso_3digit>TKM</ns0:iso_3digit>
+			<ns0:mrgid>26523.0000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>7.958182079E10</ns0:area_m2>
+			<ns0:longitude>52.814781988988</ns0:longitude>
+			<ns0:latitude>39.797009953365</ns0:latitude>
+			<ns0:mrgid_eez>26523</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.180">
+			<ns0:objectid>184</ns0:objectid>
+			<ns0:eez>Kazakh Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Kazakhstan</ns0:country>
+			<ns0:id>242</ns0:id>
+			<ns0:sovereign>Kazakhstan</ns0:sovereign>
+			<ns0:sov_id>235</ns0:sov_id>
+			<ns0:eez_id>242</ns0:eez_id>
+			<ns0:iso_3digit>KAZ</ns0:iso_3digit>
+			<ns0:mrgid>26522.0000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>1.190129356E11</ns0:area_m2>
+			<ns0:longitude>50.9209446461</ns0:longitude>
+			<ns0:latitude>44.46041638419</ns0:latitude>
+			<ns0:mrgid_eez>26522</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.40">
+			<ns0:objectid>40</ns0:objectid>
+			<ns0:eez>Portuguese Exclusive Economic Zone (Azores)</ns0:eez>
+			<ns0:country>Azores</ns0:country>
+			<ns0:id>55</ns0:id>
+			<ns0:sovereign>Portugal</ns0:sovereign>
+			<ns0:sov_id>183</ns0:sov_id>
+			<ns0:eez_id>55</ns0:eez_id>
+			<ns0:iso_3digit>PRT</ns0:iso_3digit>
+			<ns0:mrgid>8361.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>9.549620645E11</ns0:area_m2>
+			<ns0:longitude>-28.016850868513</ns0:longitude>
+			<ns0:latitude>38.472981328336</ns0:latitude>
+			<ns0:mrgid_eez>8361</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.41">
+			<ns0:objectid>41</ns0:objectid>
+			<ns0:eez>Cape Verdean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cape Verde</ns0:country>
+			<ns0:id>56</ns0:id>
+			<ns0:sovereign>Cape Verde</ns0:sovereign>
+			<ns0:sov_id>56</ns0:sov_id>
+			<ns0:eez_id>56</ns0:eez_id>
+			<ns0:iso_3digit>CPV</ns0:iso_3digit>
+			<ns0:mrgid>8362.00000000</ns0:mrgid>
+			<ns0:area_m2>7.993782289E11</ns0:area_m2>
+			<ns0:longitude>-24.17010236748</ns0:longitude>
+			<ns0:latitude>16.091893589365</ns0:latitude>
+			<ns0:mrgid_eez>8362</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.42">
+			<ns0:objectid>42</ns0:objectid>
+			<ns0:eez>Portuguese Exclusive Economic Zone (Madeira)</ns0:eez>
+			<ns0:country>Madeira</ns0:country>
+			<ns0:id>57</ns0:id>
+			<ns0:sovereign>Portugal</ns0:sovereign>
+			<ns0:sov_id>183</ns0:sov_id>
+			<ns0:eez_id>57</ns0:eez_id>
+			<ns0:iso_3digit>PRT</ns0:iso_3digit>
+			<ns0:mrgid>8363.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>4.540538759E11</ns0:area_m2>
+			<ns0:longitude>-16.81064300458</ns0:longitude>
+			<ns0:latitude>33.151316977533</ns0:latitude>
+			<ns0:mrgid_eez>8363</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.43">
+			<ns0:objectid>43</ns0:objectid>
+			<ns0:eez>Spanish Exclusive Economic Zone (Canary Islands)</ns0:eez>
+			<ns0:country>Canary Islands</ns0:country>
+			<ns0:id>58</ns0:id>
+			<ns0:sovereign>Spain</ns0:sovereign>
+			<ns0:sov_id>182</ns0:sov_id>
+			<ns0:eez_id>58</ns0:eez_id>
+			<ns0:iso_3digit>ESP</ns0:iso_3digit>
+			<ns0:mrgid>8364.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>4.566302604E11</ns0:area_m2>
+			<ns0:longitude>-17.511838690353</ns0:longitude>
+			<ns0:latitude>28.389889335918</ns0:latitude>
+			<ns0:mrgid_eez>8364</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.44">
+			<ns0:objectid>44</ns0:objectid>
+			<ns0:eez>Belgian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Belgium</ns0:country>
+			<ns0:id>59</ns0:id>
+			<ns0:sovereign>Belgium</ns0:sovereign>
+			<ns0:sov_id>59</ns0:sov_id>
+			<ns0:eez_id>59</ns0:eez_id>
+			<ns0:iso_3digit>BEL</ns0:iso_3digit>
+			<ns0:mrgid>3293.00000000</ns0:mrgid>
+			<ns0:area_m2>3.444405137E9</ns0:area_m2>
+			<ns0:longitude>2.703577526648</ns0:longitude>
+			<ns0:latitude>51.465797907388</ns0:latitude>
+			<ns0:mrgid_eez>3293</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.45">
+			<ns0:objectid>45</ns0:objectid>
+			<ns0:eez>Gibraltarian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Gibraltar</ns0:country>
+			<ns0:id>60</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>60</ns0:eez_id>
+			<ns0:iso_3digit>GIB</ns0:iso_3digit>
+			<ns0:mrgid>8365.00000000</ns0:mrgid>
+			<ns0:area_m2>4.255952342E8</ns0:area_m2>
+			<ns0:longitude>-5.202361883702</ns0:longitude>
+			<ns0:latitude>36.089345619134</ns0:latitude>
+			<ns0:mrgid_eez>8365</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.46">
+			<ns0:objectid>46</ns0:objectid>
+			<ns0:eez>Tunisian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tunisia</ns0:country>
+			<ns0:id>61</ns0:id>
+			<ns0:sovereign>Tunisia</ns0:sovereign>
+			<ns0:sov_id>61</ns0:sov_id>
+			<ns0:eez_id>61</ns0:eez_id>
+			<ns0:iso_3digit>TUN</ns0:iso_3digit>
+			<ns0:mrgid>8366.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>1.010344391E11</ns0:area_m2>
+			<ns0:longitude>10.968604246214</ns0:longitude>
+			<ns0:latitude>36.047851662572</ns0:latitude>
+			<ns0:mrgid_eez>8366</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.47">
+			<ns0:objectid>47</ns0:objectid>
+			<ns0:eez>Western Saharan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Western Sahara</ns0:country>
+			<ns0:id>63</ns0:id>
+			<ns0:sovereign>Morocco</ns0:sovereign>
+			<ns0:sov_id>62</ns0:sov_id>
+			<ns0:eez_id>63</ns0:eez_id>
+			<ns0:iso_3digit>ESH</ns0:iso_3digit>
+			<ns0:mrgid>8368.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.515637928E11</ns0:area_m2>
+			<ns0:longitude>-17.506328941528</ns0:longitude>
+			<ns0:latitude>23.709858840756</ns0:latitude>
+			<ns0:mrgid_eez>8368</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.48">
+			<ns0:objectid>48</ns0:objectid>
+			<ns0:eez>Mauritanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Mauritania</ns0:country>
+			<ns0:id>64</ns0:id>
+			<ns0:sovereign>Mauritania</ns0:sovereign>
+			<ns0:sov_id>64</ns0:sov_id>
+			<ns0:eez_id>64</ns0:eez_id>
+			<ns0:iso_3digit>MRT</ns0:iso_3digit>
+			<ns0:mrgid>8369.00000000</ns0:mrgid>
+			<ns0:area_m2>1.558533753E11</ns0:area_m2>
+			<ns0:longitude>-17.835385054883</ns0:longitude>
+			<ns0:latitude>18.075196896578</ns0:latitude>
+			<ns0:mrgid_eez>8369</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.49">
+			<ns0:objectid>49</ns0:objectid>
+			<ns0:eez>Gambian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Gambia</ns0:country>
+			<ns0:id>65</ns0:id>
+			<ns0:sovereign>Gambia</ns0:sovereign>
+			<ns0:sov_id>65</ns0:sov_id>
+			<ns0:eez_id>65</ns0:eez_id>
+			<ns0:iso_3digit>GMB</ns0:iso_3digit>
+			<ns0:mrgid>8370.00000000</ns0:mrgid>
+			<ns0:area_m2>2.276762658E10</ns0:area_m2>
+			<ns0:longitude>-18.364941035609</ns0:longitude>
+			<ns0:latitude>13.32964289902</ns0:latitude>
+			<ns0:mrgid_eez>8370</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.175">
+			<ns0:objectid>178</ns0:objectid>
+			<ns0:eez>Portuguese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Portugal</ns0:country>
+			<ns0:id>183</ns0:id>
+			<ns0:sovereign>Portugal</ns0:sovereign>
+			<ns0:sov_id>183</ns0:sov_id>
+			<ns0:eez_id>183</ns0:eez_id>
+			<ns0:iso_3digit>PRT</ns0:iso_3digit>
+			<ns0:mrgid>5688.00000000</ns0:mrgid>
+			<ns0:area_m2>3.113616888E11</ns0:area_m2>
+			<ns0:longitude>-10.931479230702</ns0:longitude>
+			<ns0:latitude>38.307460811549</ns0:latitude>
+			<ns0:mrgid_eez>5688</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.174">
+			<ns0:objectid>177</ns0:objectid>
+			<ns0:eez>Oecussi Ambeno Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Oecussi Ambeno</ns0:country>
+			<ns0:id>237</ns0:id>
+			<ns0:sovereign>East Timor</ns0:sovereign>
+			<ns0:sov_id>231</ns0:sov_id>
+			<ns0:eez_id>237</ns0:eez_id>
+			<ns0:iso_3digit>TLS</ns0:iso_3digit>
+			<ns0:mrgid>21791.0000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>2.269716144E9</ns0:area_m2>
+			<ns0:longitude>124.231927533639</ns0:longitude>
+			<ns0:latitude>-9.056089150097</ns0:latitude>
+			<ns0:mrgid_eez>21791</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.173">
+			<ns0:objectid>176</ns0:objectid>
+			<ns0:eez>East Timor Exclusive Economic Zone</ns0:eez>
+			<ns0:country>East Timor</ns0:country>
+			<ns0:id>231</ns0:id>
+			<ns0:sovereign>East Timor</ns0:sovereign>
+			<ns0:sov_id>231</ns0:sov_id>
+			<ns0:eez_id>231</ns0:eez_id>
+			<ns0:iso_3digit>TLS</ns0:iso_3digit>
+			<ns0:mrgid>8758.00000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>4.012054479E10</ns0:area_m2>
+			<ns0:longitude>126.472121362915</ns0:longitude>
+			<ns0:latitude>-9.127260629721</ns0:latitude>
+			<ns0:mrgid_eez>8758</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.172">
+			<ns0:objectid>175</ns0:objectid>
+			<ns0:eez>Indonesian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Indonesia</ns0:country>
+			<ns0:id>216</ns0:id>
+			<ns0:sovereign>Indonesia</ns0:sovereign>
+			<ns0:sov_id>216</ns0:sov_id>
+			<ns0:eez_id>216</ns0:eez_id>
+			<ns0:iso_3digit>IDN</ns0:iso_3digit>
+			<ns0:mrgid>8492.00000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>5.95048242E12</ns0:area_m2>
+			<ns0:longitude>117.766627753046</ns0:longitude>
+			<ns0:latitude>-3.120895815895</ns0:latitude>
+			<ns0:mrgid_eez>8492</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.179">
+			<ns0:objectid>183</ns0:objectid>
+			<ns0:eez>Azerbaijanis Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Azerbaijan</ns0:country>
+			<ns0:id>241</ns0:id>
+			<ns0:sovereign>Azerbaijan</ns0:sovereign>
+			<ns0:sov_id>233</ns0:sov_id>
+			<ns0:eez_id>241</ns0:eez_id>
+			<ns0:iso_3digit>AZE</ns0:iso_3digit>
+			<ns0:mrgid>26524.0000000</ns0:mrgid>
+			<ns0:date_chang>2011-03-30</ns0:date_chang>
+			<ns0:area_m2>7.705931796E10</ns0:area_m2>
+			<ns0:longitude>50.183881114806</ns0:longitude>
+			<ns0:latitude>40.458135157672</ns0:latitude>
+			<ns0:mrgid_eez>26524</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.178">
+			<ns0:objectid>182</ns0:objectid>
+			<ns0:eez>Bosnian and Herzegovinian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bosnia and Herzegovina</ns0:country>
+			<ns0:id>232</ns0:id>
+			<ns0:sovereign>Bosnia and Herzegovina</ns0:sovereign>
+			<ns0:sov_id>232</ns0:sov_id>
+			<ns0:eez_id>232</ns0:eez_id>
+			<ns0:iso_3digit>BIH</ns0:iso_3digit>
+			<ns0:mrgid>22491.0000000</ns0:mrgid>
+			<ns0:date_chang>2009-10-01</ns0:date_chang>
+			<ns0:area_m2>1.761313963E7</ns0:area_m2>
+			<ns0:longitude>17.592964591717</ns0:longitude>
+			<ns0:latitude>42.916542893429</ns0:latitude>
+			<ns0:mrgid_eez>22491</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.177">
+			<ns0:objectid>181</ns0:objectid>
+			<ns0:eez>Protected Zone established under the Torres Strait Treaty
+			</ns0:eez>
+			<ns0:country>Australia - Papua New Guinea</ns0:country>
+			<ns0:id>239</ns0:id>
+			<ns0:sovereign>Australia - Papua New Guinea</ns0:sovereign>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>239</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21798.0000000</ns0:mrgid>
+			<ns0:area_m2>3.946953362E9</ns0:area_m2>
+			<ns0:longitude>142.414028282843</ns0:longitude>
+			<ns0:latitude>-9.494300562954</ns0:latitude>
+			<ns0:mrgid_eez>21798</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.176">
+			<ns0:objectid>180</ns0:objectid>
+			<ns0:eez>Joint Development Area Australia - East Timor</ns0:eez>
+			<ns0:country>Australia - East Timor</ns0:country>
+			<ns0:id>238</ns0:id>
+			<ns0:sovereign>Joint Development</ns0:sovereign>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>238</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21795.0000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>3.495555962E10</ns0:area_m2>
+			<ns0:longitude>127.141280539132</ns0:longitude>
+			<ns0:latitude>-10.406741835235</ns0:latitude>
+			<ns0:mrgid_eez>21795</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.171">
+			<ns0:objectid>174</ns0:objectid>
+			<ns0:eez>Bahamas Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bahamas</ns0:country>
+			<ns0:id>110</ns0:id>
+			<ns0:sovereign>Bahamas</ns0:sovereign>
+			<ns0:sov_id>110</ns0:sov_id>
+			<ns0:eez_id>110</ns0:eez_id>
+			<ns0:iso_3digit>BHS</ns0:iso_3digit>
+			<ns0:mrgid>8404.00000000</ns0:mrgid>
+			<ns0:date_chang>2008-11-19</ns0:date_chang>
+			<ns0:area_m2>5.977160599E11</ns0:area_m2>
+			<ns0:longitude>-75.565849010311</ns0:longitude>
+			<ns0:latitude>25.205782460988</ns0:latitude>
+			<ns0:mrgid_eez>8404</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.70">
+			<ns0:objectid>71</ns0:objectid>
+			<ns0:eez>South African Exclusive Economic Zone (Prince Edward
+				Islands)</ns0:eez>
+			<ns0:country>Prince Edward Islands</ns0:country>
+			<ns0:id>90</ns0:id>
+			<ns0:sovereign>South Africa</ns0:sovereign>
+			<ns0:sov_id>102</ns0:sov_id>
+			<ns0:eez_id>90</ns0:eez_id>
+			<ns0:iso_3digit>ZAF</ns0:iso_3digit>
+			<ns0:mrgid>8384.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>4.721876767E11</ns0:area_m2>
+			<ns0:longitude>37.80700538506</ns0:longitude>
+			<ns0:latitude>-46.833028567788</ns0:latitude>
+			<ns0:mrgid_eez>8384</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.170">
+			<ns0:objectid>173</ns0:objectid>
+			<ns0:eez>Irish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ireland</ns0:country>
+			<ns0:id>181</ns0:id>
+			<ns0:sovereign>Ireland</ns0:sovereign>
+			<ns0:sov_id>181</ns0:sov_id>
+			<ns0:eez_id>181</ns0:eez_id>
+			<ns0:iso_3digit>IRL</ns0:iso_3digit>
+			<ns0:mrgid>5681.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.260458354E11</ns0:area_m2>
+			<ns0:longitude>-11.735391653908</ns0:longitude>
+			<ns0:latitude>52.648366928548</ns0:latitude>
+			<ns0:mrgid_eez>5681</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.71">
+			<ns0:objectid>72</ns0:objectid>
+			<ns0:eez>Crozet Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Crozet Islands</ns0:country>
+			<ns0:id>91</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>91</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8385.00000000</ns0:mrgid>
+			<ns0:area_m2>5.731965259E11</ns0:area_m2>
+			<ns0:longitude>51.211901256214</ns0:longitude>
+			<ns0:latitude>-46.322720111883</ns0:latitude>
+			<ns0:mrgid_eez>8385</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.72">
+			<ns0:objectid>73</ns0:objectid>
+			<ns0:eez>Amsterdam Island &amp; St. Paul Island Exclusive Economic
+				Zone</ns0:eez>
+			<ns0:country>Amsterdam Island and Saint Paul Island</ns0:country>
+			<ns0:id>92</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>92</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8386.00000000</ns0:mrgid>
+			<ns0:area_m2>5.087634191E11</ns0:area_m2>
+			<ns0:longitude>77.541002622892</ns0:longitude>
+			<ns0:latitude>-38.300074481719</ns0:latitude>
+			<ns0:mrgid_eez>8386</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.73">
+			<ns0:objectid>74</ns0:objectid>
+			<ns0:eez>Kerguelen Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Kerguelen Islands</ns0:country>
+			<ns0:id>93</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>93</ns0:eez_id>
+			<ns0:iso_3digit>ATF</ns0:iso_3digit>
+			<ns0:mrgid>8387.00000000</ns0:mrgid>
+			<ns0:area_m2>5.663487793E11</ns0:area_m2>
+			<ns0:longitude>68.826723052383</ns0:longitude>
+			<ns0:latitude>-48.956359550958</ns0:latitude>
+			<ns0:mrgid_eez>8387</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.74">
+			<ns0:objectid>75</ns0:objectid>
+			<ns0:eez>Heard and McDonald Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Heard and McDonald Islands</ns0:country>
+			<ns0:id>94</ns0:id>
+			<ns0:sovereign>Australia</ns0:sovereign>
+			<ns0:sov_id>16</ns0:sov_id>
+			<ns0:eez_id>94</ns0:eez_id>
+			<ns0:iso_3digit>HMD</ns0:iso_3digit>
+			<ns0:mrgid>8388.00000000</ns0:mrgid>
+			<ns0:area_m2>4.148747224E11</ns0:area_m2>
+			<ns0:longitude>73.728922830151</ns0:longitude>
+			<ns0:latitude>-53.498012068627</ns0:latitude>
+			<ns0:mrgid_eez>8388</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.75">
+			<ns0:objectid>76</ns0:objectid>
+			<ns0:eez>Falkland Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Falkland Islands</ns0:country>
+			<ns0:id>95</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>95</ns0:eez_id>
+			<ns0:iso_3digit>FLK</ns0:iso_3digit>
+			<ns0:mrgid>8389.00000000</ns0:mrgid>
+			<ns0:area_m2>5.488139077E11</ns0:area_m2>
+			<ns0:longitude>-58.31962846367</ns0:longitude>
+			<ns0:latitude>-51.668934943108</ns0:latitude>
+			<ns0:mrgid_eez>8389</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.76">
+			<ns0:objectid>77</ns0:objectid>
+			<ns0:eez>Sierra Leonian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sierra Leone</ns0:country>
+			<ns0:id>96</ns0:id>
+			<ns0:sovereign>Sierra Leone</ns0:sovereign>
+			<ns0:sov_id>96</ns0:sov_id>
+			<ns0:eez_id>96</ns0:eez_id>
+			<ns0:iso_3digit>SLE</ns0:iso_3digit>
+			<ns0:mrgid>8390.00000000</ns0:mrgid>
+			<ns0:area_m2>1.600380186E11</ns0:area_m2>
+			<ns0:longitude>-14.147498073338</ns0:longitude>
+			<ns0:latitude>6.650401937834</ns0:latitude>
+			<ns0:mrgid_eez>8390</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.77">
+			<ns0:objectid>78</ns0:objectid>
+			<ns0:eez>Liberian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Liberia</ns0:country>
+			<ns0:id>97</ns0:id>
+			<ns0:sovereign>Liberia</ns0:sovereign>
+			<ns0:sov_id>97</ns0:sov_id>
+			<ns0:eez_id>97</ns0:eez_id>
+			<ns0:iso_3digit>LBR</ns0:iso_3digit>
+			<ns0:mrgid>8391.00000000</ns0:mrgid>
+			<ns0:area_m2>2.472578529E11</ns0:area_m2>
+			<ns0:longitude>-10.229575062931</ns0:longitude>
+			<ns0:latitude>3.844970102946</ns0:latitude>
+			<ns0:mrgid_eez>8391</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.78">
+			<ns0:objectid>79</ns0:objectid>
+			<ns0:eez>Togolese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Togo</ns0:country>
+			<ns0:id>98</ns0:id>
+			<ns0:sovereign>Togo</ns0:sovereign>
+			<ns0:sov_id>98</ns0:sov_id>
+			<ns0:eez_id>98</ns0:eez_id>
+			<ns0:iso_3digit>TGO</ns0:iso_3digit>
+			<ns0:mrgid>8392.00000000</ns0:mrgid>
+			<ns0:area_m2>1.542364514E10</ns0:area_m2>
+			<ns0:longitude>1.828795954371</ns0:longitude>
+			<ns0:latitude>4.63744276539</ns0:latitude>
+			<ns0:mrgid_eez>8392</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.79">
+			<ns0:objectid>80</ns0:objectid>
+			<ns0:eez>Beninese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Benin</ns0:country>
+			<ns0:id>99</ns0:id>
+			<ns0:sovereign>Benin</ns0:sovereign>
+			<ns0:sov_id>99</ns0:sov_id>
+			<ns0:eez_id>99</ns0:eez_id>
+			<ns0:iso_3digit>BEN</ns0:iso_3digit>
+			<ns0:mrgid>8393.00000000</ns0:mrgid>
+			<ns0:area_m2>3.016506976E10</ns0:area_m2>
+			<ns0:longitude>2.363219339334</ns0:longitude>
+			<ns0:latitude>4.994682443558</ns0:latitude>
+			<ns0:mrgid_eez>8393</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.169">
+			<ns0:objectid>172</ns0:objectid>
+			<ns0:eez>Bahraini Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bahrain</ns0:country>
+			<ns0:id>52</ns0:id>
+			<ns0:sovereign>Bahrain</ns0:sovereign>
+			<ns0:sov_id>52</ns0:sov_id>
+			<ns0:eez_id>52</ns0:eez_id>
+			<ns0:iso_3digit>BHR</ns0:iso_3digit>
+			<ns0:mrgid>8358.00000000</ns0:mrgid>
+			<ns0:area_m2>8.30125284E9</ns0:area_m2>
+			<ns0:longitude>50.691901117394</ns0:longitude>
+			<ns0:latitude>26.307822101401</ns0:latitude>
+			<ns0:mrgid_eez>8358</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.164">
+			<ns0:objectid>167</ns0:objectid>
+			<ns0:eez>Jersey Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Jersey</ns0:country>
+			<ns0:id>227</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>227</ns0:eez_id>
+			<ns0:iso_3digit>JEY</ns0:iso_3digit>
+			<ns0:mrgid>21789.0000000</ns0:mrgid>
+			<ns0:area_m2>2.95607284E9</ns0:area_m2>
+			<ns0:longitude>-2.230278162691</ns0:longitude>
+			<ns0:latitude>49.088804403394</ns0:latitude>
+			<ns0:mrgid_eez>21789</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.163">
+			<ns0:objectid>166</ns0:objectid>
+			<ns0:eez>Icelandic Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Iceland</ns0:country>
+			<ns0:id>143</ns0:id>
+			<ns0:sovereign>Iceland</ns0:sovereign>
+			<ns0:sov_id>143</ns0:sov_id>
+			<ns0:eez_id>143</ns0:eez_id>
+			<ns0:iso_3digit>ISL</ns0:iso_3digit>
+			<ns0:mrgid>5680.00000000</ns0:mrgid>
+			<ns0:area_m2>7.509959706E11</ns0:area_m2>
+			<ns0:longitude>-18.48691582976</ns0:longitude>
+			<ns0:latitude>64.717458175655</ns0:latitude>
+			<ns0:mrgid_eez>5680</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.162">
+			<ns0:objectid>165</ns0:objectid>
+			<ns0:eez>Greenlandic Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Greenland</ns0:country>
+			<ns0:id>145</ns0:id>
+			<ns0:sovereign>Denmark</ns0:sovereign>
+			<ns0:sov_id>175</ns0:sov_id>
+			<ns0:eez_id>145</ns0:eez_id>
+			<ns0:iso_3digit>GRL</ns0:iso_3digit>
+			<ns0:mrgid>8438.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.264550602E12</ns0:area_m2>
+			<ns0:longitude>-32.025922848032</ns0:longitude>
+			<ns0:latitude>75.545382516066</ns0:latitude>
+			<ns0:mrgid_eez>8438</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.161">
+			<ns0:objectid>164</ns0:objectid>
+			<ns0:eez>Japan - South Korea Conflict Zone</ns0:eez>
+			<ns0:country>Japan - South Korea Conflict Zone</ns0:country>
+			<ns0:id>226</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>Japan / South Korea</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>226</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21794.0000000</ns0:mrgid>
+			<ns0:area_m2>6.630915111E10</ns0:area_m2>
+			<ns0:longitude>132.785339094899</ns0:longitude>
+			<ns0:latitude>38.292101361757</ns0:latitude>
+			<ns0:mrgid_eez>21794</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.168">
+			<ns0:objectid>171</ns0:objectid>
+			<ns0:eez>Sudanese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sudan</ns0:country>
+			<ns0:id>49</ns0:id>
+			<ns0:sovereign>Sudan</ns0:sovereign>
+			<ns0:sov_id>49</ns0:sov_id>
+			<ns0:eez_id>49</ns0:eez_id>
+			<ns0:iso_3digit>SDN</ns0:iso_3digit>
+			<ns0:mrgid>8355.00000000</ns0:mrgid>
+			<ns0:date_chang>2012</ns0:date_chang>
+			<ns0:area_m2>6.712489381E10</ns0:area_m2>
+			<ns0:longitude>38.16314725741</ns0:longitude>
+			<ns0:latitude>19.78763271065</ns0:latitude>
+			<ns0:mrgid_eez>8355</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.167">
+			<ns0:objectid>170</ns0:objectid>
+			<ns0:eez>British Indian Ocean Territory Exclusive Economic Zone
+			</ns0:eez>
+			<ns0:country>British Indian Ocean Territory</ns0:country>
+			<ns0:id>38</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>38</ns0:eez_id>
+			<ns0:iso_3digit>IOT</ns0:iso_3digit>
+			<ns0:mrgid>8344.00000000</ns0:mrgid>
+			<ns0:area_m2>6.412843783E11</ns0:area_m2>
+			<ns0:longitude>71.943114247326</ns0:longitude>
+			<ns0:latitude>-6.588822313345</ns0:latitude>
+			<ns0:mrgid_eez>8344</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.166">
+			<ns0:objectid>169</ns0:objectid>
+			<ns0:eez>Maldives Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Maldives</ns0:country>
+			<ns0:id>39</ns0:id>
+			<ns0:sovereign>Maldives</ns0:sovereign>
+			<ns0:sov_id>39</ns0:sov_id>
+			<ns0:eez_id>39</ns0:eez_id>
+			<ns0:iso_3digit>MDV</ns0:iso_3digit>
+			<ns0:mrgid>8345.00000000</ns0:mrgid>
+			<ns0:area_m2>9.203808016E11</ns0:area_m2>
+			<ns0:longitude>73.090167028044</ns0:longitude>
+			<ns0:latitude>2.447326795734</ns0:latitude>
+			<ns0:mrgid_eez>8345</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.165">
+			<ns0:objectid>168</ns0:objectid>
+			<ns0:eez>Guernsey Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guernsey</ns0:country>
+			<ns0:id>228</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>228</ns0:eez_id>
+			<ns0:iso_3digit>GGY</ns0:iso_3digit>
+			<ns0:mrgid>21788.0000000</ns0:mrgid>
+			<ns0:area_m2>8.666394702E9</ns0:area_m2>
+			<ns0:longitude>-2.73239724533</ns0:longitude>
+			<ns0:latitude>49.647771834255</ns0:latitude>
+			<ns0:mrgid_eez>21788</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.160">
+			<ns0:objectid>163</ns0:objectid>
+			<ns0:eez>Chilean Exclusive Economic Zone (Easter Island)</ns0:eez>
+			<ns0:country>Easter Island</ns0:country>
+			<ns0:id>225</ns0:id>
+			<ns0:sovereign>Chile</ns0:sovereign>
+			<ns0:sov_id>224</ns0:sov_id>
+			<ns0:eez_id>225</ns0:eez_id>
+			<ns0:iso_3digit>CHL</ns0:iso_3digit>
+			<ns0:mrgid>21787.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>7.216665984E11</ns0:area_m2>
+			<ns0:longitude>-107.488861696782</ns0:longitude>
+			<ns0:latitude>-26.813989206914</ns0:latitude>
+			<ns0:mrgid_eez>21787</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.60">
+			<ns0:objectid>60</ns0:objectid>
+			<ns0:eez>Lebanese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Lebanon</ns0:country>
+			<ns0:id>78</ns0:id>
+			<ns0:sovereign>Lebanon</ns0:sovereign>
+			<ns0:sov_id>78</ns0:sov_id>
+			<ns0:eez_id>78</ns0:eez_id>
+			<ns0:iso_3digit>LBN</ns0:iso_3digit>
+			<ns0:mrgid>8374.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-05-12</ns0:date_chang>
+			<ns0:area_m2>1.92206937E10</ns0:area_m2>
+			<ns0:longitude>34.932800444004</ns0:longitude>
+			<ns0:latitude>33.947099424224</ns0:latitude>
+			<ns0:mrgid_eez>8374</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.61">
+			<ns0:objectid>61</ns0:objectid>
+			<ns0:eez>Greek Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Greece</ns0:country>
+			<ns0:id>80</ns0:id>
+			<ns0:sovereign>Greece</ns0:sovereign>
+			<ns0:sov_id>80</ns0:sov_id>
+			<ns0:eez_id>80</ns0:eez_id>
+			<ns0:iso_3digit>GRC</ns0:iso_3digit>
+			<ns0:mrgid>5679.00000000</ns0:mrgid>
+			<ns0:area_m2>4.960379696E11</ns0:area_m2>
+			<ns0:longitude>23.964368137686</ns0:longitude>
+			<ns0:latitude>36.501756041196</ns0:latitude>
+			<ns0:mrgid_eez>5679</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.62">
+			<ns0:objectid>62</ns0:objectid>
+			<ns0:eez>Cypriote Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cyprus</ns0:country>
+			<ns0:id>81</ns0:id>
+			<ns0:sovereign>Cyprus</ns0:sovereign>
+			<ns0:sov_id>81</ns0:sov_id>
+			<ns0:eez_id>81</ns0:eez_id>
+			<ns0:iso_3digit>CYP</ns0:iso_3digit>
+			<ns0:mrgid>8376.00000000</ns0:mrgid>
+			<ns0:date_chang>2011-05-12</ns0:date_chang>
+			<ns0:area_m2>9.823706053E10</ns0:area_m2>
+			<ns0:longitude>32.637453704314</ns0:longitude>
+			<ns0:latitude>34.490672196741</ns0:latitude>
+			<ns0:mrgid_eez>8376</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.63">
+			<ns0:objectid>63</ns0:objectid>
+			<ns0:eez>Albanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Albania</ns0:country>
+			<ns0:id>82</ns0:id>
+			<ns0:sovereign>Albania</ns0:sovereign>
+			<ns0:sov_id>82</ns0:sov_id>
+			<ns0:eez_id>82</ns0:eez_id>
+			<ns0:iso_3digit>ALB</ns0:iso_3digit>
+			<ns0:mrgid>5670.00000000</ns0:mrgid>
+			<ns0:area_m2>1.127567369E10</ns0:area_m2>
+			<ns0:longitude>19.14937025758</ns0:longitude>
+			<ns0:latitude>40.870850014723</ns0:latitude>
+			<ns0:mrgid_eez>5670</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.64">
+			<ns0:objectid>65</ns0:objectid>
+			<ns0:eez>Algerian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Algeria</ns0:country>
+			<ns0:id>84</ns0:id>
+			<ns0:sovereign>Algeria</ns0:sovereign>
+			<ns0:sov_id>84</ns0:sov_id>
+			<ns0:eez_id>84</ns0:eez_id>
+			<ns0:iso_3digit>DZA</ns0:iso_3digit>
+			<ns0:mrgid>8378.00000000</ns0:mrgid>
+			<ns0:area_m2>1.2895617E11</ns0:area_m2>
+			<ns0:longitude>3.451056757487</ns0:longitude>
+			<ns0:latitude>37.19367506557</ns0:latitude>
+			<ns0:mrgid_eez>8378</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.65">
+			<ns0:objectid>66</ns0:objectid>
+			<ns0:eez>Ascension Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ascension</ns0:country>
+			<ns0:id>85</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>85</ns0:eez_id>
+			<ns0:iso_3digit>ASC</ns0:iso_3digit>
+			<ns0:mrgid>8379.00000000</ns0:mrgid>
+			<ns0:area_m2>4.436257364E11</ns0:area_m2>
+			<ns0:longitude>-14.366417486021</ns0:longitude>
+			<ns0:latitude>-7.949835903228</ns0:latitude>
+			<ns0:mrgid_eez>8379</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.66">
+			<ns0:objectid>67</ns0:objectid>
+			<ns0:eez>St. Helena Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saint Helena</ns0:country>
+			<ns0:id>86</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>86</ns0:eez_id>
+			<ns0:iso_3digit>SHN</ns0:iso_3digit>
+			<ns0:mrgid>8380.00000000</ns0:mrgid>
+			<ns0:area_m2>4.464556615E11</ns0:area_m2>
+			<ns0:longitude>-5.709443690021</ns0:longitude>
+			<ns0:latitude>-15.975892154503</ns0:latitude>
+			<ns0:mrgid_eez>8380</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.67">
+			<ns0:objectid>68</ns0:objectid>
+			<ns0:eez>Brazilian Exclusive Economic Zone (Trindade)</ns0:eez>
+			<ns0:country>Trindade</ns0:country>
+			<ns0:id>87</ns0:id>
+			<ns0:sovereign>Brazil</ns0:sovereign>
+			<ns0:sov_id>171</ns0:sov_id>
+			<ns0:eez_id>87</ns0:eez_id>
+			<ns0:iso_3digit>BRA</ns0:iso_3digit>
+			<ns0:mrgid>8381.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>4.699538633E11</ns0:area_m2>
+			<ns0:longitude>-29.093534891823</ns0:longitude>
+			<ns0:latitude>-20.501690999229</ns0:latitude>
+			<ns0:mrgid_eez>8381</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.68">
+			<ns0:objectid>69</ns0:objectid>
+			<ns0:eez>Tristan Da Cunha Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tristan da Cunha</ns0:country>
+			<ns0:id>88</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>88</ns0:eez_id>
+			<ns0:iso_3digit>TAA</ns0:iso_3digit>
+			<ns0:mrgid>8382.00000000</ns0:mrgid>
+			<ns0:area_m2>7.543060036E11</ns0:area_m2>
+			<ns0:longitude>-11.207646226714</ns0:longitude>
+			<ns0:latitude>-38.770296213014</ns0:latitude>
+			<ns0:mrgid_eez>8382</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.69">
+			<ns0:objectid>70</ns0:objectid>
+			<ns0:eez>South Georgian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>South Georgia and the South Sandwich Islands
+			</ns0:country>
+			<ns0:id>89</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>89</ns0:eez_id>
+			<ns0:iso_3digit>SGS</ns0:iso_3digit>
+			<ns0:mrgid>8383.00000000</ns0:mrgid>
+			<ns0:area_m2>1.442947063E12</ns0:area_m2>
+			<ns0:longitude>-33.03421387196</ns0:longitude>
+			<ns0:latitude>-56.090592436937</ns0:latitude>
+			<ns0:mrgid_eez>8383</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.159">
+			<ns0:objectid>161</ns0:objectid>
+			<ns0:eez>Saint-Martin Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Northern Saint-Martin</ns0:country>
+			<ns0:id>221</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>221</ns0:eez_id>
+			<ns0:iso_3digit>MAF</ns0:iso_3digit>
+			<ns0:mrgid>8495.00000000</ns0:mrgid>
+			<ns0:area_m2>5.455543164E9</ns0:area_m2>
+			<ns0:longitude>-62.743825070002</ns0:longitude>
+			<ns0:latitude>17.953184378315</ns0:latitude>
+			<ns0:mrgid_eez>8495</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.158">
+			<ns0:objectid>160</ns0:objectid>
+			<ns0:eez>Saba Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saba</ns0:country>
+			<ns0:id>248</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>248</ns0:eez_id>
+			<ns0:iso_3digit>BES</ns0:iso_3digit>
+			<ns0:mrgid>26518.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>9.469752105E9</ns0:area_m2>
+			<ns0:longitude>-63.602709425372</ns0:longitude>
+			<ns0:latitude>17.381745890364</ns0:latitude>
+			<ns0:mrgid_eez>26518</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.153">
+			<ns0:objectid>155</ns0:objectid>
+			<ns0:eez>Bangladeshi Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bangladesh</ns0:country>
+			<ns0:id>204</ns0:id>
+			<ns0:sovereign>Bangladesh</ns0:sovereign>
+			<ns0:sov_id>204</ns0:sov_id>
+			<ns0:eez_id>204</ns0:eez_id>
+			<ns0:iso_3digit>BGD</ns0:iso_3digit>
+			<ns0:mrgid>8481.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>8.564821549E10</ns0:area_m2>
+			<ns0:longitude>90.724211647433</ns0:longitude>
+			<ns0:latitude>20.875073537815</ns0:latitude>
+			<ns0:mrgid_eez>8481</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.152">
+			<ns0:objectid>154</ns0:objectid>
+			<ns0:eez>Tanzanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tanzania</ns0:country>
+			<ns0:id>202</ns0:id>
+			<ns0:sovereign>Tanzania</ns0:sovereign>
+			<ns0:sov_id>202</ns0:sov_id>
+			<ns0:eez_id>202</ns0:eez_id>
+			<ns0:iso_3digit>TZA</ns0:iso_3digit>
+			<ns0:mrgid>8479.00000000</ns0:mrgid>
+			<ns0:area_m2>2.422892486E11</ns0:area_m2>
+			<ns0:longitude>41.165035889867</ns0:longitude>
+			<ns0:latitude>-7.210103556163</ns0:latitude>
+			<ns0:mrgid_eez>8479</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.151">
+			<ns0:objectid>153</ns0:objectid>
+			<ns0:eez>Nigeria - Sao Tome and Principe Joint</ns0:eez>
+			<ns0:country>Nigeria - Sao Tome and Principe</ns0:country>
+			<ns0:id>201</ns0:id>
+			<ns0:sovereign>Joint Regime</ns0:sovereign>
+			<ns0:remarks>Nigeria / Sao Tome and Principe</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>201</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21797.0000000</ns0:mrgid>
+			<ns0:area_m2>3.469089818E10</ns0:area_m2>
+			<ns0:longitude>5.587084838933</ns0:longitude>
+			<ns0:latitude>2.067675019056</ns0:latitude>
+			<ns0:mrgid_eez>21797</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.150">
+			<ns0:objectid>152</ns0:objectid>
+			<ns0:eez>Angolan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Angola</ns0:country>
+			<ns0:id>200</ns0:id>
+			<ns0:sovereign>Angola</ns0:sovereign>
+			<ns0:sov_id>200</ns0:sov_id>
+			<ns0:eez_id>200</ns0:eez_id>
+			<ns0:iso_3digit>AGO</ns0:iso_3digit>
+			<ns0:mrgid>8478.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.919917204E11</ns0:area_m2>
+			<ns0:longitude>11.04165266874</ns0:longitude>
+			<ns0:latitude>-11.741202640311</ns0:latitude>
+			<ns0:mrgid_eez>8478</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.157">
+			<ns0:objectid>159</ns0:objectid>
+			<ns0:eez>Saint-Pierre and Miquelon Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saint Pierre and Miquelon</ns0:country>
+			<ns0:id>219</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>219</ns0:eez_id>
+			<ns0:iso_3digit>SPM</ns0:iso_3digit>
+			<ns0:mrgid>8494.00000000</ns0:mrgid>
+			<ns0:area_m2>1.254884441E10</ns0:area_m2>
+			<ns0:longitude>-56.38326426275</ns0:longitude>
+			<ns0:latitude>45.872766427298</ns0:latitude>
+			<ns0:mrgid_eez>8494</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.156">
+			<ns0:objectid>158</ns0:objectid>
+			<ns0:eez>Antarctic 200NM zone beyond the coastline</ns0:eez>
+			<ns0:country>Antarctica</ns0:country>
+			<ns0:id>213</ns0:id>
+			<ns0:sovereign>Antarctica</ns0:sovereign>
+			<ns0:sov_id>213</ns0:sov_id>
+			<ns0:eez_id>213</ns0:eez_id>
+			<ns0:iso_3digit>ATA</ns0:iso_3digit>
+			<ns0:mrgid>8489.00000000</ns0:mrgid>
+			<ns0:area_m2>1.023394048E13</ns0:area_m2>
+			<ns0:longitude>-10.496271027237</ns0:longitude>
+			<ns0:latitude>-71.003705767328</ns0:latitude>
+			<ns0:mrgid_eez>8489</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.155">
+			<ns0:objectid>157</ns0:objectid>
+			<ns0:eez>Singaporean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Singapore</ns0:country>
+			<ns0:id>208</ns0:id>
+			<ns0:sovereign>Singapore</ns0:sovereign>
+			<ns0:sov_id>208</ns0:sov_id>
+			<ns0:eez_id>208</ns0:eez_id>
+			<ns0:iso_3digit>SGP</ns0:iso_3digit>
+			<ns0:mrgid>8485.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>7.98369962E8</ns0:area_m2>
+			<ns0:longitude>103.84292691952</ns0:longitude>
+			<ns0:latitude>1.292273903177</ns0:latitude>
+			<ns0:mrgid_eez>8485</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.154">
+			<ns0:objectid>156</ns0:objectid>
+			<ns0:eez>Myanmar Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Myanmar</ns0:country>
+			<ns0:id>205</ns0:id>
+			<ns0:sovereign>Myanmar</ns0:sovereign>
+			<ns0:sov_id>205</ns0:sov_id>
+			<ns0:eez_id>205</ns0:eez_id>
+			<ns0:iso_3digit>MMR</ns0:iso_3digit>
+			<ns0:mrgid>8482.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>5.166816746E11</ns0:area_m2>
+			<ns0:longitude>94.547412483802</ns0:longitude>
+			<ns0:latitude>15.100511624667</ns0:latitude>
+			<ns0:mrgid_eez>8482</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.90">
+			<ns0:objectid>91</ns0:objectid>
+			<ns0:eez>Cuban Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cuba</ns0:country>
+			<ns0:id>112</ns0:id>
+			<ns0:sovereign>Cuba</ns0:sovereign>
+			<ns0:sov_id>112</ns0:sov_id>
+			<ns0:eez_id>112</ns0:eez_id>
+			<ns0:iso_3digit>CUB</ns0:iso_3digit>
+			<ns0:mrgid>8406.00000000</ns0:mrgid>
+			<ns0:area_m2>3.669020229E11</ns0:area_m2>
+			<ns0:longitude>-81.245979425456</ns0:longitude>
+			<ns0:latitude>21.65785292534</ns0:latitude>
+			<ns0:mrgid_eez>8406</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.91">
+			<ns0:objectid>92</ns0:objectid>
+			<ns0:eez>Cayman Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cayman Islands</ns0:country>
+			<ns0:id>113</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>113</ns0:eez_id>
+			<ns0:iso_3digit>CYM</ns0:iso_3digit>
+			<ns0:mrgid>8407.00000000</ns0:mrgid>
+			<ns0:area_m2>1.194427165E11</ns0:area_m2>
+			<ns0:longitude>-81.133281935695</ns0:longitude>
+			<ns0:latitude>19.151521770226</ns0:latitude>
+			<ns0:mrgid_eez>8407</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.92">
+			<ns0:objectid>93</ns0:objectid>
+			<ns0:eez>Dominican Republic Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Dominican Republic</ns0:country>
+			<ns0:id>115</ns0:id>
+			<ns0:sovereign>Dominican Republic</ns0:sovereign>
+			<ns0:sov_id>115</ns0:sov_id>
+			<ns0:eez_id>115</ns0:eez_id>
+			<ns0:iso_3digit>DOM</ns0:iso_3digit>
+			<ns0:mrgid>8409.00000000</ns0:mrgid>
+			<ns0:area_m2>2.700999859E11</ns0:area_m2>
+			<ns0:longitude>-69.945268740854</ns0:longitude>
+			<ns0:latitude>18.13196923316</ns0:latitude>
+			<ns0:mrgid_eez>8409</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.93">
+			<ns0:objectid>1588</ns0:objectid>
+			<ns0:eez>Puerto Rican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Puerto Rico</ns0:country>
+			<ns0:id>255</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>255</ns0:eez_id>
+			<ns0:iso_3digit>PRI</ns0:iso_3digit>
+			<ns0:mrgid>33179.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.756101952E11</ns0:area_m2>
+			<ns0:longitude>-66.773129494641</ns0:longitude>
+			<ns0:latitude>18.114944597883</ns0:latitude>
+			<ns0:mrgid_eez>33179</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.94">
+			<ns0:objectid>96</ns0:objectid>
+			<ns0:eez>British Virgin Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>British Virgin Islands</ns0:country>
+			<ns0:id>117</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>117</ns0:eez_id>
+			<ns0:iso_3digit>VGB</ns0:iso_3digit>
+			<ns0:mrgid>8411.00000000</ns0:mrgid>
+			<ns0:area_m2>8.039655896E10</ns0:area_m2>
+			<ns0:longitude>-64.515676070552</ns0:longitude>
+			<ns0:latitude>20.371232876562</ns0:latitude>
+			<ns0:mrgid_eez>8411</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.95">
+			<ns0:objectid>97</ns0:objectid>
+			<ns0:eez>Anguilla Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Anguilla</ns0:country>
+			<ns0:id>118</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>118</ns0:eez_id>
+			<ns0:iso_3digit>AIA</ns0:iso_3digit>
+			<ns0:mrgid>8412.00000000</ns0:mrgid>
+			<ns0:area_m2>9.242880101E10</ns0:area_m2>
+			<ns0:longitude>-62.53169163257</ns0:longitude>
+			<ns0:latitude>20.017916630235</ns0:latitude>
+			<ns0:mrgid_eez>8412</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.96">
+			<ns0:objectid>98</ns0:objectid>
+			<ns0:eez>Saint Kitts and Nevis Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saint Kitts and Nevis</ns0:country>
+			<ns0:id>119</ns0:id>
+			<ns0:sovereign>Saint Kitts and Nevis</ns0:sovereign>
+			<ns0:sov_id>119</ns0:sov_id>
+			<ns0:eez_id>119</ns0:eez_id>
+			<ns0:iso_3digit>KNA</ns0:iso_3digit>
+			<ns0:mrgid>8413.00000000</ns0:mrgid>
+			<ns0:area_m2>1.031533832E10</ns0:area_m2>
+			<ns0:longitude>-62.855699247838</ns0:longitude>
+			<ns0:latitude>17.025587502864</ns0:latitude>
+			<ns0:mrgid_eez>8413</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.97">
+			<ns0:objectid>99</ns0:objectid>
+			<ns0:eez>Antigua and Barbuda Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Antigua and Barbuda</ns0:country>
+			<ns0:id>120</ns0:id>
+			<ns0:sovereign>Antigua and Barbuda</ns0:sovereign>
+			<ns0:sov_id>120</ns0:sov_id>
+			<ns0:eez_id>120</ns0:eez_id>
+			<ns0:iso_3digit>ATG</ns0:iso_3digit>
+			<ns0:mrgid>8414.00000000</ns0:mrgid>
+			<ns0:area_m2>1.081791127E11</ns0:area_m2>
+			<ns0:longitude>-60.543975168095</ns0:longitude>
+			<ns0:latitude>18.720135858664</ns0:latitude>
+			<ns0:mrgid_eez>8414</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.98">
+			<ns0:objectid>100</ns0:objectid>
+			<ns0:eez>Montserrat Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Montserrat</ns0:country>
+			<ns0:id>121</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>121</ns0:eez_id>
+			<ns0:iso_3digit>MSR</ns0:iso_3digit>
+			<ns0:mrgid>8415.00000000</ns0:mrgid>
+			<ns0:area_m2>7.59895205E9</ns0:area_m2>
+			<ns0:longitude>-62.464903077535</ns0:longitude>
+			<ns0:latitude>16.437699252803</ns0:latitude>
+			<ns0:mrgid_eez>8415</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.99">
+			<ns0:objectid>101</ns0:objectid>
+			<ns0:eez>Saint Lucia Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Saint Lucia</ns0:country>
+			<ns0:id>122</ns0:id>
+			<ns0:sovereign>Saint Lucia</ns0:sovereign>
+			<ns0:sov_id>122</ns0:sov_id>
+			<ns0:eez_id>122</ns0:eez_id>
+			<ns0:iso_3digit>LCA</ns0:iso_3digit>
+			<ns0:mrgid>8416.00000000</ns0:mrgid>
+			<ns0:area_m2>1.551013675E10</ns0:area_m2>
+			<ns0:longitude>-61.102577804924</ns0:longitude>
+			<ns0:latitude>13.875940732382</ns0:latitude>
+			<ns0:mrgid_eez>8416</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.149">
+			<ns0:objectid>151</ns0:objectid>
+			<ns0:eez>Democratic Republic of the Congo Exclusive Economic Zone
+			</ns0:eez>
+			<ns0:country>Democratic Republic of the Congo</ns0:country>
+			<ns0:id>199</ns0:id>
+			<ns0:sovereign>Democratic Republic of the Congo</ns0:sovereign>
+			<ns0:sov_id>199</ns0:sov_id>
+			<ns0:eez_id>199</ns0:eez_id>
+			<ns0:iso_3digit>COD</ns0:iso_3digit>
+			<ns0:mrgid>8477.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.389422408E10</ns0:area_m2>
+			<ns0:longitude>10.794601998498</ns0:longitude>
+			<ns0:latitude>-6.387426589334</ns0:latitude>
+			<ns0:mrgid_eez>8477</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.148">
+			<ns0:objectid>150</ns0:objectid>
+			<ns0:eez>Gabonese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Gabon</ns0:country>
+			<ns0:id>198</ns0:id>
+			<ns0:sovereign>Gabon</ns0:sovereign>
+			<ns0:sov_id>198</ns0:sov_id>
+			<ns0:eez_id>198</ns0:eez_id>
+			<ns0:iso_3digit>GAB</ns0:iso_3digit>
+			<ns0:mrgid>8476.00000000</ns0:mrgid>
+			<ns0:area_m2>1.943428123E11</ns0:area_m2>
+			<ns0:longitude>8.75808496468</ns0:longitude>
+			<ns0:latitude>-3.045475459284</ns0:latitude>
+			<ns0:mrgid_eez>8476</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.147">
+			<ns0:objectid>149</ns0:objectid>
+			<ns0:eez>Cameroonian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cameroon</ns0:country>
+			<ns0:id>197</ns0:id>
+			<ns0:sovereign>Cameroon</ns0:sovereign>
+			<ns0:sov_id>197</ns0:sov_id>
+			<ns0:eez_id>197</ns0:eez_id>
+			<ns0:iso_3digit>CMR</ns0:iso_3digit>
+			<ns0:mrgid>8475.00000000</ns0:mrgid>
+			<ns0:area_m2>1.448681877E10</ns0:area_m2>
+			<ns0:longitude>9.300267752926</ns0:longitude>
+			<ns0:latitude>3.470553206305</ns0:latitude>
+			<ns0:mrgid_eez>8475</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.142">
+			<ns0:objectid>144</ns0:objectid>
+			<ns0:eez>Iraqi Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Iraq</ns0:country>
+			<ns0:id>192</ns0:id>
+			<ns0:sovereign>Iraq</ns0:sovereign>
+			<ns0:sov_id>192</ns0:sov_id>
+			<ns0:eez_id>192</ns0:eez_id>
+			<ns0:iso_3digit>IRQ</ns0:iso_3digit>
+			<ns0:mrgid>8470.00000000</ns0:mrgid>
+			<ns0:area_m2>6.190345624E8</ns0:area_m2>
+			<ns0:longitude>48.478236066761</ns0:longitude>
+			<ns0:latitude>29.860799056176</ns0:latitude>
+			<ns0:mrgid_eez>8470</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.141">
+			<ns0:objectid>143</ns0:objectid>
+			<ns0:eez>Lithuanian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Lithuania</ns0:country>
+			<ns0:id>189</ns0:id>
+			<ns0:sovereign>Lithuania</ns0:sovereign>
+			<ns0:sov_id>189</ns0:sov_id>
+			<ns0:eez_id>189</ns0:eez_id>
+			<ns0:iso_3digit>LTU</ns0:iso_3digit>
+			<ns0:mrgid>5684.00000000</ns0:mrgid>
+			<ns0:area_m2>6.096158189E9</ns0:area_m2>
+			<ns0:longitude>20.42686775441</ns0:longitude>
+			<ns0:latitude>55.727253829662</ns0:latitude>
+			<ns0:mrgid_eez>5684</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.140">
+			<ns0:objectid>142</ns0:objectid>
+			<ns0:eez>Slovenian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Slovenia</ns0:country>
+			<ns0:id>188</ns0:id>
+			<ns0:sovereign>Slovenia</ns0:sovereign>
+			<ns0:sov_id>188</ns0:sov_id>
+			<ns0:eez_id>188</ns0:eez_id>
+			<ns0:iso_3digit>SVN</ns0:iso_3digit>
+			<ns0:mrgid>5692.00000000</ns0:mrgid>
+			<ns0:area_m2>1.957726483E8</ns0:area_m2>
+			<ns0:longitude>13.601083016143</ns0:longitude>
+			<ns0:latitude>45.574893960705</ns0:latitude>
+			<ns0:mrgid_eez>5692</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.146">
+			<ns0:objectid>148</ns0:objectid>
+			<ns0:eez>Nigerian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Nigeria</ns0:country>
+			<ns0:id>196</ns0:id>
+			<ns0:sovereign>Nigeria</ns0:sovereign>
+			<ns0:sov_id>196</ns0:sov_id>
+			<ns0:eez_id>196</ns0:eez_id>
+			<ns0:iso_3digit>NGA</ns0:iso_3digit>
+			<ns0:mrgid>8474.00000000</ns0:mrgid>
+			<ns0:area_m2>1.829564724E11</ns0:area_m2>
+			<ns0:longitude>4.764470854754</ns0:longitude>
+			<ns0:latitude>4.070746573523</ns0:latitude>
+			<ns0:mrgid_eez>8474</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.145">
+			<ns0:objectid>147</ns0:objectid>
+			<ns0:eez>Ivory Coast Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ivory Coast</ns0:country>
+			<ns0:id>195</ns0:id>
+			<ns0:sovereign>Ivory Coast</ns0:sovereign>
+			<ns0:sov_id>195</ns0:sov_id>
+			<ns0:eez_id>195</ns0:eez_id>
+			<ns0:iso_3digit>CIV</ns0:iso_3digit>
+			<ns0:mrgid>8473.00000000</ns0:mrgid>
+			<ns0:area_m2>1.753468271E11</ns0:area_m2>
+			<ns0:longitude>-5.504120972837</ns0:longitude>
+			<ns0:latitude>3.289538378476</ns0:latitude>
+			<ns0:mrgid_eez>8473</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.144">
+			<ns0:objectid>146</ns0:objectid>
+			<ns0:eez>Guinean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guinea</ns0:country>
+			<ns0:id>194</ns0:id>
+			<ns0:sovereign>Guinea</ns0:sovereign>
+			<ns0:sov_id>194</ns0:sov_id>
+			<ns0:eez_id>194</ns0:eez_id>
+			<ns0:iso_3digit>GIN</ns0:iso_3digit>
+			<ns0:mrgid>8472.00000000</ns0:mrgid>
+			<ns0:area_m2>1.097055379E11</ns0:area_m2>
+			<ns0:longitude>-15.7630756572</ns0:longitude>
+			<ns0:latitude>9.119803029202</ns0:latitude>
+			<ns0:mrgid_eez>8472</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.143">
+			<ns0:objectid>145</ns0:objectid>
+			<ns0:eez>Guinea Bissau Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guinea Bissau</ns0:country>
+			<ns0:id>193</ns0:id>
+			<ns0:sovereign>Guinea Bissau</ns0:sovereign>
+			<ns0:sov_id>193</ns0:sov_id>
+			<ns0:eez_id>193</ns0:eez_id>
+			<ns0:iso_3digit>GNB</ns0:iso_3digit>
+			<ns0:mrgid>8471.00000000</ns0:mrgid>
+			<ns0:area_m2>1.069023322E11</ns0:area_m2>
+			<ns0:longitude>-17.557922079912</ns0:longitude>
+			<ns0:latitude>10.58316770604</ns0:latitude>
+			<ns0:mrgid_eez>8471</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.80">
+			<ns0:objectid>81</ns0:objectid>
+			<ns0:eez>Congolese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>République du Congo</ns0:country>
+			<ns0:id>100</ns0:id>
+			<ns0:sovereign>République du Congo</ns0:sovereign>
+			<ns0:sov_id>100</ns0:sov_id>
+			<ns0:eez_id>100</ns0:eez_id>
+			<ns0:iso_3digit>COG</ns0:iso_3digit>
+			<ns0:mrgid>8394.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>3.975404398E10</ns0:area_m2>
+			<ns0:longitude>10.52262662689</ns0:longitude>
+			<ns0:latitude>-5.408894002042</ns0:latitude>
+			<ns0:mrgid_eez>8394</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.81">
+			<ns0:objectid>82</ns0:objectid>
+			<ns0:eez>Namibian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Namibia</ns0:country>
+			<ns0:id>101</ns0:id>
+			<ns0:sovereign>Namibia</ns0:sovereign>
+			<ns0:sov_id>101</ns0:sov_id>
+			<ns0:eez_id>101</ns0:eez_id>
+			<ns0:iso_3digit>NAM</ns0:iso_3digit>
+			<ns0:mrgid>8395.00000000</ns0:mrgid>
+			<ns0:area_m2>5.609005012E11</ns0:area_m2>
+			<ns0:longitude>12.288472532594</ns0:longitude>
+			<ns0:latitude>-23.645618445337</ns0:latitude>
+			<ns0:mrgid_eez>8395</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.82">
+			<ns0:objectid>83</ns0:objectid>
+			<ns0:eez>South African Exclusive Economic Zone</ns0:eez>
+			<ns0:country>South Africa</ns0:country>
+			<ns0:id>102</ns0:id>
+			<ns0:sovereign>South Africa</ns0:sovereign>
+			<ns0:sov_id>102</ns0:sov_id>
+			<ns0:eez_id>102</ns0:eez_id>
+			<ns0:iso_3digit>ZAF</ns0:iso_3digit>
+			<ns0:mrgid>8396.00000000</ns0:mrgid>
+			<ns0:area_m2>1.066538011E12</ns0:area_m2>
+			<ns0:longitude>24.401567911152</ns0:longitude>
+			<ns0:latitude>-33.512203989651</ns0:latitude>
+			<ns0:mrgid_eez>8396</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.83">
+			<ns0:objectid>84</ns0:objectid>
+			<ns0:eez>Sao Tome and Principe Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sao Tome and Principe</ns0:country>
+			<ns0:id>103</ns0:id>
+			<ns0:sovereign>Sao Tome and Principe</ns0:sovereign>
+			<ns0:sov_id>103</ns0:sov_id>
+			<ns0:eez_id>103</ns0:eez_id>
+			<ns0:iso_3digit>STP</ns0:iso_3digit>
+			<ns0:mrgid>8397.00000000</ns0:mrgid>
+			<ns0:area_m2>1.312567501E11</ns0:area_m2>
+			<ns0:longitude>6.35408803486</ns0:longitude>
+			<ns0:latitude>0.778743209006</ns0:latitude>
+			<ns0:mrgid_eez>8397</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.84">
+			<ns0:objectid>85</ns0:objectid>
+			<ns0:eez>Bouvet Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bouvet Island</ns0:country>
+			<ns0:id>105</ns0:id>
+			<ns0:sovereign>Norway</ns0:sovereign>
+			<ns0:sov_id>223</ns0:sov_id>
+			<ns0:eez_id>105</ns0:eez_id>
+			<ns0:iso_3digit>BVT</ns0:iso_3digit>
+			<ns0:mrgid>8399.00000000</ns0:mrgid>
+			<ns0:area_m2>4.39240011E11</ns0:area_m2>
+			<ns0:longitude>3.407373564405</ns0:longitude>
+			<ns0:latitude>-54.467214069839</ns0:latitude>
+			<ns0:mrgid_eez>8399</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.85">
+			<ns0:objectid>86</ns0:objectid>
+			<ns0:eez>Ghanaian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Ghana</ns0:country>
+			<ns0:id>106</ns0:id>
+			<ns0:sovereign>Ghana</ns0:sovereign>
+			<ns0:sov_id>106</ns0:sov_id>
+			<ns0:eez_id>106</ns0:eez_id>
+			<ns0:iso_3digit>GHA</ns0:iso_3digit>
+			<ns0:mrgid>8400.00000000</ns0:mrgid>
+			<ns0:area_m2>2.259184631E11</ns0:area_m2>
+			<ns0:longitude>-0.85943672882</ns0:longitude>
+			<ns0:latitude>3.510659968505</ns0:latitude>
+			<ns0:mrgid_eez>8400</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.86">
+			<ns0:objectid>87</ns0:objectid>
+			<ns0:eez>Clipperton Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Clipperton Island</ns0:country>
+			<ns0:id>107</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>107</ns0:eez_id>
+			<ns0:iso_3digit>CPT</ns0:iso_3digit>
+			<ns0:mrgid>8401.00000000</ns0:mrgid>
+			<ns0:area_m2>4.330357722E11</ns0:area_m2>
+			<ns0:longitude>-109.219197141757</ns0:longitude>
+			<ns0:latitude>10.301812874362</ns0:latitude>
+			<ns0:mrgid_eez>8401</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.87">
+			<ns0:objectid>88</ns0:objectid>
+			<ns0:eez>Bermudian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bermuda</ns0:country>
+			<ns0:id>108</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>108</ns0:eez_id>
+			<ns0:iso_3digit>BMU</ns0:iso_3digit>
+			<ns0:mrgid>8402.00000000</ns0:mrgid>
+			<ns0:area_m2>4.506912518E11</ns0:area_m2>
+			<ns0:longitude>-64.767953603383</ns0:longitude>
+			<ns0:latitude>32.333579410321</ns0:latitude>
+			<ns0:mrgid_eez>8402</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.88">
+			<ns0:objectid>89</ns0:objectid>
+			<ns0:eez>Ecuadorean Exclusive Economic Zone (Galapagos)</ns0:eez>
+			<ns0:country>Galapagos Islands</ns0:country>
+			<ns0:id>109</ns0:id>
+			<ns0:sovereign>Ecuador</ns0:sovereign>
+			<ns0:sov_id>137</ns0:sov_id>
+			<ns0:eez_id>109</ns0:eez_id>
+			<ns0:iso_3digit>ECU</ns0:iso_3digit>
+			<ns0:mrgid>8403.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>8.396987232E11</ns0:area_m2>
+			<ns0:longitude>-90.830729173785</ns0:longitude>
+			<ns0:latitude>-0.039787861686</ns0:latitude>
+			<ns0:mrgid_eez>8403</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.89">
+			<ns0:objectid>90</ns0:objectid>
+			<ns0:eez>Turks and Caicos Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Turks and Caicos Islands</ns0:country>
+			<ns0:id>111</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>111</ns0:eez_id>
+			<ns0:iso_3digit>TCA</ns0:iso_3digit>
+			<ns0:mrgid>8405.00000000</ns0:mrgid>
+			<ns0:area_m2>1.545504602E11</ns0:area_m2>
+			<ns0:longitude>-70.309949421357</ns0:longitude>
+			<ns0:latitude>22.561592689641</ns0:latitude>
+			<ns0:mrgid_eez>8405</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.139">
+			<ns0:objectid>141</ns0:objectid>
+			<ns0:eez>Croatian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Croatia</ns0:country>
+			<ns0:id>187</ns0:id>
+			<ns0:sovereign>Croatia</ns0:sovereign>
+			<ns0:sov_id>187</ns0:sov_id>
+			<ns0:eez_id>187</ns0:eez_id>
+			<ns0:iso_3digit>HRV</ns0:iso_3digit>
+			<ns0:mrgid>5673.00000000</ns0:mrgid>
+			<ns0:date_chang>2009-10-01</ns0:date_chang>
+			<ns0:area_m2>5.613179637E10</ns0:area_m2>
+			<ns0:longitude>15.645810747213</ns0:longitude>
+			<ns0:latitude>43.4362561903</ns0:latitude>
+			<ns0:mrgid_eez>5673</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.138">
+			<ns0:objectid>140</ns0:objectid>
+			<ns0:eez>Italian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Italy</ns0:country>
+			<ns0:id>184</ns0:id>
+			<ns0:sovereign>Italy</ns0:sovereign>
+			<ns0:sov_id>184</ns0:sov_id>
+			<ns0:eez_id>184</ns0:eez_id>
+			<ns0:iso_3digit>ITA</ns0:iso_3digit>
+			<ns0:mrgid>5682.00000000</ns0:mrgid>
+			<ns0:area_m2>5.389734283E11</ns0:area_m2>
+			<ns0:longitude>12.956918488951</ns0:longitude>
+			<ns0:latitude>39.63055340118</ns0:latitude>
+			<ns0:mrgid_eez>5682</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.137">
+			<ns0:objectid>139</ns0:objectid>
+			<ns0:eez>Dutch Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Netherlands</ns0:country>
+			<ns0:id>177</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>177</ns0:eez_id>
+			<ns0:iso_3digit>NLD</ns0:iso_3digit>
+			<ns0:mrgid>5668.00000000</ns0:mrgid>
+			<ns0:area_m2>6.372765862E10</ns0:area_m2>
+			<ns0:longitude>4.188581752042</ns0:longitude>
+			<ns0:latitude>53.623705548891</ns0:latitude>
+			<ns0:mrgid_eez>5668</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.136">
+			<ns0:objectid>138</ns0:objectid>
+			<ns0:eez>Danish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Denmark</ns0:country>
+			<ns0:id>175</ns0:id>
+			<ns0:sovereign>Denmark</ns0:sovereign>
+			<ns0:sov_id>175</ns0:sov_id>
+			<ns0:eez_id>175</ns0:eez_id>
+			<ns0:iso_3digit>DNK</ns0:iso_3digit>
+			<ns0:mrgid>5674.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>1.027932847E11</ns0:area_m2>
+			<ns0:longitude>9.116055996217</ns0:longitude>
+			<ns0:latitude>56.168998210409</ns0:latitude>
+			<ns0:mrgid_eez>5674</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.131">
+			<ns0:objectid>133</ns0:objectid>
+			<ns0:eez>Guyanese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Guyana</ns0:country>
+			<ns0:id>167</ns0:id>
+			<ns0:sovereign>Guyana</ns0:sovereign>
+			<ns0:sov_id>167</ns0:sov_id>
+			<ns0:eez_id>167</ns0:eez_id>
+			<ns0:iso_3digit>GUY</ns0:iso_3digit>
+			<ns0:mrgid>8460.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.366486221E11</ns0:area_m2>
+			<ns0:longitude>-57.666268218349</ns0:longitude>
+			<ns0:latitude>8.615669591566</ns0:latitude>
+			<ns0:mrgid_eez>8460</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.130">
+			<ns0:objectid>132</ns0:objectid>
+			<ns0:eez>Jamaican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Jamaica</ns0:country>
+			<ns0:id>166</ns0:id>
+			<ns0:sovereign>Jamaica</ns0:sovereign>
+			<ns0:sov_id>166</ns0:sov_id>
+			<ns0:eez_id>166</ns0:eez_id>
+			<ns0:iso_3digit>JAM</ns0:iso_3digit>
+			<ns0:mrgid>8459.00000000</ns0:mrgid>
+			<ns0:area_m2>2.456606249E11</ns0:area_m2>
+			<ns0:longitude>-77.288997264752</ns0:longitude>
+			<ns0:latitude>16.705030339541</ns0:latitude>
+			<ns0:mrgid_eez>8459</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.135">
+			<ns0:objectid>137</ns0:objectid>
+			<ns0:eez>Finnish Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Finland</ns0:country>
+			<ns0:id>174</ns0:id>
+			<ns0:sovereign>Finland</ns0:sovereign>
+			<ns0:sov_id>174</ns0:sov_id>
+			<ns0:eez_id>174</ns0:eez_id>
+			<ns0:iso_3digit>FIN</ns0:iso_3digit>
+			<ns0:mrgid>5676.00000000</ns0:mrgid>
+			<ns0:area_m2>8.376339031E10</ns0:area_m2>
+			<ns0:longitude>21.879300624036</ns0:longitude>
+			<ns0:latitude>61.693221450515</ns0:latitude>
+			<ns0:mrgid_eez>5676</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.134">
+			<ns0:objectid>136</ns0:objectid>
+			<ns0:eez>Brazilian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Brazil</ns0:country>
+			<ns0:id>171</ns0:id>
+			<ns0:sovereign>Brazil</ns0:sovereign>
+			<ns0:sov_id>171</ns0:sov_id>
+			<ns0:eez_id>171</ns0:eez_id>
+			<ns0:iso_3digit>BRA</ns0:iso_3digit>
+			<ns0:mrgid>8464.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>3.198181968E12</ns0:area_m2>
+			<ns0:longitude>-39.431487279086</ns0:longitude>
+			<ns0:latitude>-11.141117257714</ns0:latitude>
+			<ns0:mrgid_eez>8464</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.133">
+			<ns0:objectid>135</ns0:objectid>
+			<ns0:eez>French Guiana Exclusive Economic Zone</ns0:eez>
+			<ns0:country>French Guiana</ns0:country>
+			<ns0:id>169</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>169</ns0:eez_id>
+			<ns0:iso_3digit>GUF</ns0:iso_3digit>
+			<ns0:mrgid>8462.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>1.353161456E11</ns0:area_m2>
+			<ns0:longitude>-51.804486220578</ns0:longitude>
+			<ns0:latitude>6.706067891674</ns0:latitude>
+			<ns0:mrgid_eez>8462</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.132">
+			<ns0:objectid>134</ns0:objectid>
+			<ns0:eez>Surinamese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Suriname</ns0:country>
+			<ns0:id>168</ns0:id>
+			<ns0:sovereign>Suriname</ns0:sovereign>
+			<ns0:sov_id>168</ns0:sov_id>
+			<ns0:eez_id>168</ns0:eez_id>
+			<ns0:iso_3digit>SUR</ns0:iso_3digit>
+			<ns0:mrgid>8461.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>1.288094742E11</ns0:area_m2>
+			<ns0:longitude>-54.840362520375</ns0:longitude>
+			<ns0:latitude>7.574685744421</ns0:latitude>
+			<ns0:mrgid_eez>8461</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.128">
+			<ns0:objectid>130</ns0:objectid>
+			<ns0:eez>United States Exclusive Exclusive Economic Zone (Hawaii)
+			</ns0:eez>
+			<ns0:country>Hawaii</ns0:country>
+			<ns0:id>160</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>160</ns0:eez_id>
+			<ns0:iso_3digit>USA</ns0:iso_3digit>
+			<ns0:mrgid>8453.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>2.480254211E12</ns0:area_m2>
+			<ns0:longitude>-151.05731556614</ns0:longitude>
+			<ns0:latitude>24.040910110968</ns0:latitude>
+			<ns0:mrgid_eez>8453</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.249">
+			<ns0:objectid>1592</ns0:objectid>
+			<ns0:eez>Disputed Trinidad and Tobago/Venezuela/Guyana</ns0:eez>
+			<ns0:country>Trinidad and Tobago/Venezuela/Guyana</ns0:country>
+			<ns0:id>260</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>260</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>33185.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.352368847E9</ns0:area_m2>
+			<ns0:longitude>-57.764269161843</ns0:longitude>
+			<ns0:latitude>10.603762482504</ns0:latitude>
+			<ns0:mrgid_eez>33185</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.127">
+			<ns0:objectid>129</ns0:objectid>
+			<ns0:eez>Johnston Atoll Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Johnston Atoll</ns0:country>
+			<ns0:id>159</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>159</ns0:eez_id>
+			<ns0:iso_3digit>UMI</ns0:iso_3digit>
+			<ns0:mrgid>8452.00000000</ns0:mrgid>
+			<ns0:area_m2>4.441240718E11</ns0:area_m2>
+			<ns0:longitude>-169.504922325447</ns0:longitude>
+			<ns0:latitude>16.753194525979</ns0:latitude>
+			<ns0:mrgid_eez>8452</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.248">
+			<ns0:objectid>99999</ns0:objectid>
+			<ns0:eez>Disputed Kenya/Somalia</ns0:eez>
+			<ns0:country>Kenya/Somalia</ns0:country>
+			<ns0:id>254</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>Kenya/Somalia</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>254</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>33176.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>5.15205857E10</ns0:area_m2>
+			<ns0:longitude>43.872649931798</ns0:longitude>
+			<ns0:latitude>-2.30180612442</ns0:latitude>
+			<ns0:mrgid_eez>33176</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.126">
+			<ns0:objectid>128</ns0:objectid>
+			<ns0:eez>Howland and Baker Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Howland Island and Baker Island</ns0:country>
+			<ns0:id>158</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>158</ns0:eez_id>
+			<ns0:iso_3digit>UMI</ns0:iso_3digit>
+			<ns0:mrgid>8451.00000000</ns0:mrgid>
+			<ns0:area_m2>4.368685638E11</ns0:area_m2>
+			<ns0:longitude>-176.736128139997</ns0:longitude>
+			<ns0:latitude>0.788917270412</ns0:latitude>
+			<ns0:mrgid_eez>8451</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.247">
+			<ns0:objectid>1589</ns0:objectid>
+			<ns0:eez>Virgin Islander Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Virgin Islands of the United States</ns0:country>
+			<ns0:id>256</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>256</ns0:eez_id>
+			<ns0:iso_3digit>VIR</ns0:iso_3digit>
+			<ns0:mrgid>33180.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>3.602423273E10</ns0:area_m2>
+			<ns0:longitude>-64.884024472698</ns0:longitude>
+			<ns0:latitude>17.283766005733</ns0:latitude>
+			<ns0:mrgid_eez>33180</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.125">
+			<ns0:objectid>127</ns0:objectid>
+			<ns0:eez>Kiribati Exclusive Economic Zone (Phoenix Group)</ns0:eez>
+			<ns0:country>Phoenix Group</ns0:country>
+			<ns0:id>157</ns0:id>
+			<ns0:sovereign>Kiribati</ns0:sovereign>
+			<ns0:sov_id>212</ns0:sov_id>
+			<ns0:eez_id>157</ns0:eez_id>
+			<ns0:iso_3digit>KIR</ns0:iso_3digit>
+			<ns0:mrgid>8450.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>7.464006708E11</ns0:area_m2>
+			<ns0:longitude>-172.459978333395</ns0:longitude>
+			<ns0:latitude>-3.739346235562</ns0:latitude>
+			<ns0:mrgid_eez>8450</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.246">
+			<ns0:objectid>1587</ns0:objectid>
+			<ns0:eez>Martinican Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Martinique</ns0:country>
+			<ns0:id>252</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>252</ns0:eez_id>
+			<ns0:iso_3digit>MTQ</ns0:iso_3digit>
+			<ns0:mrgid>33178.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.77010735E10</ns0:area_m2>
+			<ns0:longitude>-60.206442026938</ns0:longitude>
+			<ns0:latitude>14.974445032543</ns0:latitude>
+			<ns0:mrgid_eez>33178</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.129">
+			<ns0:objectid>131</ns0:objectid>
+			<ns0:eez>Colombia - Jamaica (Joint Regime)</ns0:eez>
+			<ns0:country>Colombia - Jamaica</ns0:country>
+			<ns0:id>165</ns0:id>
+			<ns0:sovereign>Joint Regime</ns0:sovereign>
+			<ns0:remarks>Colombia / Jamaica</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>165</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>21792.0000000</ns0:mrgid>
+			<ns0:area_m2>1.832077504E10</ns0:area_m2>
+			<ns0:longitude>-79.15892997896</ns0:longitude>
+			<ns0:latitude>15.528680857817</ns0:latitude>
+			<ns0:mrgid_eez>21792</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.120">
+			<ns0:objectid>122</ns0:objectid>
+			<ns0:eez>Samoan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Samoa</ns0:country>
+			<ns0:id>152</ns0:id>
+			<ns0:sovereign>Samoa</ns0:sovereign>
+			<ns0:sov_id>152</ns0:sov_id>
+			<ns0:eez_id>152</ns0:eez_id>
+			<ns0:iso_3digit>WSM</ns0:iso_3digit>
+			<ns0:mrgid>8445.00000000</ns0:mrgid>
+			<ns0:area_m2>1.319480764E11</ns0:area_m2>
+			<ns0:longitude>-172.762286503863</ns0:longitude>
+			<ns0:latitude>-13.278674414743</ns0:latitude>
+			<ns0:mrgid_eez>8445</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.241">
+			<ns0:objectid>93</ns0:objectid>
+			<ns0:eez>Haitian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Haiti</ns0:country>
+			<ns0:id>114</ns0:id>
+			<ns0:sovereign>Haiti</ns0:sovereign>
+			<ns0:sov_id>114</ns0:sov_id>
+			<ns0:eez_id>114</ns0:eez_id>
+			<ns0:iso_3digit>HTI</ns0:iso_3digit>
+			<ns0:mrgid>8408.00000000</ns0:mrgid>
+			<ns0:area_m2>1.238596606E11</ns0:area_m2>
+			<ns0:longitude>-73.7627938159</ns0:longitude>
+			<ns0:latitude>17.827884964056</ns0:latitude>
+			<ns0:mrgid_eez>8408</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.240">
+			<ns0:objectid>162</ns0:objectid>
+			<ns0:eez>Chilean Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Chile</ns0:country>
+			<ns0:id>224</ns0:id>
+			<ns0:sovereign>Chile</ns0:sovereign>
+			<ns0:sov_id>224</ns0:sov_id>
+			<ns0:eez_id>224</ns0:eez_id>
+			<ns0:iso_3digit>CHL</ns0:iso_3digit>
+			<ns0:mrgid>8465.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>2.93839773E12</ns0:area_m2>
+			<ns0:longitude>-76.172710018529</ns0:longitude>
+			<ns0:latitude>-39.136305791092</ns0:latitude>
+			<ns0:mrgid_eez>8465</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.124">
+			<ns0:objectid>126</ns0:objectid>
+			<ns0:eez>Tokelau Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tokelau</ns0:country>
+			<ns0:id>156</ns0:id>
+			<ns0:sovereign>New Zealand</ns0:sovereign>
+			<ns0:sov_id>162</ns0:sov_id>
+			<ns0:eez_id>156</ns0:eez_id>
+			<ns0:iso_3digit>TKL</ns0:iso_3digit>
+			<ns0:mrgid>8449.00000000</ns0:mrgid>
+			<ns0:area_m2>3.203994606E11</ns0:area_m2>
+			<ns0:longitude>-172.079604036249</ns0:longitude>
+			<ns0:latitude>-8.636455369173</ns0:latitude>
+			<ns0:mrgid_eez>8449</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.245">
+			<ns0:objectid>1591</ns0:objectid>
+			<ns0:eez>Disputed Western Sahara/Mauritania</ns0:eez>
+			<ns0:country>Western Sahara/Mauritania</ns0:country>
+			<ns0:id>257</ns0:id>
+			<ns0:sovereign>Disputed</ns0:sovereign>
+			<ns0:remarks>Western Sahara/Mauritania</ns0:remarks>
+			<ns0:sov_id>0</ns0:sov_id>
+			<ns0:eez_id>257</ns0:eez_id>
+			<ns0:iso_3digit>-</ns0:iso_3digit>
+			<ns0:mrgid>33182.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.989501476E10</ns0:area_m2>
+			<ns0:longitude>-19.067507645433</ns0:longitude>
+			<ns0:latitude>20.117667643774</ns0:latitude>
+			<ns0:mrgid_eez>33182</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.123">
+			<ns0:objectid>125</ns0:objectid>
+			<ns0:eez>Tongan Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Tonga</ns0:country>
+			<ns0:id>155</ns0:id>
+			<ns0:sovereign>Tonga</ns0:sovereign>
+			<ns0:sov_id>155</ns0:sov_id>
+			<ns0:eez_id>155</ns0:eez_id>
+			<ns0:iso_3digit>TON</ns0:iso_3digit>
+			<ns0:mrgid>8448.00000000</ns0:mrgid>
+			<ns0:area_m2>6.669597191E11</ns0:area_m2>
+			<ns0:longitude>-174.760160817547</ns0:longitude>
+			<ns0:latitude>-20.198454619064</ns0:latitude>
+			<ns0:mrgid_eez>8448</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.244">
+			<ns0:objectid>1593</ns0:objectid>
+			<ns0:eez>Colombian Exclusive Economic Zone (Serrana)</ns0:eez>
+			<ns0:country>Colombia</ns0:country>
+			<ns0:id>132</ns0:id>
+			<ns0:sovereign>Colombia</ns0:sovereign>
+			<ns0:sov_id>132</ns0:sov_id>
+			<ns0:eez_id>259</ns0:eez_id>
+			<ns0:iso_3digit>COL</ns0:iso_3digit>
+			<ns0:mrgid>33184.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>3.99646064E9</ns0:area_m2>
+			<ns0:longitude>-80.274368632523</ns0:longitude>
+			<ns0:latitude>14.363554460765</ns0:latitude>
+			<ns0:mrgid_eez>33184</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.122">
+			<ns0:objectid>124</ns0:objectid>
+			<ns0:eez>Niue Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Niue</ns0:country>
+			<ns0:id>154</ns0:id>
+			<ns0:sovereign>New Zealand</ns0:sovereign>
+			<ns0:sov_id>162</ns0:sov_id>
+			<ns0:eez_id>154</ns0:eez_id>
+			<ns0:iso_3digit>NIU</ns0:iso_3digit>
+			<ns0:mrgid>8447.00000000</ns0:mrgid>
+			<ns0:area_m2>3.175252765E11</ns0:area_m2>
+			<ns0:longitude>-169.336679227094</ns0:longitude>
+			<ns0:latitude>-19.507836951539</ns0:latitude>
+			<ns0:mrgid_eez>8447</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.243">
+			<ns0:objectid>1592</ns0:objectid>
+			<ns0:eez>Colombian Exclusive Economic Zone (Quitasueño)</ns0:eez>
+			<ns0:country>Colombia</ns0:country>
+			<ns0:id>132</ns0:id>
+			<ns0:sovereign>Colombia</ns0:sovereign>
+			<ns0:sov_id>132</ns0:sov_id>
+			<ns0:eez_id>258</ns0:eez_id>
+			<ns0:iso_3digit>COL</ns0:iso_3digit>
+			<ns0:mrgid>33183.0000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>4.645350207E9</ns0:area_m2>
+			<ns0:longitude>-81.184795429095</ns0:longitude>
+			<ns0:latitude>14.259403661872</ns0:latitude>
+			<ns0:mrgid_eez>33183</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.121">
+			<ns0:objectid>123</ns0:objectid>
+			<ns0:eez>Cook Islands Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Cook Islands</ns0:country>
+			<ns0:id>153</ns0:id>
+			<ns0:sovereign>New Zealand</ns0:sovereign>
+			<ns0:sov_id>162</ns0:sov_id>
+			<ns0:eez_id>153</ns0:eez_id>
+			<ns0:iso_3digit>COK</ns0:iso_3digit>
+			<ns0:mrgid>8446.00000000</ns0:mrgid>
+			<ns0:area_m2>1.96705529E12</ns0:area_m2>
+			<ns0:longitude>-161.306341242342</ns0:longitude>
+			<ns0:latitude>-15.038141374051</ns0:latitude>
+			<ns0:mrgid_eez>8446</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.242">
+			<ns0:objectid>191</ns0:objectid>
+			<ns0:eez>Norwegian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Norway</ns0:country>
+			<ns0:id>223</ns0:id>
+			<ns0:sovereign>Norway</ns0:sovereign>
+			<ns0:sov_id>223</ns0:sov_id>
+			<ns0:eez_id>223</ns0:eez_id>
+			<ns0:iso_3digit>NOR</ns0:iso_3digit>
+			<ns0:mrgid>5686.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>9.299336394E11</ns0:area_m2>
+			<ns0:longitude>13.995540387656</ns0:longitude>
+			<ns0:latitude>68.168923685088</ns0:latitude>
+			<ns0:mrgid_eez>5686</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.117">
+			<ns0:objectid>119</ns0:objectid>
+			<ns0:eez>Jarvis Island Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Jarvis Island</ns0:country>
+			<ns0:id>149</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>149</ns0:eez_id>
+			<ns0:iso_3digit>UMI</ns0:iso_3digit>
+			<ns0:mrgid>8442.00000000</ns0:mrgid>
+			<ns0:area_m2>3.179713388E11</ns0:area_m2>
+			<ns0:longitude>-160.554542331524</ns0:longitude>
+			<ns0:latitude>-0.887786671517</ns0:latitude>
+			<ns0:mrgid_eez>8442</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.238">
+			<ns0:objectid>1583</ns0:objectid>
+			<ns0:eez>Sint-Eustasius Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sint-Eustasius</ns0:country>
+			<ns0:id>249</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>249</ns0:eez_id>
+			<ns0:iso_3digit>BES</ns0:iso_3digit>
+			<ns0:mrgid>26526.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>2.259558969E9</ns0:area_m2>
+			<ns0:longitude>-63.138788777258</ns0:longitude>
+			<ns0:latitude>17.328415880341</ns0:latitude>
+			<ns0:mrgid_eez>26526</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.116">
+			<ns0:objectid>118</ns0:objectid>
+			<ns0:eez>Kiribati Exclusive Economic Zone (Line Group)</ns0:eez>
+			<ns0:country>Line Group</ns0:country>
+			<ns0:id>148</ns0:id>
+			<ns0:sovereign>Kiribati</ns0:sovereign>
+			<ns0:sov_id>212</ns0:sov_id>
+			<ns0:eez_id>148</ns0:eez_id>
+			<ns0:iso_3digit>KIR</ns0:iso_3digit>
+			<ns0:mrgid>8441.00000000</ns0:mrgid>
+			<ns0:date_chang>2012-10 (name)</ns0:date_chang>
+			<ns0:area_m2>1.652665073E12</ns0:area_m2>
+			<ns0:longitude>-154.756121597936</ns0:longitude>
+			<ns0:latitude>-3.814020765856</ns0:latitude>
+			<ns0:mrgid_eez>8441</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.237">
+			<ns0:objectid>1582</ns0:objectid>
+			<ns0:eez>Sint-Maarten Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Sint-Maarten</ns0:country>
+			<ns0:id>220</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>220</ns0:eez_id>
+			<ns0:iso_3digit>SXM</ns0:iso_3digit>
+			<ns0:mrgid>21803.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>5.36400494E8</ns0:area_m2>
+			<ns0:longitude>-63.114016945103</ns0:longitude>
+			<ns0:latitude>17.948580438845</ns0:latitude>
+			<ns0:mrgid_eez>21803</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.115">
+			<ns0:objectid>117</ns0:objectid>
+			<ns0:eez>French Polynesian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>French Polynesia</ns0:country>
+			<ns0:id>147</ns0:id>
+			<ns0:sovereign>France</ns0:sovereign>
+			<ns0:sov_id>179</ns0:sov_id>
+			<ns0:eez_id>147</ns0:eez_id>
+			<ns0:iso_3digit>PYF</ns0:iso_3digit>
+			<ns0:mrgid>8440.00000000</ns0:mrgid>
+			<ns0:area_m2>4.787830522E12</ns0:area_m2>
+			<ns0:longitude>-143.990604719902</ns0:longitude>
+			<ns0:latitude>-18.707293252711</ns0:latitude>
+			<ns0:mrgid_eez>8440</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.236">
+			<ns0:objectid>1581</ns0:objectid>
+			<ns0:eez>Bruneian Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Brunei</ns0:country>
+			<ns0:id>247</ns0:id>
+			<ns0:sovereign>Brunei</ns0:sovereign>
+			<ns0:sov_id>237</ns0:sov_id>
+			<ns0:eez_id>247</ns0:eez_id>
+			<ns0:iso_3digit>BRN</ns0:iso_3digit>
+			<ns0:mrgid>26521.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>2.570220804E10</ns0:area_m2>
+			<ns0:longitude>113.885764094102</ns0:longitude>
+			<ns0:latitude>5.53082752526</ns0:latitude>
+			<ns0:mrgid_eez>26521</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.114">
+			<ns0:objectid>116</ns0:objectid>
+			<ns0:eez>Pitcairn Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Pitcairn</ns0:country>
+			<ns0:id>146</ns0:id>
+			<ns0:sovereign>United Kingdom</ns0:sovereign>
+			<ns0:sov_id>180</ns0:sov_id>
+			<ns0:eez_id>146</ns0:eez_id>
+			<ns0:iso_3digit>PCN</ns0:iso_3digit>
+			<ns0:mrgid>8439.00000000</ns0:mrgid>
+			<ns0:area_m2>8.378862025E11</ns0:area_m2>
+			<ns0:longitude>-127.424209626602</ns0:longitude>
+			<ns0:latitude>-24.599140565827</ns0:latitude>
+			<ns0:mrgid_eez>8439</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.235">
+			<ns0:objectid>1580</ns0:objectid>
+			<ns0:eez>Bonaire Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Bonaire</ns0:country>
+			<ns0:id>246</ns0:id>
+			<ns0:sovereign>Netherlands</ns0:sovereign>
+			<ns0:sov_id>177</ns0:sov_id>
+			<ns0:eez_id>245</ns0:eez_id>
+			<ns0:iso_3digit>BES</ns0:iso_3digit>
+			<ns0:mrgid>26520.0000000</ns0:mrgid>
+			<ns0:date_chang>2012-10</ns0:date_chang>
+			<ns0:area_m2>1.326055444E10</ns0:area_m2>
+			<ns0:longitude>-68.374485799713</ns0:longitude>
+			<ns0:latitude>12.73781654531</ns0:latitude>
+			<ns0:mrgid_eez>26520</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.119">
+			<ns0:objectid>121</ns0:objectid>
+			<ns0:eez>American Samoa Exclusive Economic Zone</ns0:eez>
+			<ns0:country>American Samoa</ns0:country>
+			<ns0:id>151</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>151</ns0:eez_id>
+			<ns0:iso_3digit>ASM</ns0:iso_3digit>
+			<ns0:mrgid>8444.00000000</ns0:mrgid>
+			<ns0:area_m2>4.05941562E11</ns0:area_m2>
+			<ns0:longitude>-169.057645033583</ns0:longitude>
+			<ns0:latitude>-13.851676053092</ns0:latitude>
+			<ns0:mrgid_eez>8444</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.118">
+			<ns0:objectid>120</ns0:objectid>
+			<ns0:eez>Palmyra Atoll Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Palmyra Atoll</ns0:country>
+			<ns0:id>150</ns0:id>
+			<ns0:sovereign>United States</ns0:sovereign>
+			<ns0:sov_id>163</ns0:sov_id>
+			<ns0:eez_id>150</ns0:eez_id>
+			<ns0:iso_3digit>UMI</ns0:iso_3digit>
+			<ns0:mrgid>8443.00000000</ns0:mrgid>
+			<ns0:date_chang>2014-02</ns0:date_chang>
+			<ns0:area_m2>3.529080503E11</ns0:area_m2>
+			<ns0:longitude>-162.907892360016</ns0:longitude>
+			<ns0:latitude>6.687404686851</ns0:latitude>
+			<ns0:mrgid_eez>8443</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+	<gml:featureMember>
+		<ns0:eez gml:id="eez.239">
+			<ns0:objectid>1584</ns0:objectid>
+			<ns0:eez>Senegalese Exclusive Economic Zone</ns0:eez>
+			<ns0:country>Senegal</ns0:country>
+			<ns0:id>66</ns0:id>
+			<ns0:sovereign>Senegal</ns0:sovereign>
+			<ns0:sov_id>66</ns0:sov_id>
+			<ns0:eez_id>66</ns0:eez_id>
+			<ns0:iso_3digit>SEN</ns0:iso_3digit>
+			<ns0:mrgid>8371.00000000</ns0:mrgid>
+			<ns0:area_m2>1.580885422E11</ns0:area_m2>
+			<ns0:longitude>-18.516415606061</ns0:longitude>
+			<ns0:latitude>13.690334881401</ns0:latitude>
+			<ns0:mrgid_eez>8371</ns0:mrgid_eez>
+		</ns0:eez>
+	</gml:featureMember>
+</wfs:FeatureCollection>
