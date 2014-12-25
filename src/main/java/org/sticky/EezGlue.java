@@ -4,7 +4,6 @@ import static org.fao.fi.comet.mapping.dsl.MappingDSL.map;
 import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.target;
 import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.wrap;
 import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.asElement;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -26,6 +25,7 @@ import org.sticky.jaxb.Eez;
 import org.virtualrepository.comet.CometAsset;
 import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
+import org.virtualrepository.tabular.Table;
 
 /**
  * Glue to push EEZ data & related mappings to Grade
@@ -39,6 +39,8 @@ public class EezGlue {
 	
 	Map<String,List<String>> codelist;
 	
+	Table adminUnits;
+	
 	/**
 	 * Retrieves and reads Eez
 	 * 
@@ -46,12 +48,21 @@ public class EezGlue {
 	@Before
 	public void before(){
 		
+		//read eez asset
 		WfsFeatureType asset = new WfsFeatureType("eez","MarineRegions:eez");
 		asset.setService(Glues.vliz);
 		
 		features = Glues.repository.retrieve(asset, Features.class);
 		
+		//prepare embedded Iso3 code list
 		codelist = buildEmbeddedCodelist(features);
+		
+		//read admin units reference (with flagstate information)
+		/*CsvAsset asset2 = new CsvAsset("someid","admin-units");
+		asset2.hasHeader(true);
+		asset2.setDelimiter(',');
+		adminUnits = new CsvTable(asset2, load("admin-units.txt"));*/
+		
 	}
 	
 	
@@ -101,6 +112,31 @@ public class EezGlue {
 		CometAsset asset = new CometAsset("eez-country-sovereignty",Glues.grade);
 		
 		Glues.repository.publish(asset,Glues.load("eez-country-sovereignty.xml"));
+
+	}
+	
+	/**
+	 * Grabs the Flagstate-EEZ exploitation rights mapping
+	 * 
+	 */
+	@Test
+	public void grabMappingExploitation() {
+		
+		MappingData mapping = buildMappingExploitation(features, codelist, adminUnits);
+	
+		Glues.storeMapping("eez-flagstate-exploitation.xml", mapping);
+	}
+	
+	/**
+	 * Pushes the Flagstate-EEZ exploitation rights mapping
+	 * 
+	 */
+	@Test
+	public void pushMappingExploitation() {
+	
+		CometAsset asset = new CometAsset("eez-flagstate-exploitation",Glues.grade);
+		
+		Glues.repository.publish(asset,Glues.load("eez-flagstate-exploitation.xml"));
 
 	}
 	
@@ -236,6 +272,25 @@ public class EezGlue {
 		
 		return(mappingData);
 
+	}
+	
+	/**
+	 * Builds the Exploitation rights mapping: This mapping provides a 1-N relationship
+	 * between a ISO3 code entity (representing a flagstate) and one or more
+	 * MarineRegions id (representing an EEZ - Exclusive Economic Zone), giving
+	 * the concept of exploitation rights of a flagstate over EEZs. The mapping is constructed
+	 * from the VLIZ MarineRegions EEZ - MarBound database and from the information if a country 
+	 * is a flagstate
+	 * 
+	 * @param features
+	 * @param codelist
+	 * @return the comet mapping
+	 */
+	static MappingData buildMappingExploitation(Features features,
+												Map<String,List<String>> codelist,
+												Table adminUnits){
+		//TODO business logic for exploitation rights
+		return(null);
 	}
 	
 }
