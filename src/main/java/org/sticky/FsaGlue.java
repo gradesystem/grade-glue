@@ -64,7 +64,7 @@ public class FsaGlue {
 		Features trgFeatures = buildFsaHierarchy(features);
 		
 		//write enriched features to GML (xml)
-		Glues.storeAsGml("fao-areas.xml", trgFeatures);
+		Glues.store("fao-areas.xml", trgFeatures);
 	}
 
 	@Test

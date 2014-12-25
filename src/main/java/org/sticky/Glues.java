@@ -92,7 +92,7 @@ public class Glues {
 	
 	@SuppressWarnings({ "deprecation", "unchecked" })
 	@SneakyThrows(Exception.class)
-	static void storeAsGml(String name, Features features){
+	static void store(String name, Features features){
 		
 		@Cleanup OutputStream out = new FileOutputStream(new File("src/main/resources", name));
 		XmlFeatureWriter featureWriter = new JAXPStreamFeatureWriter();
@@ -108,7 +108,7 @@ public class Glues {
 	}
 	
 	@SneakyThrows(Exception.class)
-	static void storeMapping(String name, MappingData mapping){
+	static void store(String name, MappingData mapping){
 		
 		String xml = JAXBDeSerializationUtils.toXML(mapping);
 		

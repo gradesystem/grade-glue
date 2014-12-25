@@ -73,7 +73,7 @@ public class EezGlue {
 	@Test
 	public void grabEez() {
 
-		Glues.storeAsGml("eez.xml",features);
+		Glues.store("eez.xml",features);
 		
 	}
 
@@ -99,7 +99,7 @@ public class EezGlue {
 		
 		MappingData mapping = buildMappingSovereignty(features, codelist);
 	
-		Glues.storeMapping("eez-country-sovereignty.xml", mapping);
+		Glues.store("eez-country-sovereignty.xml", mapping);
 	}
 	
 	/**
@@ -124,7 +124,7 @@ public class EezGlue {
 		
 		MappingData mapping = buildMappingExploitation(features, codelist, adminUnits);
 	
-		Glues.storeMapping("eez-flagstate-exploitation.xml", mapping);
+		Glues.store("eez-flagstate-exploitation.xml", mapping);
 	}
 	
 	/**
