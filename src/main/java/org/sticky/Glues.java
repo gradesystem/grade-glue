@@ -7,7 +7,6 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -116,12 +115,12 @@ public class Glues {
 	}
 	
 	@SneakyThrows(Exception.class)
-	static void store(String name, Table table){
+	static void store(String name, Table table, String charsetName){
 		
 		File file = new File("src/main/resources", name);
 		OutputStream os = new FileOutputStream(file);
 		
-		OutputStreamWriter osw = new OutputStreamWriter(os, "UTF8"); 
+		OutputStreamWriter osw = new OutputStreamWriter(os, charsetName); 
 		@Cleanup BufferedWriter bufferedWriter = new BufferedWriter(osw);
 		
 		//writing header

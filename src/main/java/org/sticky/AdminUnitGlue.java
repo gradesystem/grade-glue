@@ -6,10 +6,10 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import javax.xml.namespace.QName;
 
 import org.junit.Before;
@@ -35,15 +35,7 @@ public class AdminUnitGlue {
 		CsvAsset asset1 = new CsvAsset("someid","gaul-codes");
 		asset1.hasHeader(true);
 		asset1.setDelimiter(',');
-		Table codesTable = new CsvTable(asset1, load("gaul-codes.txt"));
-		
-		CsvAsset asset2 = new CsvAsset("someid","gaul-names");
-		asset2.hasHeader(true);
-		asset2.setDelimiter('\t');
-		asset2.setEncoding(Charset.forName("UTF-16"));
-		Table namesTable = new CsvTable(asset2, load("gaul-names.txt"));
-		
-		countries = buildGaulTable(codesTable, namesTable);
+		countries = new CsvTable(asset1, load("gaul-codes.txt"));
 		
 		//flagstates
 		CsvAsset asset3 = new CsvAsset("someid","flagstates");
@@ -51,7 +43,16 @@ public class AdminUnitGlue {
 		asset3.setDelimiter(';');
 		flagstates = new CsvTable(asset3, load("flagstates.txt"));
 		
-		countries = enrichGaulTable(countries, flagstates);
+		countries = enrichAdminUnitsTable(countries, flagstates);
+		
+		//adding names
+		CsvAsset asset2 = new CsvAsset("someid","gaul-names");
+		asset2.hasHeader(true);
+		asset2.setDelimiter('\t');
+		asset2.setEncoding(Charset.forName("UTF-16"));
+		Table namesTable = new CsvTable(asset2, load("gaul-names.txt"));
+		
+		countries = buildAdminUnitsTable(countries, namesTable);
 		
 	}
 	
@@ -63,7 +64,7 @@ public class AdminUnitGlue {
 	@Test
 	public void grabAdminUnits(){
 		
-		Glues.store("admin-units.txt", countries);
+		Glues.store("admin-units.txt", countries, "UTF16");
 	}
 	
 	/**
@@ -81,15 +82,59 @@ public class AdminUnitGlue {
 	
 	/**
 	 * Joins GAUL codes with names (separated tables provided as CSV assets)
-	 * (TO DO). At now the method does only return the 'codes' table.
 	 * 
 	 * @return a VR Table
 	 */
-	static Table buildGaulTable(Table codes, Table names){
-
-		//TODO a simple join between Table to get names in a single table?
+	static Table buildAdminUnitsTable(Table codes, Table names){
 		
-		return(codes);
+		//new columns
+		List<Column> columns = codes.columns();
+		for(Column col : names.columns()){
+			columns.add(col);
+		}
+		
+		//name row list
+		List<Row> nameRows = new ArrayList<Row>();
+		Iterator<Row> rit = names.iterator();
+		while(rit.hasNext()){
+			Row nameRow = rit.next();
+			
+			Map<QName,String> data = new HashMap<QName,String>();
+			for(Column col : names.columns()){
+				data.put(col.name(), nameRow.get(col));
+			}
+			
+			Row newRow = new Row(data);
+			nameRows.add(newRow);
+		}
+		
+		//merge tables based on Gaul code
+		List<Row> rows = new ArrayList<Row>();
+		for(Row row : codes){
+			
+			Map<QName,String> data = new HashMap<QName,String>();
+			for(Column col : codes.columns()){
+				data.put(col.name(), row.get(col));
+			}
+			
+			String code = row.get("code");
+			Iterator<Row> rowit = nameRows.iterator();
+			while(rowit.hasNext()){
+				Row nameRow = rowit.next();
+				if(nameRow.get("GAUL").equals(code)){
+					for(Column col : names.columns()){
+						data.put(col.name(), nameRow.get(col.name()));
+					}
+				}
+			}
+	
+			Row newRow = new Row(data);
+			rows.add(newRow);
+		}
+		
+		Table output = new DefaultTable(columns, rows.iterator());
+		
+		return(output);
 	}
 	
 	/**
@@ -98,7 +143,7 @@ public class AdminUnitGlue {
 	 * @returns a VR Table
 	 * 
 	 */
-	static Table enrichGaulTable(Table countries, Table flagstates){
+	static Table enrichAdminUnitsTable(Table countries, Table flagstates){
 		
 		//extract flagstate list
 		Set<String> fsCodes = new HashSet<String>();
