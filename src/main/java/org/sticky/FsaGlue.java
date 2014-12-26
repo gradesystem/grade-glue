@@ -18,6 +18,7 @@ import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
 import org.sticky.Glues;
 
+@SuppressWarnings("deprecation")
 public class FsaGlue {
 
 	public static enum FsaLevel {
