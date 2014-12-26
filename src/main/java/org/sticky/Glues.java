@@ -3,14 +3,19 @@ package org.sticky;
 import static javax.ws.rs.client.ClientBuilder.*;
 import static org.junit.Assert.*;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
 import java.util.logging.Logger;
 
 import javax.xml.namespace.QName;
@@ -32,6 +37,9 @@ import org.virtualrepository.VirtualRepository;
 import org.virtualrepository.impl.Repository;
 import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
+import org.virtualrepository.tabular.Column;
+import org.virtualrepository.tabular.Row;
+import org.virtualrepository.tabular.Table;
 
 public class Glues {
 	
@@ -105,6 +113,39 @@ public class Glues {
 				.collection((org.geotoolkit.feature.type.FeatureType) features.all().get(0).getType(), geotkFeatures);
 		
 		featureWriter.write(fc, out);
+	}
+	
+	@SneakyThrows(Exception.class)
+	static void store(String name, Table table){
+		
+		File file = new File("src/main/resources", name);
+		OutputStream os = new FileOutputStream(file);
+		
+		OutputStreamWriter osw = new OutputStreamWriter(os, "UTF8"); 
+		@Cleanup BufferedWriter bufferedWriter = new BufferedWriter(osw);
+		
+		//writing header
+		List<Column> columns = table.columns();
+		for(int i=0;i<columns.size();i++){
+			bufferedWriter.append(columns.get(i).name().toString());
+			if(i < columns.size()-1) bufferedWriter.append(",");
+		}
+		bufferedWriter.newLine();
+		
+		//writing content
+		Iterator<Row> it = table.iterator();
+		while(it.hasNext()){
+			Row row = it.next();
+			for(int i=0;i<columns.size();i++){
+				bufferedWriter.append(row.get(columns.get(i)));
+				if(i < columns.size()-1) bufferedWriter.append(",");
+			}
+			
+			if(it.hasNext()) bufferedWriter.newLine();
+		}
+		
+		bufferedWriter.flush();
+		
 	}
 	
 	@SneakyThrows(Exception.class)
