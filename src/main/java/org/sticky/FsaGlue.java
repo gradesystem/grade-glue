@@ -78,7 +78,7 @@ public class FsaGlue {
 	}
 	
 	@SuppressWarnings("deprecation")
-	public Features buildFsaHierarchy(Features features){
+	static Features buildFsaHierarchy(Features features){
 		
 		//building enriched featureType
 		FeatureType srcFeatureType = features.all().get(0).getType();
