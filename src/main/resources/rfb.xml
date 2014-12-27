@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moniker name="figismapdata">
+  <query src="http://localhost/figis/website/xml/figismapdata.xml"/>
+  <output>
+    <rfbs>
+      <rfb name="ACAP" type="M" style="rfmo_unspecified_noborder" srs="4326" isMasked="true" globalZoom="true" centerCoords="null" code="acap" fid="24562" zoomExtent="null">
+        <descriptor link="http://www.fao.org/fishery/rfb/acap/en" title="Agreement on the Conservation of Albatrosses and Petrels (ACAP)"/>
+        <members src="FIGIS">
+          <country>ARG</country>
+          <country>AUS</country>
+          <country>BRA</country>
+          <country>CHL</country>
+          <country>ECU</country>
+          <country>FRA</country>
+          <country>NZL</country>
+          <country>NOR</country>
+          <country>PER</country>
+          <country>ZAF</country>
+          <country>ESP</country>
+          <country>GBR</country>
+          <country>URY</country>
+        </members>
+      </rfb>
+      <rfb name="APFIC" code="apfic" fid="22000" type="MI" style="rfmo_marine_unspecified_inland_noborders" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(90.0, 0.0)" zoomExtent="new OpenLayers.Bounds(-13, 70, 170.0, -50)">
+        <descriptor link="http://www.fao.org/fishery/rfb/apfic/en" title="Asia Pacific Fisheries Commission (APFIC)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>BGD</country>
+          <country>KHM</country>
+          <country>CHN</country>
+          <country>FRA</country>
+          <country>IND</country>
+          <country>IDN</country>
+          <country>JPN</country>
+          <country>MYS</country>
+          <country>MMR</country>
+          <country>NPL</country>
+          <country>NZL</country>
+          <country>PAK</country>
+          <country>PHL</country>
+          <country>KOR</country>
+          <country>LKA</country>
+          <country>TLS</country>
+          <country>THA</country>
+          <country>GBR</country>
+          <country>USA</country>
+          <country>VNM</country>
+        </members>
+      </rfb>
+      <rfb name="BOBP-IGO" code="bobp_igo" fid="8710" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="null" zoomExtent="new OpenLayers.Bounds(31.0, -14.5, 125.0, 45.5)">
+        <descriptor link="http://www.fao.org/fishery/rfb/bobp_igo/en" title="Bay of Bengal Programme (BOBP-IGO)"/>
+        <members src="FIGIS">
+          <country>BGD</country>
+          <country>IND</country>
+          <country>MDV</country>
+          <country>LKA</country>
+        </members>
+      </rfb>
+      <rfb name="CACFISH" code="cacfish" fid="24546" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(53.0, 43.0)" zoomExtent="new OpenLayers.Bounds(9.0, 2.0, 97.0, 73.0)">
+        <descriptor link="http://www.fao.org/fishery/rfb/cacfish/en" title="Central Asia and Caucasus Fisheries and Aquaculture Commission (CACFish)"/>
+        <members src="FIGIS">
+          <country>ARM</country>
+          <country>TJK</country>
+          <country>KGZ</country>
+          <country>TUR</country>
+          <country>AZE</country>
+        </members>
+      </rfb>
+      <rfb name="CCAMLR" code="ccamlr" fid="20010" type="M" style="rfmo_marine_border" srs="3031" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(0,0)" zoomExtent="new OpenLayers.Bounds(-7666181, -5741041, 7666181, 5741041)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ccamlr/en" title="Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR)"/>
+        <members src="FIGIS">
+          <country>ARG</country>
+          <country>AUS</country>
+          <country>BEL</country>
+          <country>BRA</country>
+          <country>CHL</country>
+          <country>CHN</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>DEU</country>
+          <country>IND</country>
+          <country>ITA</country>
+          <country>JPN</country>
+          <country>NAM</country>
+          <country>NZL</country>
+          <country>NOR</country>
+          <country>POL</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>ZAF</country>
+          <country>ESP</country>
+          <country>SWE</country>
+          <country>UKR</country>
+          <country>GBR</country>
+          <country>USA</country>
+          <country>URY</country>
+        </members>
+      </rfb>
+      <rfb name="CCBSP" code="ccbsp" fid="24534" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(20037508.34, 7800000.0)" zoomExtent="new OpenLayers.Bounds(-5893240, 3922651, 5967525, 12804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ccbsp/en" title="Convention on the Conservation and Management of Pollock Resources in the Central Bering Sea (CCBSP)"/>
+        <members src="FIGIS">
+          <country>CHN</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>POL</country>
+          <country>RUS</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="CCSBT" code="ccsbt" fid="78" type="M" style="rfmo_marine_border" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(7000000, -2500000)" zoomExtent="new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ccsbt/en" title="Commission for the Conservation of Southern Bluefin Tuna (CCSBT)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>IDN</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>NZL</country>
+        </members>
+      </rfb>
+      <rfb name="CECAF" code="cecaf" fid="22070" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(2.0, 18.0)" zoomExtent="new OpenLayers.Bounds(-100, -40, 83.0, 81)">
+        <descriptor link="http://www.fao.org/fishery/rfb/cecaf/en" title="Fishery Committee for the Eastern Central Atlantic (CECAF)"/>
+        <members src="FIGIS">
+          <country>AGO</country>
+          <country>BEN</country>
+          <country>CMR</country>
+          <country>CPV</country>
+          <country>COD</country>
+          <country>COG</country>
+          <country>CIV</country>
+          <country>CUB</country>
+          <country>GNQ</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>GAB</country>
+          <country>GMB</country>
+          <country>GHA</country>
+          <country>GRC</country>
+          <country>GIN</country>
+          <country>GNB</country>
+          <country>ITA</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>LBR</country>
+          <country>MRT</country>
+          <country>MAR</country>
+          <country>NLD</country>
+          <country>NGA</country>
+          <country>NOR</country>
+          <country>POL</country>
+          <country>ROU</country>
+          <country>STP</country>
+          <country>SEN</country>
+          <country>SLE</country>
+          <country>ESP</country>
+          <country>TGO</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="CIFAA" code="cifaa" fid="22020" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(22.0, 0.0)" zoomExtent="new OpenLayers.Bounds(-70, -50, 115.0, 60)">
+        <descriptor link="http://www.fao.org/fishery/rfb/cifaa/en" title="Committee on Inland Fisheries and Aquaculture of Africa (CIFAA)"/>
+        <members src="FIGIS">
+          <country>BEN</country>
+          <country>BWA</country>
+          <country>BFA</country>
+          <country>BDI</country>
+          <country>CMR</country>
+          <country>CAF</country>
+          <country>TCD</country>
+          <country>COD</country>
+          <country>COG</country>
+          <country>CIV</country>
+          <country>EGY</country>
+          <country>ERI</country>
+          <country>ETH</country>
+          <country>GAB</country>
+          <country>GMB</country>
+          <country>GHA</country>
+          <country>GIN</country>
+          <country>KEN</country>
+          <country>LSO</country>
+          <country>MDG</country>
+          <country>MWI</country>
+          <country>MLI</country>
+          <country>MUS</country>
+          <country>MOZ</country>
+          <country>NER</country>
+          <country>NGA</country>
+          <country>RWA</country>
+          <country>SEN</country>
+          <country>SLE</country>
+          <country>SOM</country>
+          <country>SDN</country>
+          <country>SWZ</country>
+          <country>TZA</country>
+          <country>TGO</country>
+          <country>UGA</country>
+          <country>ZMB</country>
+          <country>ZWE</country>
+        </members>
+      </rfb>
+      <rfb name="COMHAFAT-ATLAFCO" code="comhafat-atlafco" fid="20930" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(2.0, 18.0)" zoomExtent="new OpenLayers.Bounds(-100, -40, 83.0, 81)">
+        <descriptor link="http://www.fao.org/fishery/rfb/comhafat-atlafco/en" title="Ministerial Conference on Fisheries Cooperation Among African States Bordering the Atlantic (COMHAFAT-ATLAFCO)"/>
+        <members src="FIGIS">
+          <country>AGO</country>
+          <country>BEN</country>
+          <country>CMR</country>
+          <country>CPV</country>
+          <country>CIV</country>
+          <country>COG</country>
+          <country>COD</country>
+          <country>GNQ</country>
+          <country>GAB</country>
+          <country>GMB</country>
+          <country>GHA</country>
+          <country>GIN</country>
+          <country>GNB</country>
+          <country>LBR</country>
+          <country>MRT</country>
+          <country>MAR</country>
+          <country>NAM</country>
+          <country>NGA</country>
+          <country>STP</country>
+          <country>SEN</country>
+          <country>SLE</country>
+          <country>TGO</country>
+        </members>
+      </rfb>
+      <rfb name="COPESCAALC" code="copescaalc" fid="22090" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(-66, -11.0)" zoomExtent="new OpenLayers.Bounds(-165, -65, 20.0, 50)">
+        <descriptor link="http://www.fao.org/fishery/rfb/copescaalc/en" title="Commission for Inland Fisheries and Aquaculture of Latin America and the Caribbean (COPESCAALC)"/>
+        <members src="FIGIS">
+          <country>ARG</country>
+          <country>BOL</country>
+          <country>BRA</country>
+          <country>CHL</country>
+          <country>COL</country>
+          <country>CRI</country>
+          <country>CUB</country>
+          <country>DOM</country>
+          <country>ECU</country>
+          <country>SLV</country>
+          <country>GTM</country>
+          <country>HND</country>
+          <country>JAM</country>
+          <country>MEX</country>
+          <country>NIC</country>
+          <country>PAN</country>
+          <country>PRY</country>
+          <country>PER</country>
+          <country>SUR</country>
+          <country>URY</country>
+          <country>VEN</country>
+        </members>
+      </rfb>
+      <rfb name="COREP" code="corep" fid="12499" type="MI" style="rfmo_marine_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(16, 0.0)" zoomExtent="new OpenLayers.Bounds(-30, -30, 60.0, 30)">
+        <descriptor link="http://www.fao.org/fishery/rfb/corep/en" title="Comite Regional des Peches du Golfe de Guinee (COREP)"/>
+        <members src="FIGIS">
+          <country>CMR</country>
+          <country>COG</country>
+          <country>COD</country>
+          <country>GAB</country>
+          <country>STP</country>
+        </members>
+      </rfb>
+      <rfb name="CPPS" code="cpps" fid="7534" type="M" style="rfmo_unspecified_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-90, -23)" zoomExtent="new OpenLayers.Bounds(-120, -60, -61.0, 15)">
+        <descriptor link="http://www.fao.org/fishery/rfb/cpps/en" title="Comisión Permanente del Pacifico Sur (CPPS)"/>
+        <members src="FIGIS">
+          <country>CHL</country>
+          <country>COL</country>
+          <country>ECU</country>
+          <country>PER</country>
+        </members>
+      </rfb>
+      <rfb name="CRFM" code="crfm" fid="24535" type="MI" style="rfmo_marine_unspecified_inland_noborders" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(-68, 18)" zoomExtent="new OpenLayers.Bounds(-93.0, 0, -47, 33)">
+        <descriptor link="http://www.fao.org/fishery/rfb/crfm/en" title="Caribbean Regional Fisheries Mechanism (CRFM)"/>
+        <members src="FIGIS">
+          <country>AIA</country>
+          <country>ATG</country>
+          <country>BHS</country>
+          <country>BRB</country>
+          <country>BLZ</country>
+          <country>GRD</country>
+          <country>GUY</country>
+          <country>HTI</country>
+          <country>JAM</country>
+          <country>MSR</country>
+          <country>LCA</country>
+          <country>KNA</country>
+          <country>VCT</country>
+          <country>SUR</country>
+          <country>TTO</country>
+          <country>TCA</country>
+        </members>
+      </rfb>
+      <rfb name="CTMFM" code="ctmfm" fid="21780" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-55,-36)" zoomExtent="new OpenLayers.Bounds(-90, -55, -20, -15)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ctmfm/en" title="Joint Technical Commission of the Maritime Front (CTMFM)"/>
+        <members src="FIGIS">
+          <country>ARG</country>
+          <country>URY</country>
+        </members>
+      </rfb>
+      <rfb name="EIFAAC" code="eifaac" fid="22050" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(12, 48)" zoomExtent="new OpenLayers.Bounds(-35, 20, 55, 80)">
+        <descriptor link="http://www.fao.org/fishery/rfb/eifaac/en" title="European Inland Fisheries and Aquaculture Advisory Commission (EIFAAC)"/>
+        <members src="FIGIS">
+          <country>ALB</country>
+          <country>AUT</country>
+          <country>BEL</country>
+          <country>BIH</country>
+          <country>BGR</country>
+          <country>HRV</country>
+          <country>CYP</country>
+          <country>CZE</country>
+          <country>DNK</country>
+          <country>EST</country>
+          <country>EUR</country>
+          <country>FIN</country>
+          <country>FRA</country>
+          <country>DEU</country>
+          <country>GRC</country>
+          <country>HUN</country>
+          <country>ISL</country>
+          <country>IRL</country>
+          <country>ISR</country>
+          <country>ITA</country>
+          <country>LVA</country>
+          <country>LTU</country>
+          <country>LUX</country>
+          <country>NLD</country>
+          <country>NOR</country>
+          <country>POL</country>
+          <country>PRT</country>
+          <country>ROU</country>
+          <country>SVK</country>
+          <country>ESP</country>
+          <country>SWE</country>
+          <country>CHE</country>
+          <country>TUR</country>
+          <country>GBR</country>
+        </members>
+      </rfb>
+      <rfb name="FCWC" code="fcwc" fid="24537" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(0, 7)" zoomExtent="new OpenLayers.Bounds(-45, -25, 45, 30)">
+        <descriptor link="http://www.fao.org/fishery/rfb/fcwc/en" title="Fishery Committee of the West Central Gulf of Guinea (FCWC)"/>
+        <members src="FIGIS">
+          <country>BEN</country>
+          <country>CIV</country>
+          <country>GHA</country>
+          <country>LBR</country>
+          <country>NGA</country>
+          <country>TGO</country>
+        </members>
+      </rfb>
+      <rfb name="FFA" code="ffa" fid="20160" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-19600000, -3200000)" zoomExtent="new OpenLayers.Bounds(-12000000, -9000000, 5000000, 3000000)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ffa/en" title="Forum Fisheries Agency (FFA)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>COK</country>
+          <country>FJI</country>
+          <country>KIR</country>
+          <country>MHL</country>
+          <country>FSM</country>
+          <country>NRU</country>
+          <country>NZL</country>
+          <country>NIU</country>
+          <country>PLW</country>
+          <country>PNG</country>
+          <country>WSM</country>
+          <country>SLB</country>
+          <country>TKL</country>
+          <country>TON</country>
+          <country>TUV</country>
+          <country>VUT</country>
+        </members>
+      </rfb>
+      <rfb name="GFCM" code="gfcm" fid="24561" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(12, 48)" zoomExtent="new OpenLayers.Bounds(-30, 15, 50, 75)">
+        <descriptor link="http://www.fao.org/fishery/rfb/gfcm/en" title="General Fisheries Commission for the Mediterranean (GFCM)"/>
+        <members src="FIGIS">
+          <country>ALB</country>
+          <country>DZA</country>
+          <country>BGR</country>
+          <country>HRV</country>
+          <country>CYP</country>
+          <country>EUR</country>
+          <country>EGY</country>
+          <country>FRA</country>
+          <country>GRC</country>
+          <country>ISR</country>
+          <country>ITA</country>
+          <country>JPN</country>
+          <country>LBN</country>
+          <country>LBY</country>
+          <country>MLT</country>
+          <country>MCO</country>
+          <country>MNE</country>
+          <country>MAR</country>
+          <country>ROU</country>
+          <country>SVN</country>
+          <country>ESP</country>
+          <country>SYR</country>
+          <country>TUN</country>
+          <country>TUR</country>
+        </members>
+      </rfb>
+      <rfb name="IATTC" code="iattc" fid="9967" type="M" style="rfmo_marine_border" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-13400000, 1000000.0)" zoomExtent="new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/iattc/en" title="Inter-American Tropical Tuna Commission (IATTC)"/>
+        <members src="FIGIS">
+          <country>BLZ</country>
+          <country>CAN</country>
+          <country>CHN</country>
+          <country>TWN</country>
+          <country>COL</country>
+          <country>CRI</country>
+          <country>ECU</country>
+          <country>SLV</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>GTM</country>
+          <country>KIR</country>
+          <country>JPN</country>
+          <country>MEX</country>
+          <country>NIC</country>
+          <country>PAN</country>
+          <country>PER</country>
+          <country>KOR</country>
+          <country>USA</country>
+          <country>VUT</country>
+          <country>VEN</country>
+        </members>
+      </rfb>
+      <rfb name="ICCAT" code="iccat" fid="9294" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-40, 0)" zoomExtent="new OpenLayers.Bounds(-100, -85, 50, 90)">
+        <descriptor link="http://www.fao.org/fishery/rfb/iccat/en" title="International Commission for the Conservation of Atlantic Tunas (ICCAT)"/>
+        <members src="FIGIS">
+          <country>ALB</country>
+          <country>DZA</country>
+          <country>AGO</country>
+          <country>BRB</country>
+          <country>BLZ</country>
+          <country>BRA</country>
+          <country>CAN</country>
+          <country>CPV</country>
+          <country>CHN</country>
+          <country>SLE</country>
+          <country>CIV</country>
+          <country>EGY</country>
+          <country>GNQ</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>GAB</country>
+          <country>GHA</country>
+          <country>GTM</country>
+          <country>GIN</country>
+          <country>HND</country>
+          <country>ISL</country>
+          <country>JPN</country>
+          <country>LBY</country>
+          <country>MAR</country>
+          <country>MRT</country>
+          <country>MEX</country>
+          <country>NAM</country>
+          <country>NIC</country>
+          <country>NGA</country>
+          <country>NOR</country>
+          <country>PAN</country>
+          <country>PHL</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>VCT</country>
+          <country>STP</country>
+          <country>SEN</country>
+          <country>SLE</country>
+          <country>ZAF</country>
+          <country>SYR</country>
+          <country>TTO</country>
+          <country>TUN</country>
+          <country>TUR</country>
+          <country>GBR</country>
+          <country>USA</country>
+          <country>URY</country>
+          <country>VUT</country>
+          <country>VEN</country>
+        </members>
+      </rfb>
+      <rfb name="ICES" code="ices" fid="2137" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(0, 60)" zoomExtent="new OpenLayers.Bounds(-45, 32, 70, 90)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ices/en" title="International Council for the Exploration of the Sea (ICES)"/>
+        <members src="FIGIS">
+          <country>BEL</country>
+          <country>CAN</country>
+          <country>DNK</country>
+          <country>EST</country>
+          <country>FIN</country>
+          <country>FRA</country>
+          <country>DEU</country>
+          <country>ISL</country>
+          <country>IRL</country>
+          <country>LVA</country>
+          <country>LTU</country>
+          <country>NLD</country>
+          <country>NOR</country>
+          <country>POL</country>
+          <country>PRT</country>
+          <country>RUS</country>
+          <country>ESP</country>
+          <country>SWE</country>
+          <country>GBR</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="IOTC" code="iotc" fid="85" type="M" style="rfmo_marine_border" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(80, -10)" zoomExtent="new OpenLayers.Bounds(-25, -56, 150, 75)">
+        <descriptor link="http://www.fao.org/fishery/rfb/iotc/en" title="Indian Ocean Tuna Commission (IOTC)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>BLZ</country>
+          <country>CHN</country>
+          <country>COM</country>
+          <country>ERI</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>GIN</country>
+          <country>IND</country>
+          <country>IDN</country>
+          <country>IRN</country>
+          <country>JPN</country>
+          <country>KEN</country>
+          <country>MDG</country>
+          <country>MYS</country>
+          <country>MDV</country>
+          <country>MUS</country>
+          <country>MOZ</country>
+          <country>OMN</country>
+          <country>PAK</country>
+          <country>PHL</country>
+          <country>KOR</country>
+          <country>SYC</country>
+          <country>SLE</country>
+          <country>LKA</country>
+          <country>SDN</country>
+          <country>THA</country>
+          <country>GBR</country>
+          <country>TZA</country>
+          <country>VUT</country>
+          <country>YEM</country>
+        </members>
+      </rfb>
+      <rfb name="IPHC" code="iphc" fid="1738" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-17037508.34, 7800000.0)" zoomExtent="new OpenLayers.Bounds(-5893240, 3922651, 5967525, 12804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/iphc/en" title="International Pacific Halibut Commission (IPHC)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="IWC" code="iwc" fid="477" type="M" style="rfmo_unspecified_noborder" srs="4326" isMasked="true" globalZoom="true" centerCoords="null" zoomExtent="null">
+        <descriptor link="http://www.fao.org/fishery/rfb/iwc/en" title="International Whaling Commission (IWC)"/>
+        <members src="FIGIS">
+          <country>ATG</country>
+          <country>ARG</country>
+          <country>AUS</country>
+          <country>AUT</country>
+          <country>BEL</country>
+          <country>BLZ</country>
+          <country>BEN</country>
+          <country>BRA</country>
+          <country>BGR</country>
+          <country>KHM</country>
+          <country>CMR</country>
+          <country>CHL</country>
+          <country>CHN</country>
+          <country>COL</country>
+          <country>COG</country>
+          <country>CRI</country>
+          <country>CIV</country>
+          <country>HRV</country>
+          <country>CYP</country>
+          <country>CZE</country>
+          <country>DNK</country>
+          <country>DMA</country>
+          <country>DOM</country>
+          <country>ECU</country>
+          <country>ERI</country>
+          <country>EST</country>
+          <country>FIN</country>
+          <country>FRA</country>
+          <country>GAB</country>
+          <country>GMB</country>
+          <country>DEU</country>
+          <country>GHA</country>
+          <country>GRD</country>
+          <country>GTM</country>
+          <country>GIN</country>
+          <country>GNB</country>
+          <country>HUN</country>
+          <country>ISL</country>
+          <country>IND</country>
+          <country>IRL</country>
+          <country>ISR</country>
+          <country>ITA</country>
+          <country>JPN</country>
+          <country>KEN</country>
+          <country>KIR</country>
+          <country>LAO</country>
+          <country>LTU</country>
+          <country>LUX</country>
+          <country>MLI</country>
+          <country>MHL</country>
+          <country>MRT</country>
+          <country>MEX</country>
+          <country>MCO</country>
+          <country>MNG</country>
+          <country>MAR</country>
+          <country>NRU</country>
+          <country>NLD</country>
+          <country>NZL</country>
+          <country>NIC</country>
+          <country>NOR</country>
+          <country>OMN</country>
+          <country>PLW</country>
+          <country>PAN</country>
+          <country>PER</country>
+          <country>POL</country>
+          <country>PRT</country>
+          <country>KOR</country>
+          <country>ROU</country>
+          <country>RUS</country>
+          <country>KNA</country>
+          <country>LCA</country>
+          <country>VCT</country>
+          <country>SMR</country>
+          <country>SEN</country>
+          <country>SVK</country>
+          <country>SVN</country>
+          <country>SLB</country>
+          <country>ZAF</country>
+          <country>ESP</country>
+          <country>SUR</country>
+          <country>SWE</country>
+          <country>CHE</country>
+          <country>TGO</country>
+          <country>TUV</country>
+          <country>GBR</country>
+          <country>USA</country>
+          <country>TZA</country>
+          <country>URY</country>
+        </members>
+      </rfb>
+      <rfb name="JOINTFISH" code="jointfish" fid="24563" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(32, 73)" zoomExtent="new OpenLayers.Bounds(0, 40, 70, 85)">
+        <descriptor link="http://www.fao.org/fishery/rfb/jointfish/en" title="Joint Norwegian-Russian Fisheries Commission (JointFish)"/>
+        <members src="FIGIS">
+          <country>NOR</country>
+          <country>RUS</country>
+        </members>
+      </rfb>
+      <rfb name="LTA" code="lta" fid="8692" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(30, -5)" zoomExtent="new OpenLayers.Bounds(-5,-30, 60,15)">
+        <descriptor link="http://www.fao.org/fishery/rfb/lta/en" title="Lake Tanganyika Authority (LTA)"/>
+        <members src="FIGIS">
+          <country>BDI</country>
+          <country>COD</country>
+          <country>TZA</country>
+          <country>ZMB</country>
+        </members>
+      </rfb>
+      <rfb name="LVFO" code="lvfo" fid="21480" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(36.55, -2.6)" zoomExtent="new OpenLayers.Bounds(0.778515625, -29.055078125, 72, 19.2)">
+        <descriptor link="http://www.fao.org/fishery/rfb/lvfo/en" title="Lake Victoria Fisheries Organization (LVFO)"/>
+        <members src="FIGIS">
+          <country>KEN</country>
+          <country>UGA</country>
+          <country>TZA</country>
+        </members>
+      </rfb>
+      <rfb name="MRC" code="mrc" fid="23920" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="null" zoomExtent="new OpenLayers.Bounds(80.0, 1.0, 115.0, 32.0)">
+        <descriptor link="http://www.fao.org/fishery/rfb/mrc/en" title="Mekong River Commission (MRC)"/>
+        <members src="FIGIS">
+          <country>KHM</country>
+          <country>LAO</country>
+          <country>THA</country>
+          <country>VNM</country>
+        </members>
+      </rfb>
+      <rfb name="NACA" code="naca" fid="20290" type="I" style="rfmo_inland_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(110, 5)" zoomExtent="new OpenLayers.Bounds(70, -35, 155, 55)">
+        <descriptor link="http://www.fao.org/fishery/rfb/naca/en" title="Network of Aquaculture Centers in Asia-Pacific (NACA)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>BGD</country>
+          <country>KHM</country>
+          <country>CHN</country>
+          <country>HKG</country>
+          <country>IND</country>
+          <country>IDN</country>
+          <country>IRN</country>
+          <country>PRK</country>
+          <country>LAO</country>
+          <country>MYS</country>
+          <country>MMR</country>
+          <country>NPL</country>
+          <country>PAK</country>
+          <country>PHL</country>
+          <country>LKA</country>
+          <country>THA</country>
+          <country>VNM</country>
+        </members>
+      </rfb>
+      <rfb name="NAFO" code="nafo" fid="7538" type="MR" style="rfmo_marine_regulatory_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-60, 55)" zoomExtent="new OpenLayers.Bounds(-85, 30, -35, 85)">
+        <descriptor link="http://www.fao.org/fishery/rfb/nafo/en" title="Northwest Atlantic Fisheries Organization (NAFO)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>CUB</country>
+          <country>DNK</country>
+          <country>FRO</country>
+          <country>GRL</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>ISL</country>
+          <country>JPN</country>
+          <country>NOR</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>UKR</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="NAMMCO" code="nammco" fid="21090" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-20, 55)" zoomExtent="new OpenLayers.Bounds(-85, 30, 70, 90)">
+        <descriptor link="http://www.fao.org/fishery/rfb/nammco/en" title="North Atlantic Marine Mammal Commission (NAMMCO)"/>
+        <members src="FIGIS">
+          <country>FRO</country>
+          <country>GRL</country>
+          <country>ISL</country>
+          <country>NOR</country>
+        </members>
+      </rfb>
+      <rfb name="NASCO" code="nasco" fid="22980" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-20, 55)" zoomExtent="new OpenLayers.Bounds(-85, 30, 70, 90)">
+        <descriptor link="http://www.fao.org/fishery/rfb/nasco/en" title="North Atlantic Salmon Conservation Organization (NASCO)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>DNK</country>
+          <country>EUR</country>
+          <country>NOR</country>
+          <country>RUS</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="NEAFC" code="neafc" fid="21580" type="MR" style="rfmo_marine_regulatory_border" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(5, 59)" zoomExtent="new OpenLayers.Bounds(-43, 36, 51.5, 90)">
+        <descriptor link="http://www.fao.org/fishery/rfb/neafc/en" title="North-East Atlantic Fisheries Commission (NEAFC)"/>
+        <members src="FIGIS">
+          <country>DNK</country>
+          <country>EUR</country>
+          <country>ISL</country>
+          <country>NOR</country>
+          <country>RUS</country>
+        </members>
+      </rfb>
+      <rfb name="NPFC" code="npfc" fid="24564" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(20037508.34, 4800000.0)" zoomExtent="new OpenLayers.Bounds(-5893240, 3922651, 5967525, 12804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/npfc/en" title="North Pacific Fisheries Commission (NPFC)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>CHN</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>TWN</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="NPAFC" code="npafc" fid="9905" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(20037508.34, 7800000.0)" zoomExtent="new OpenLayers.Bounds(-5893240, 3922651, 5967525, 12804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/npafc/en" title="North Pacific Anadromous Fish Commission (NPAFC)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="OLDEPESCA" code="oldepesca" fid="22110" type="MI" style="rfmo_marine_unspecified_inland_noborders" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(-80, 10)" zoomExtent="new OpenLayers.Bounds(-120, -30, -50, 35)">
+        <descriptor link="http://www.fao.org/fishery/rfb/oldepesca/en" title="Latin-American Fisheries Development Organization (OLDEPESCA)"/>
+        <members src="FIGIS">
+          <country>BLZ</country>
+          <country>BOL</country>
+          <country>CRI</country>
+          <country>CUB</country>
+          <country>ECU</country>
+          <country>SLV</country>
+          <country>GUY</country>
+          <country>HND</country>
+          <country>MEX</country>
+          <country>NIC</country>
+          <country>PER</country>
+          <country>VEN</country>
+        </members>
+      </rfb>
+      <rfb name="OSPESCA" code="ospesca" fid="23700" type="MI" style="rfmo_marine_unspecified_inland_noborders" srs="4326" isMasked="false" globalZoom="false" centerCoords="null" zoomExtent="new OpenLayers.Bounds(-125.0, -16.0, -35.0, 45.0)">
+        <descriptor link="http://www.fao.org/fishery/rfb/ospesca/en" title="Central America Fisheries and Aquaculture Organization (OSPESCA)"/>
+        <members src="FIGIS">
+          <country>BLZ</country>
+          <country>CRI</country>
+          <country>DOM</country>
+          <country>SLV</country>
+          <country>GTM</country>
+          <country>HND</country>
+          <country>NIC</country>
+          <country>PAN</country>
+        </members>
+      </rfb>
+      <rfb name="PERSGA" code="persga" fid="270" type="M" style="rfmo_marine_border" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(40, 15)" zoomExtent="new OpenLayers.Bounds(31, 7, 65, 45)">
+        <descriptor link="http://www.fao.org/fishery/rfb/persga/en" title="Red Sea and Gulf of Aden Environment Programme (PERSGA)"/>
+        <members src="FIGIS">
+          <country>DJI</country>
+          <country>EGY</country>
+          <country>JOR</country>
+          <country>SAU</country>
+          <country>SOM</country>
+          <country>SDN</country>
+          <country>YEM</country>
+        </members>
+      </rfb>
+      <rfb name="PICES" code="pices" fid="20210" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-20037508.34, 7800000.0)" zoomExtent="new OpenLayers.Bounds(-5693240, 3722651, 5767525, 10804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/pices/en" title="North Pacific Marine Science Organization  (PICES)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>CHN</country>
+          <country>JPN</country>
+          <country>KOR</country>
+          <country>RUS</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="PSC" code="psc" fid="9906" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-17037508.34, 7800000.0)" zoomExtent="new OpenLayers.Bounds(-5893240, 3922651, 5967525, 12804929.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/psc/en" title="Pacific Salmon Commission (PSC)"/>
+        <members src="FIGIS">
+          <country>CAN</country>
+          <country>USA</country>
+        </members>
+      </rfb>
+      <rfb name="RECOFI" code="recofi" fid="24538" type="M" style="rfmo_marine_border" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(51, 27)" zoomExtent="new OpenLayers.Bounds(31, 7, 65, 45)">
+        <descriptor link="http://www.fao.org/fishery/rfb/recofi/en" title="Regional Commission for Fisheries (RECOFI)"/>
+        <members src="FIGIS">
+          <country>BHR</country>
+          <country>IRQ</country>
+          <country>IRN</country>
+          <country>KWT</country>
+          <country>OMN</country>
+          <country>QAT</country>
+          <country>SAU</country>
+          <country>ARE</country>
+        </members>
+      </rfb>
+      <rfb name="SEAFDEC" code="seafdec" fid="9317" type="MI" style="rfmo_marine_inland_unspecified_noborder" srs="4326" isMasked="false" globalZoom="false" centerCoords="new OpenLayers.LonLat(110, 10)" zoomExtent="new OpenLayers.Bounds(70, -35, 155, 50)">
+        <descriptor link="http://www.fao.org/fishery/rfb/seafdec/en" title="Southeast Asian Fisheries Development Center (SEAFDEC)"/>
+        <members src="FIGIS">
+          <country>BRN</country>
+          <country>KHM</country>
+          <country>IDN</country>
+          <country>JPN</country>
+          <country>LAO</country>
+          <country>MYS</country>
+          <country>MMR</country>
+          <country>PHL</country>
+          <country>SGP</country>
+          <country>THA</country>
+          <country>VNM</country>
+        </members>
+      </rfb>
+      <rfb name="SEAFO" code="seafo" fid="22140" type="M" style="rfmo_marine_border" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(5, 9)" zoomExtent="new OpenLayers.Bounds(-25, -55, 37, 60)">
+        <descriptor link="http://www.fao.org/fishery/rfb/seafo/en" title="South East Atlantic Fisheries Organisation (SEAFO)"/>
+        <members src="FIGIS">
+          <country>AGO</country>
+          <country>EUR</country>
+          <country>JPN</country>
+          <country>NAM</country>
+          <country>NOR</country>
+          <country>KOR</country>
+          <country>ZAF</country>
+        </members>
+      </rfb>
+      <rfb name="SIOFA" code="siofa" fid="24539" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(75, -25)" zoomExtent="new OpenLayers.Bounds(30, -55, 120, 15)">
+        <descriptor link="http://www.fao.org/fishery/rfb/siofa/en" title="South Indian Ocean Fisheries Agreement (SIOFA)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>COK</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>JPN</country>
+          <country>MUS</country>
+          <country>SYC</country>
+        </members>
+      </rfb>
+      <rfb name="SPC" code="spc" fid="21000" type="M" style="rfmo_marine_border" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-19600000, -3200000)" zoomExtent="new OpenLayers.Bounds(-12000000, -9000000, 5000000, 3000000)">
+        <descriptor link="http://www.fao.org/fishery/rfb/spc/en" title="Secretariat of the Pacific Community (SPC)"/>
+        <members src="FIGIS">
+          <country>ASM</country>
+          <country>AUS</country>
+          <country>COK</country>
+          <country>FSM</country>
+          <country>FJI</country>
+          <country>FRA</country>
+          <country>PYF</country>
+          <country>GUM</country>
+          <country>KIR</country>
+          <country>MHL</country>
+          <country>NRU</country>
+          <country>NCL</country>
+          <country>NIU</country>
+          <country>MNP</country>
+          <country>PLW</country>
+          <country>PNG</country>
+          <country>PCN</country>
+          <country>WSM</country>
+          <country>SLB</country>
+          <country>TKL</country>
+          <country>TON</country>
+          <country>TUV</country>
+          <country>USA</country>
+          <country>VUT</country>
+          <country>WLF</country>
+        </members>
+      </rfb>
+      <rfb name="SPRFMO" code="sprfmo" fid="24558" type="M" style="rfmo_marine_noborder" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-19600000, -3200000)" zoomExtent="new OpenLayers.Bounds(-12000000, -9000000, 5000000, 3000000)">
+        <descriptor link="http://www.fao.org/fishery/rfb/sprfmo/en" title="South Pacific Regional Fisheries Management Organisation (SPRFMO)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>BLZ</country>
+          <country>CHL</country>
+          <country>CHN</country>
+          <country>COK</country>
+          <country>CUB</country>
+          <country>EUR</country>
+          <country>DNK</country>
+          <country>KOR</country>
+          <country>VUT</country>
+          <country>NZL</country>
+          <country>RUS</country>
+          <country>TWN</country>
+        </members>
+      </rfb>
+      <rfb name="SRFC" code="srfc" fid="24540" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-15, 15)" zoomExtent="new OpenLayers.Bounds(-31, 0, -4, 31)">
+        <descriptor link="http://www.fao.org/fishery/rfb/srfc/en" title="Subregional Fisheries Commission (SRFC)"/>
+        <members src="FIGIS">
+          <country>CPV</country>
+          <country>GMB</country>
+          <country>GIN</country>
+          <country>GNB</country>
+          <country>MRT</country>
+          <country>SEN</country>
+          <country>SLE</country>
+        </members>
+      </rfb>
+      <rfb name="SWIOFC" code="swiofc" fid="24541" type="MA" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(55, -10)" zoomExtent="new OpenLayers.Bounds(5, -50, 82, 30)">
+        <descriptor link="http://www.fao.org/fishery/rfb/swiofc/en" title="Southwest Indian Ocean Fisheries Commission (SWIOFC)"/>
+        <members src="FIGIS">
+          <country>COM</country>
+          <country>FRA</country>
+          <country>KEN</country>
+          <country>MDG</country>
+          <country>MDV</country>
+          <country>MUS</country>
+          <country>MOZ</country>
+          <country>SYC</country>
+          <country>SOM</country>
+          <country>ZAF</country>
+          <country>TZA</country>
+          <country>YEM</country>
+        </members>
+      </rfb>
+      <rfb name="WCPFC" code="wcpfc" fid="24542" type="M" style="rfmo_marine_border" srs="3349" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-18400000, 1000000.0)" zoomExtent="new OpenLayers.Bounds(-20037508.34, -20037508.34, 20037508.34, 20037508.34)">
+        <descriptor link="http://www.fao.org/fishery/rfb/wcpfc/en" title="Western and Central Pacific Fisheries Commission (WCPFC)"/>
+        <members src="FIGIS">
+          <country>AUS</country>
+          <country>CAN</country>
+          <country>CHN</country>
+          <country>COK</country>
+          <country>EUR</country>
+          <country>FJI</country>
+          <country>FRA</country>
+          <country>IDN</country>
+          <country>JPN</country>
+          <country>KIR</country>
+          <country>MHL</country>
+          <country>FSM</country>
+          <country>NRU</country>
+          <country>NZL</country>
+          <country>NIU</country>
+          <country>PLW</country>
+          <country>PNG</country>
+          <country>PHL</country>
+          <country>KOR</country>
+          <country>WSM</country>
+          <country>SLB</country>
+          <country>TON</country>
+          <country>TWN</country>
+          <country>TUV</country>
+          <country>USA</country>
+          <country>VUT</country>
+        </members>
+      </rfb>
+      <rfb name="WECAFC" code="wecafc" fid="22150" type="M" style="rfmo_marine_noborder" srs="4326" isMasked="true" globalZoom="false" centerCoords="new OpenLayers.LonLat(-65, 20)" zoomExtent="new OpenLayers.Bounds(-110, -40, -20, 55)">
+        <descriptor link="http://www.fao.org/fishery/rfb/wecafc/en" title="Western Central Atlantic Fishery Commission (WECAFC)"/>
+        <members src="FIGIS">
+          <country>ATG</country>
+          <country>BHS</country>
+          <country>BRB</country>
+          <country>BLZ</country>
+          <country>BRA</country>
+          <country>COL</country>
+          <country>CUB</country>
+          <country>DMA</country>
+          <country>DOM</country>
+          <country>EUR</country>
+          <country>FRA</country>
+          <country>GRD</country>
+          <country>GTM</country>
+          <country>GIN</country>
+          <country>GUY</country>
+          <country>HTI</country>
+          <country>HND</country>
+          <country>JAM</country>
+          <country>JPN</country>
+          <country>MEX</country>
+          <country>NLD</country>
+          <country>NIC</country>
+          <country>PAN</country>
+          <country>KOR</country>
+          <country>KNA</country>
+          <country>LCA</country>
+          <country>VCT</country>
+          <country>ESP</country>
+          <country>SUR</country>
+          <country>TTO</country>
+          <country>GBR</country>
+          <country>USA</country>
+          <country>VEN</country>
+        </members>
+      </rfb>
+    </rfbs>
+    <statics>
+      <!-- Automatically added from FIGIS -->
+      <static name="COUNTRY_ISO3_AGO" value="Angola"/>
+      <static name="COUNTRY_ISO3_AIA" value="Anguilla"/>
+      <static name="COUNTRY_ISO3_ALB" value="Albania"/>
+      <static name="COUNTRY_ISO3_ARE" value="United Arab Emirates"/>
+      <static name="COUNTRY_ISO3_ARG" value="Argentina"/>
+      <static name="COUNTRY_ISO3_ARM" value="Armenia"/>
+      <static name="COUNTRY_ISO3_ASM" value="American Samoa"/>
+      <static name="COUNTRY_ISO3_ATG" value="Antigua and Barbuda"/>
+      <static name="COUNTRY_ISO3_AUS" value="Australia"/>
+      <static name="COUNTRY_ISO3_AUT" value="Austria"/>
+      <static name="COUNTRY_ISO3_AZE" value="Azerbaijan"/>
+      <static name="COUNTRY_ISO3_BDI" value="Burundi"/>
+      <static name="COUNTRY_ISO3_BEL" value="Belgium"/>
+      <static name="COUNTRY_ISO3_BEN" value="Benin"/>
+      <static name="COUNTRY_ISO3_BFA" value="Burkina Faso"/>
+      <static name="COUNTRY_ISO3_BGD" value="Bangladesh"/>
+      <static name="COUNTRY_ISO3_BGR" value="Bulgaria"/>
+      <static name="COUNTRY_ISO3_BHR" value="Bahrain"/>
+      <static name="COUNTRY_ISO3_BHS" value="Bahamas"/>
+      <static name="COUNTRY_ISO3_BIH" value="Bosnia and Herzegovina"/>
+      <static name="COUNTRY_ISO3_BLZ" value="Belize"/>
+      <static name="COUNTRY_ISO3_BOL" value="Bolivia (Plurinat.State)"/>
+      <static name="COUNTRY_ISO3_BRA" value="Brazil"/>
+      <static name="COUNTRY_ISO3_BRB" value="Barbados"/>
+      <static name="COUNTRY_ISO3_BRN" value="Brunei Darussalam"/>
+      <static name="COUNTRY_ISO3_BWA" value="Botswana"/>
+      <static name="COUNTRY_ISO3_CAF" value="Central African Republic"/>
+      <static name="COUNTRY_ISO3_CAN" value="Canada"/>
+      <static name="COUNTRY_ISO3_CHE" value="Switzerland"/>
+      <static name="COUNTRY_ISO3_CHL" value="Chile"/>
+      <static name="COUNTRY_ISO3_CHN" value="China"/>
+      <static name="COUNTRY_ISO3_CIV" value="Côte d'Ivoire"/>
+      <static name="COUNTRY_ISO3_CMR" value="Cameroon"/>
+      <static name="COUNTRY_ISO3_COD" value="Dem. Rep. of the Congo"/>
+      <static name="COUNTRY_ISO3_COG" value="Republic of Congo"/>
+      <static name="COUNTRY_ISO3_COK" value="Cook Islands"/>
+      <static name="COUNTRY_ISO3_COL" value="Colombia"/>
+      <static name="COUNTRY_ISO3_COM" value="Comoros"/>
+      <static name="COUNTRY_ISO3_CPV" value="Cabo Verde"/>
+      <static name="COUNTRY_ISO3_CRI" value="Costa Rica"/>
+      <static name="COUNTRY_ISO3_CUB" value="Cuba"/>
+      <static name="COUNTRY_ISO3_CYP" value="Cyprus"/>
+      <static name="COUNTRY_ISO3_CZE" value="Czech Republic"/>
+      <static name="COUNTRY_ISO3_DEU" value="Germany"/>
+      <static name="COUNTRY_ISO3_DJI" value="Djibouti"/>
+      <static name="COUNTRY_ISO3_DMA" value="Dominica"/>
+      <static name="COUNTRY_ISO3_DNK" value="Denmark"/>
+      <static name="COUNTRY_ISO3_DOM" value="Dominican Republic"/>
+      <static name="COUNTRY_ISO3_DZA" value="Algeria"/>
+      <static name="COUNTRY_ISO3_ECU" value="Ecuador"/>
+      <static name="COUNTRY_ISO3_EGY" value="Egypt"/>
+      <static name="COUNTRY_ISO3_ERI" value="Eritrea"/>
+      <static name="COUNTRY_ISO3_ESP" value="Spain"/>
+      <static name="COUNTRY_ISO3_EST" value="Estonia"/>
+      <static name="COUNTRY_ISO3_ETH" value="Ethiopia"/>
+      <static name="COUNTRY_ISO3_EUR" value="European Union"/>
+      <static name="COUNTRY_ISO3_FIN" value="Finland"/>
+      <static name="COUNTRY_ISO3_FJI" value="Republic of Fiji"/>
+      <static name="COUNTRY_ISO3_FRA" value="France"/>
+      <static name="COUNTRY_ISO3_FRO" value="Faroe Islands"/>
+      <static name="COUNTRY_ISO3_FSM" value="Fed.States of Micronesia"/>
+      <static name="COUNTRY_ISO3_GAB" value="Gabon"/>
+      <static name="COUNTRY_ISO3_GBR" value="United Kingdom"/>
+      <static name="COUNTRY_ISO3_GHA" value="Ghana"/>
+      <static name="COUNTRY_ISO3_GIN" value="Guinea"/>
+      <static name="COUNTRY_ISO3_GMB" value="Gambia"/>
+      <static name="COUNTRY_ISO3_GNB" value="Guinea-Bissau"/>
+      <static name="COUNTRY_ISO3_GNQ" value="Equatorial Guinea"/>
+      <static name="COUNTRY_ISO3_GRC" value="Greece"/>
+      <static name="COUNTRY_ISO3_GRD" value="Grenada"/>
+      <static name="COUNTRY_ISO3_GRL" value="Greenland"/>
+      <static name="COUNTRY_ISO3_GTM" value="Guatemala"/>
+      <static name="COUNTRY_ISO3_GUM" value="Guam"/>
+      <static name="COUNTRY_ISO3_GUY" value="Guyana"/>
+      <static name="COUNTRY_ISO3_HKG" value="Hong Kong SAR China"/>
+      <static name="COUNTRY_ISO3_HND" value="Honduras"/>
+      <static name="COUNTRY_ISO3_HRV" value="Croatia"/>
+      <static name="COUNTRY_ISO3_HTI" value="Haiti"/>
+      <static name="COUNTRY_ISO3_HUN" value="Hungary"/>
+      <static name="COUNTRY_ISO3_IDN" value="Indonesia"/>
+      <static name="COUNTRY_ISO3_IND" value="India"/>
+      <static name="COUNTRY_ISO3_IRL" value="Ireland"/>
+      <static name="COUNTRY_ISO3_IRN" value="Iran (Islamic Rep. of)"/>
+      <static name="COUNTRY_ISO3_IRQ" value="Iraq"/>
+      <static name="COUNTRY_ISO3_ISL" value="Iceland"/>
+      <static name="COUNTRY_ISO3_ISR" value="Israel"/>
+      <static name="COUNTRY_ISO3_ITA" value="Italy"/>
+      <static name="COUNTRY_ISO3_JAM" value="Jamaica"/>
+      <static name="COUNTRY_ISO3_JOR" value="Jordan"/>
+      <static name="COUNTRY_ISO3_JPN" value="Japan"/>
+      <static name="COUNTRY_ISO3_KEN" value="Kenya"/>
+      <static name="COUNTRY_ISO3_KGZ" value="Kyrgyzstan"/>
+      <static name="COUNTRY_ISO3_KHM" value="Cambodia"/>
+      <static name="COUNTRY_ISO3_KIR" value="Kiribati"/>
+      <static name="COUNTRY_ISO3_KNA" value="Saint Kitts and Nevis"/>
+      <static name="COUNTRY_ISO3_KOR" value="Republic of Korea"/>
+      <static name="COUNTRY_ISO3_KWT" value="Kuwait"/>
+      <static name="COUNTRY_ISO3_LAO" value="Lao People's Dem. Rep."/>
+      <static name="COUNTRY_ISO3_LBN" value="Lebanon"/>
+      <static name="COUNTRY_ISO3_LBR" value="Liberia"/>
+      <static name="COUNTRY_ISO3_LBY" value="Libya"/>
+      <static name="COUNTRY_ISO3_LCA" value="Saint Lucia"/>
+      <static name="COUNTRY_ISO3_LKA" value="Sri Lanka"/>
+      <static name="COUNTRY_ISO3_LSO" value="Lesotho"/>
+      <static name="COUNTRY_ISO3_LTU" value="Lithuania"/>
+      <static name="COUNTRY_ISO3_LUX" value="Luxembourg"/>
+      <static name="COUNTRY_ISO3_LVA" value="Latvia"/>
+      <static name="COUNTRY_ISO3_MAR" value="Morocco"/>
+      <static name="COUNTRY_ISO3_MCO" value="Monaco"/>
+      <static name="COUNTRY_ISO3_MDG" value="Madagascar"/>
+      <static name="COUNTRY_ISO3_MDV" value="Maldives"/>
+      <static name="COUNTRY_ISO3_MEX" value="Mexico"/>
+      <static name="COUNTRY_ISO3_MHL" value="Marshall Islands"/>
+      <static name="COUNTRY_ISO3_MLI" value="Mali"/>
+      <static name="COUNTRY_ISO3_MLT" value="Malta"/>
+      <static name="COUNTRY_ISO3_MMR" value="Myanmar"/>
+      <static name="COUNTRY_ISO3_MNE" value="Montenegro"/>
+      <static name="COUNTRY_ISO3_MNG" value="Mongolia"/>
+      <static name="COUNTRY_ISO3_MNP" value="Northern Mariana Is."/>
+      <static name="COUNTRY_ISO3_MOZ" value="Mozambique"/>
+      <static name="COUNTRY_ISO3_MRT" value="Mauritania"/>
+      <static name="COUNTRY_ISO3_MSR" value="Montserrat"/>
+      <static name="COUNTRY_ISO3_MUS" value="Mauritius"/>
+      <static name="COUNTRY_ISO3_MWI" value="Malawi"/>
+      <static name="COUNTRY_ISO3_MYS" value="Malaysia"/>
+      <static name="COUNTRY_ISO3_NAM" value="Namibia"/>
+      <static name="COUNTRY_ISO3_NCL" value="New Caledonia"/>
+      <static name="COUNTRY_ISO3_NER" value="Niger"/>
+      <static name="COUNTRY_ISO3_NGA" value="Nigeria"/>
+      <static name="COUNTRY_ISO3_NIC" value="Nicaragua"/>
+      <static name="COUNTRY_ISO3_NIU" value="Niue"/>
+      <static name="COUNTRY_ISO3_NLD" value="Netherlands"/>
+      <static name="COUNTRY_ISO3_NOR" value="Norway"/>
+      <static name="COUNTRY_ISO3_NPL" value="Nepal"/>
+      <static name="COUNTRY_ISO3_NRU" value="Nauru"/>
+      <static name="COUNTRY_ISO3_NZL" value="New Zealand"/>
+      <static name="COUNTRY_ISO3_OMN" value="Oman"/>
+      <static name="COUNTRY_ISO3_PAK" value="Pakistan"/>
+      <static name="COUNTRY_ISO3_PAN" value="Panama"/>
+      <static name="COUNTRY_ISO3_PCN" value="Pitcairn Islands"/>
+      <static name="COUNTRY_ISO3_PER" value="Peru"/>
+      <static name="COUNTRY_ISO3_PHL" value="Philippines"/>
+      <static name="COUNTRY_ISO3_PLW" value="Palau"/>
+      <static name="COUNTRY_ISO3_PNG" value="Papua New Guinea"/>
+      <static name="COUNTRY_ISO3_POL" value="Poland"/>
+      <static name="COUNTRY_ISO3_PRK" value="Dem. People's Rep Korea"/>
+      <static name="COUNTRY_ISO3_PRT" value="Portugal"/>
+      <static name="COUNTRY_ISO3_PRY" value="Paraguay"/>
+      <static name="COUNTRY_ISO3_PYF" value="French Polynesia"/>
+      <static name="COUNTRY_ISO3_QAT" value="Qatar"/>
+      <static name="COUNTRY_ISO3_ROU" value="Romania"/>
+      <static name="COUNTRY_ISO3_RUS" value="Russian Federation"/>
+      <static name="COUNTRY_ISO3_RWA" value="Rwanda"/>
+      <static name="COUNTRY_ISO3_SAU" value="Saudi Arabia"/>
+      <static name="COUNTRY_ISO3_SDN" value="Sudan"/>
+      <static name="COUNTRY_ISO3_SEN" value="Senegal"/>
+      <static name="COUNTRY_ISO3_SGP" value="Singapore"/>
+      <static name="COUNTRY_ISO3_SLB" value="Solomon Islands"/>
+      <static name="COUNTRY_ISO3_SLE" value="Sierra Leone"/>
+      <static name="COUNTRY_ISO3_SLV" value="El Salvador"/>
+      <static name="COUNTRY_ISO3_SMR" value="San Marino"/>
+      <static name="COUNTRY_ISO3_SOM" value="Somalia"/>
+      <static name="COUNTRY_ISO3_STP" value="Sao Tome and Principe"/>
+      <static name="COUNTRY_ISO3_SUR" value="Suriname"/>
+      <static name="COUNTRY_ISO3_SVK" value="Slovakia"/>
+      <static name="COUNTRY_ISO3_SVN" value="Slovenia"/>
+      <static name="COUNTRY_ISO3_SWE" value="Sweden"/>
+      <static name="COUNTRY_ISO3_SWZ" value="Swaziland"/>
+      <static name="COUNTRY_ISO3_SYC" value="Seychelles"/>
+      <static name="COUNTRY_ISO3_SYR" value="Syrian Arab Republic"/>
+      <static name="COUNTRY_ISO3_TCA" value="Turks and Caicos Is."/>
+      <static name="COUNTRY_ISO3_TCD" value="Chad"/>
+      <static name="COUNTRY_ISO3_TGO" value="Togo"/>
+      <static name="COUNTRY_ISO3_THA" value="Thailand"/>
+      <static name="COUNTRY_ISO3_TJK" value="Tajikistan"/>
+      <static name="COUNTRY_ISO3_TKL" value="Tokelau"/>
+      <static name="COUNTRY_ISO3_TLS" value="Timor-Leste"/>
+      <static name="COUNTRY_ISO3_TON" value="Tonga"/>
+      <static name="COUNTRY_ISO3_TTO" value="Trinidad and Tobago"/>
+      <static name="COUNTRY_ISO3_TUN" value="Tunisia"/>
+      <static name="COUNTRY_ISO3_TUR" value="Turkey"/>
+      <static name="COUNTRY_ISO3_TUV" value="Tuvalu"/>
+      <static name="COUNTRY_ISO3_TWN" value="Taiwan Province of China"/>
+      <static name="COUNTRY_ISO3_TZA" value="United Rep. of Tanzania"/>
+      <static name="COUNTRY_ISO3_UGA" value="Uganda"/>
+      <static name="COUNTRY_ISO3_UKR" value="Ukraine"/>
+      <static name="COUNTRY_ISO3_URY" value="Uruguay"/>
+      <static name="COUNTRY_ISO3_USA" value="United States of America"/>
+      <static name="COUNTRY_ISO3_VCT" value="Saint Vincent/Grenadines"/>
+      <static name="COUNTRY_ISO3_VEN" value="Boliv Rep of Venezuela"/>
+      <static name="COUNTRY_ISO3_VNM" value="Viet Nam"/>
+      <static name="COUNTRY_ISO3_VUT" value="Vanuatu"/>
+      <static name="COUNTRY_ISO3_WLF" value="Wallis and Futuna Is."/>
+      <static name="COUNTRY_ISO3_WSM" value="Samoa"/>
+      <static name="COUNTRY_ISO3_YEM" value="Yemen"/>
+      <static name="COUNTRY_ISO3_ZAF" value="South Africa"/>
+      <static name="COUNTRY_ISO3_ZMB" value="Zambia"/>
+      <static name="COUNTRY_ISO3_ZWE" value="Zimbabwe"/>
+      <!-- From Settings -->
+      <static name="(NO SPECIES SELECTED)" value="(No species selected)"/>
+      <static name="200 NMI ARCS" value="200 nmi arcs"/>
+      <static name="200 NAUTICAL MILES ARCS">
+			<en>200 nautical miles arcs</en>
+			<fr>Zones des 200 milles marins</fr>
+			<es>Arcos de 200 millas náuticas</es>
+		</static>
+      <static name="FAO FISHING AREAS">
+			<en>FAO fishing areas</en>
+			<fr>Zones de pêche de la FAO</fr>
+			<es>Zonas de pesca de la FAO</es>
+		</static>
+      <static name="ALL FAO AREAS" value="FAO areas and their sub-divisions"/>
+      <static name="COORDINATES GRID" value="Coordinates grid"/>
+      <static name="FAO_DIV" value="FAO divisions"/>
+      <static name="FAO_MAJOR">
+			<en>FAO major fishing areas</en>
+			<fr>Principales zones de pêche de la FAO</fr>
+		</static>
+      <static name="FAO_SUB_AREA" value="FAO sub areas"/>
+      <static name="FAO_SUB_DIV" value="FAO sub divisions"/>
+      <static name="GFCM_SUB_AREA" value="GFCM geographical sub-areas"/>
+      <static name="ICCAT_SMU" value="ICCAT management unit"/>
+      <static name="INTERSECTING">
+			<en>Intersecting: </en>
+			<fr>Intersection : </fr>
+		</static>
+      <static name="ISO3_COUNTRY">
+			<en>Geographic reference</en>
+			<fr>Référence géographique</fr>
+		</static>
+      <static name="MARINEAREAS" value="Labels"/>
+      <static name="MEMBERS">
+			<en>Members</en>
+			<fr>Membres</fr>
+			<es>Miembros</es>
+		</static>
+      <static name="COUNTRY_BOUNDS" value="Countries - Union of countries"/>
+      <static name="PAC_TUNA_REP" value="Pacific tuna reporting area"/>
+      <static name="RFB_COMP">
+			<en>RFB Area of competence</en>
+			<fr>Zone de compétence du ORP</fr>
+		</static>
+      <static name="RFMO_MARINE_NOBORDER">
+			<en>Area of competence</en>
+			<fr>Zone de compétence</fr>
+			<es>Área de competencia</es>
+		</static>
+      <static name="RFMO_INLAND_NOBORDER">
+			<en>Area of competence</en>
+			<fr>Zone de compétence</fr>
+			<es>Área de competencia</es>
+		</static>
+      <static name="RFMO_UNSPECIFIED_NOBORDER" value="Area of competence without specified limits"/>
+      <static name="SPECIES_DIST" value="Species distribution"/>
+      <static name="VMEAREAS" value="VME Areas"/>
+      <static name="LEGEND_NOTE_CACFISH">
+			<en>&lt;br /&gt;&lt;i&gt;In December 2009 the following countries were officially invited by the Director General to become member of the Commission: Armenia, Azerbaijan, People's Republic China, Georgia, Islamic Republic of Iran, Kazakhstan, Kyrgyzstan, Russian Federation, Tajikistan, Turkey, Turkmenistan, Uzbekistan, Afghanistan, Mongolia and Ukraine.&lt;/i&gt;</en>
+		</static>
+      <static name="LEGEND_NOTE_OSPESCA">
+			<en>&lt;br /&gt;&lt;i&gt;Dominican Republic has Associated State status.&lt;/i&gt;</en>
+		</static>
+      <static name="LEGEND_NOTE_SPRFMO">
+			<en>&lt;br /&gt;&lt;i&gt;* Denmark in respect of the Faroe Islands and Greenland&lt;/i&gt;</en>
+		</static>
+      <static name="LEGEND_NOTE_NAFO">
+			<en>&lt;br /&gt;&lt;i&gt;* Denmark in respect of the Faroe Islands and Greenland&lt;/i&gt;</en>
+		</static>
+      <static name="LEGEND_NOTE_NEAFC">
+			<en>&lt;br /&gt;&lt;i&gt;* Denmark in respect of the Faroe Islands and Greenland&lt;/i&gt;</en>
+		</static>
+      <static name="LEGEND_NOTE_NASCO">
+			<en>&lt;br /&gt;&lt;i&gt;* Denmark in respect of the Faroe Islands and Greenland&lt;/i&gt;</en>
+		</static>
+      <static name="SELECT_AN_RFB" value="(Select an RFB...)"/>
+    </statics>
+  </output>
+</moniker>
