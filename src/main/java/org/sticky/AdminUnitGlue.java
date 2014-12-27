@@ -2,6 +2,7 @@ package org.sticky;
 
 import static org.sticky.Glues.*;
 
+import java.io.StringWriter;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,11 +11,19 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
 import javax.xml.namespace.QName;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
+
+import lombok.SneakyThrows;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.virtualrepository.csv.CsvAsset;
+import org.virtualrepository.csv.CsvCodelist;
 import org.virtualrepository.csv.CsvTable;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.DefaultTable;
@@ -72,10 +81,22 @@ public class AdminUnitGlue {
 	 * and adding flagstate information
 	 * 
 	 */
-	@Test
+	@Test @SneakyThrows
 	public void pushAdminUnits(){
 		
-		//TODO push countries table as xml
+		CsvCodelist asset = new CsvCodelist("admin-units",0, grade);
+		
+		asset.hasHeader(true);
+		asset.setDelimiter(',');
+		asset.setEncoding(Charset.forName("UTF-16"));
+		
+		Table table = new CsvTable(asset,load("admin-units.txt"));
+		
+		//Csv2Xml t = new Csv2Xml();
+		
+		//$print(t.toXml(table, asset));
+		
+		repository.publish(asset, table);
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////
@@ -180,5 +201,18 @@ public class AdminUnitGlue {
 		return(output);
 	}
 	
+	
+	//////////////////////////////////////////////////// helper
+	
+	@SneakyThrows
+	void $print(Source source) {
+		
+		 TransformerFactory transformerFactory = TransformerFactory.newInstance();
+		Transformer transformer = transformerFactory.newTransformer();
+		StringWriter stringWriter = new StringWriter();
+		 StreamResult streamResult = new StreamResult(stringWriter);
+		transformer.transform(source, streamResult);
+		System.out.println(stringWriter);
+	}
 	
 }

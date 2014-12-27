@@ -1,4 +1,4 @@
-"code","ADM_NAME","ISO3","FAO_CODE","ISO2_CODE","CRS_CODE","UN_CODE (M49)"
+"code","ADM_NAME","ISO3","FAO_CODE","ISO2_CODE","CRS_CODE","UN_CODE"
 "271","Zimbabwe","ZWE","181","ZW","265","716"
 "270","Zambia","ZMB","251","ZM","288","894"
 "269","Yemen","YEM","249","YE","580","887"
