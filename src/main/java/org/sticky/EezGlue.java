@@ -1,5 +1,7 @@
 package org.sticky;
 
+import static org.sticky.Glues.*;
+
 import static org.fao.fi.comet.mapping.dsl.MappingDSL.map;
 import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.target;
 import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.wrap;
@@ -54,9 +56,9 @@ public class EezGlue {
 		
 		//read eez asset
 		WfsFeatureType asset = new WfsFeatureType("eez","MarineRegions:eez");
-		asset.setService(Glues.vliz);
+		asset.setService(vliz);
 		
-		features = Glues.repository.retrieve(asset, Features.class);
+		features = repository.retrieve(asset, Features.class);
 		
 		//prepare embedded Iso3 code list
 		codelist = buildEmbeddedCodelist(features);
@@ -65,7 +67,7 @@ public class EezGlue {
 		CsvAsset asset2 = new CsvAsset("someid","admin-units");
 		asset2.hasHeader(true);
 		asset2.setDelimiter(',');
-		adminUnits = new CsvTable(asset2, Glues.load("admin-units.txt"));
+		adminUnits = new CsvTable(asset2, load("admin-units.txt"));
 		
 	}
 	
@@ -77,7 +79,7 @@ public class EezGlue {
 	@Test
 	public void grabEez() {
 
-		Glues.store("eez.xml",features);
+		store("eez.xml",features);
 		
 	}
 
@@ -88,9 +90,9 @@ public class EezGlue {
 	@Test
 	public void pushEez() {
 	
-		WfsFeatureType asset = new WfsFeatureType("eez","eez",Glues.grade);
+		WfsFeatureType asset = new WfsFeatureType("eez","eez",grade);
 		
-		Glues.repository.publish(asset,Glues.load("eez.xml"));
+		repository.publish(asset,load("eez.xml"));
 
 	}
 	
@@ -103,7 +105,7 @@ public class EezGlue {
 		
 		MappingData mapping = buildMappingSovereignty(features, codelist);
 	
-		Glues.store("eez-country-sovereignty.xml", mapping);
+		store("eez-country-sovereignty.xml", mapping);
 	}
 	
 	/**
@@ -113,9 +115,9 @@ public class EezGlue {
 	@Test
 	public void pushMappingSovereignty() {
 	
-		CometAsset asset = new CometAsset("eez-country-sovereignty",Glues.grade);
+		CometAsset asset = new CometAsset("eez-country-sovereignty",grade);
 		
-		Glues.repository.publish(asset,Glues.load("eez-country-sovereignty.xml"));
+		repository.publish(asset,load("eez-country-sovereignty.xml"));
 
 	}
 	
@@ -128,7 +130,7 @@ public class EezGlue {
 		
 		MappingData mapping = buildMappingExploitation(features, codelist, adminUnits);
 	
-		Glues.store("eez-flagstate-exploitation.xml", mapping);
+		store("eez-flagstate-exploitation.xml", mapping);
 	}
 	
 	/**
@@ -138,9 +140,9 @@ public class EezGlue {
 	@Test
 	public void pushMappingExploitation() {
 	
-		CometAsset asset = new CometAsset("eez-flagstate-exploitation",Glues.grade);
+		CometAsset asset = new CometAsset("eez-flagstate-exploitation",grade);
 		
-		Glues.repository.publish(asset,Glues.load("eez-flagstate-exploitation.xml"));
+		repository.publish(asset,load("eez-flagstate-exploitation.xml"));
 
 	}
 	

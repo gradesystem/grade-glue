@@ -73,7 +73,7 @@ public class AdminUnitGlue {
 	@Test
 	public void grabAdminUnits(){
 		
-		Glues.store("admin-units.txt", countries, "UTF16");
+		store("admin-units.txt", countries, "UTF16");
 	}
 	
 	/**

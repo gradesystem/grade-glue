@@ -1,5 +1,7 @@
 package org.sticky;
 
+import static org.sticky.Glues.*;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -16,7 +18,6 @@ import org.opengis.feature.Property;
 import org.opengis.feature.PropertyType;
 import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
-import org.sticky.Glues;
 
 @SuppressWarnings("deprecation")
 public class FsaGlue {
@@ -56,24 +57,24 @@ public class FsaGlue {
 		
 		WfsFeatureType asset = new WfsFeatureType("fifao-areas","fifao:FAO_AREAS");
 		
-		asset.setService(Glues.faoareas);
+		asset.setService(faoareas);
 		
 		//retrieve features
-		Features features = Glues.repository.retrieve(asset, Features.class);
+		Features features = repository.retrieve(asset, Features.class);
 		
 		//enrich features
 		Features trgFeatures = buildFsaHierarchy(features);
 		
 		//write enriched features to GML (xml)
-		Glues.store("fao-areas.xml", trgFeatures);
+		store("fao-areas.xml", trgFeatures);
 	}
 
 	@Test
 	public void pushFsaHierarchy() {
 	
-		WfsFeatureType asset = new WfsFeatureType("fsa-hierarchy","fsa-hierarchy",Glues.grade);
+		WfsFeatureType asset = new WfsFeatureType("fsa-hierarchy","fsa-hierarchy",grade);
 		
-		Glues.repository.publish(asset,Glues.load("fao-areas.xml"));
+		repository.publish(asset,load("fao-areas.xml"));
 
 	}
 	

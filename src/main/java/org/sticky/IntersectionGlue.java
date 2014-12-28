@@ -1,5 +1,7 @@
 package org.sticky;
 
+import static org.sticky.Glues.*;
+
 import java.io.InputStream;
 
 import org.junit.Test;
@@ -12,11 +14,11 @@ public class IntersectionGlue {
 		
 		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","GeoRelationship:FAO_AREAS_x_EEZ_HIGHSEAS");
 		
-		asset.setService(Glues.intersections);
+		asset.setService(intersections);
 		
-		InputStream stream = Glues.repository.retrieve(asset, InputStream.class);
+		InputStream stream = repository.retrieve(asset, InputStream.class);
 		
-		Glues.store("intersections.xml",stream);
+		store("intersections.xml",stream);
 	}
 	
 	
@@ -24,9 +26,9 @@ public class IntersectionGlue {
 	public void pushEezFsa() {
 	
 		
-		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","eez-fsa_intersection",Glues.grade);
+		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","eez-fsa_intersection",grade);
 		
-		Glues.repository.publish(asset,Glues.load("intersections.xml"));
+		repository.publish(asset,load("intersections.xml"));
 
 	}
 	
