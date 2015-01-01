@@ -7,6 +7,7 @@
     <properties>
 	    <snapshots-name>gcube-snapshots</snapshots-name>
 	    <snapshots-url>http://maven.research-infrastructures.eu:8081/nexus/content/repositories/gcube-snapshots</snapshots-url>
+	 	<geotk.version>4.x-SNAPSHOT</geotk.version>
 	 </properties>
   
 	  <repositories>
@@ -65,6 +66,25 @@
       	<artifactId>lombok</artifactId>
       	<version>1.14.8</version>
       </dependency>
+      
+      <!-- Geotoolkit (Geotk) -->
+		<dependency>
+			<groupId>org.geotoolkit</groupId>
+			<artifactId>geotk-xml-wms</artifactId>
+			<version>${geotk.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.geotoolkit</groupId>
+			<artifactId>geotk-xml-sld</artifactId>
+			<version>${geotk.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.geotoolkit</groupId>
+			<artifactId>geotk-jaxp-core</artifactId>
+			<version>${geotk.version}</version>
+		</dependency>
 
     </dependencies>
   
