@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Entity implements Serializable {
 	
-	private static final long serialVersionUID = 4309404806843871599L;
+	private static final long serialVersionUID = -6601995036360203751L;
 	
 	@XmlElement(name = "Code")
 	private Code _code;
