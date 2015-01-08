@@ -78,7 +78,6 @@ public class FsaGlue {
 
 	}
 	
-	@SuppressWarnings("deprecation")
 	static Features buildFsaHierarchy(Features features){
 		
 		//building enriched featureType
@@ -105,7 +104,7 @@ public class FsaGlue {
 					name = name.replaceFirst("F_", "PARTOF_");
 				}
 				System.out.println(name);
-				ftb.add(name,((AttributeType) prop).getValueClass());
+				ftb.add(name,((AttributeType<?>) prop).getValueClass());
 			}
 		}
 		
