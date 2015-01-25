@@ -18,6 +18,8 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import javax.xml.namespace.QName;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 
 import lombok.Cleanup;
 import lombok.SneakyThrows;
@@ -42,6 +44,7 @@ import org.virtualrepository.ows.Features;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.Row;
 import org.virtualrepository.tabular.Table;
+import org.w3c.dom.Document;
 
 public class Glues {
 	
@@ -122,7 +125,7 @@ public class Glues {
 	}
 	
 	@SneakyThrows(Exception.class)
-	static void store(String name, Table table, String charsetName){
+	static void store(String name, Table table, String charsetName, char delimiter){
 		
 		File file = new File("src/main/resources", name);
 		OutputStream os = new FileOutputStream(file);
@@ -134,7 +137,7 @@ public class Glues {
 		List<Column> columns = table.columns();
 		for(int i=0;i<columns.size();i++){
 			bufferedWriter.append(columns.get(i).name().toString());
-			if(i < columns.size()-1) bufferedWriter.append(",");
+			if(i < columns.size()-1) bufferedWriter.append(delimiter);
 		}
 		bufferedWriter.newLine();
 		
@@ -144,7 +147,7 @@ public class Glues {
 			Row row = it.next();
 			for(int i=0;i<columns.size();i++){
 				bufferedWriter.append(row.get(columns.get(i)));
-				if(i < columns.size()-1) bufferedWriter.append(",");
+				if(i < columns.size()-1) bufferedWriter.append(delimiter);
 			}
 			
 			if(it.hasNext()) bufferedWriter.newLine();
@@ -173,6 +176,22 @@ public class Glues {
 	
 		return new FileInputStream(new File("src/main/resources",name));
 				
+	}
+	
+	@SneakyThrows(Exception.class)
+	static MappingData loadMapping(String name){
+		
+		File srcFile = new File("src/main/resources", name);
+		
+		@Cleanup
+		InputStream is = new FileInputStream(srcFile);
+		
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+		Document doc = dBuilder.parse(is);
+		doc.getDocumentElement().normalize();
+		
+		return JAXBDeSerializationUtils.fromDocument(doc);
 	}
 	
 }
