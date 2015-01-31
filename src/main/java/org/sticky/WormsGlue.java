@@ -33,9 +33,12 @@ import org.virtualrepository.tabular.Table;
 /**
  * Worms Glue
  * 
- * At now, this glue allows to push a worms-asfis mapping enriched with Worms
- * detailed information, by inputing a pure asfis-worms code mapping (in comet
- * format), and a reference worms dataset.
+ * At now, this glue allows to push (1) a pure 'AphiaId' taxonomic hierarchy and
+ * (2) a subset of Worms giving the 'AphiaId' and textual information for all
+ * taxonomic levels, covering the ASFIS list of species.
+ * 
+ * The glue requires a pure asfis-worms code mapping (in comet format) for
+ * filtering purpose based on ASFIS, and a reference worms dataset.
  * 
  * @author eblondel
  *
@@ -60,74 +63,88 @@ public class WormsGlue {
 	}
 	
 	@Test
-	public void grabWormsSubset() {
+	public void grabWormsHierarchy() {
 		
-		Table out = enrichMappingWithWormsDetails(wormsToAsfis, wormsDataset);
+		Table outHierarchy = buildWormsTaxonomicHierarchy(wormsToAsfis, wormsDataset);
+		Table outSubset = buildWormsSubset(outHierarchy, wormsDataset);
 		
-		store("worms-to-asfis-enriched.txt", out, "UTF16", '\t');
-		
+		store("worms-subset-hierarchy.txt", outHierarchy, "UTF16", '\t');
+		store("worms-subset-codelist.txt", outSubset, "UTF-16", '\t');
 	}
 	
 	@Test
-	public void pushWormsSubset(){
+	public void pushWormsHierarchy(){
 		
-		CsvCodelist asset = new CsvCodelist("worms-to-asfis-enriched",0, grade);
-		
+		CsvCodelist asset = new CsvCodelist("worms-subset-hierarchy",0, grade);
 		asset.hasHeader(true);
 		asset.setDelimiter('\t');
 		asset.setEncoding(Charset.forName("UTF-16"));
 		
-		Table table = new CsvTable(asset,load("worms-to-asfis-enriched.txt"));
+		Table table = new CsvTable(asset,load("worms-subset-hierarchy.txt"));
+		repository.publish(asset, table);
+	
+	}
+	
+	@Test
+	public void grabWormsCodelist() {
 		
+		CsvCodelist asset = new CsvCodelist("worms-subset-hierarchy",0, grade);
+		asset.hasHeader(true);
+		asset.setDelimiter('\t');
+		asset.setEncoding(Charset.forName("UTF-16"));
+		Table outHierarchy = new CsvTable(asset, load("worms-subset-hierarchy.txt"));
+		
+		Table outSubset = buildWormsSubset(outHierarchy, wormsDataset);
+		
+		store("worms-subset-codelist.txt", outSubset, "UTF-16", '\t');
+	}
+	
+	@Test
+	public void pushWormsCodelist(){	
+		
+		CsvCodelist asset = new CsvCodelist("worms-subset-codelist",0, grade);
+		asset.hasHeader(true);
+		asset.setDelimiter('\t');
+		asset.setEncoding(Charset.forName("UTF-16"));
+		
+		Table table = new CsvTable(asset,load("worms-subset-codelist.txt"));
 		repository.publish(asset, table);
 		
 	}
 	
 	/**
-	 * Some facility to filter the WoRMS dataset based on the worms-to-asfis comet mapping
-	 * The source code (alphacode) is also added, hence the result provides an enriched
-	 * asfis - worms.
+	 * Some facility to build a pure 'AphiaId' taxonomic hierarchy. The business logic handles
+	 * a filter based on the ASFIS-WORMS pure code MappingData.
 	 * 
 	 * @param mappingData
 	 * @param datasetToFilter
-	 * @return 
+	 * @return a virtual-repository Table
 	 */
-	static Table enrichMappingWithWormsDetails(MappingData mappingData, Table datasetToFilter){
+	static Table buildWormsTaxonomicHierarchy(MappingData mappingData, Table datasetToFilter){
 		
 		List<Row> trgRows = new ArrayList<Row>();
 		
 		//new columns
 		List<Column> columns = new ArrayList<Column>();
-		columns.add(new Column("asfisId"));
-		columns.add(new Column("wormsId"));
-		for(Column col : datasetToFilter.columns()){
-			if(!col.name().getLocalPart().equals("id")) columns.add(col);
-		}
+		columns.add(new Column("species"));
+		columns.add(new Column("genus"));
+		columns.add(new Column("family"));
+		columns.add(new Column("order"));
+		columns.add(new Column("class"));
+		columns.add(new Column("phylum"));
+		columns.add(new Column("kingdom"));
 		
 		//name row list
-		List<Row> nameRows = new ArrayList<Row>();
-		Iterator<Row> rit = datasetToFilter.iterator();
-		while(rit.hasNext()){
-			Row nameRow = rit.next();
-			
-			Map<QName,String> data = new HashMap<QName,String>();
-			for(Column col : datasetToFilter.columns()){
-				data.put(col.name(), nameRow.get(col));
-			}
-			
-			Row newRow = new Row(data);
-			nameRows.add(newRow);
-		}
+		List<Row> nameRows = toRowsList(datasetToFilter);
 		
 		//iterating on the worms-to-asfis pure code mapping
 		Collection<Mapping> mappings = mappingData.getMappings();
+		int total = mappings.size();
+		int count = 1;
 		Iterator<Mapping> it = mappings.iterator();
 		while(it.hasNext()){
 			
 			Mapping mapping = it.next();
-			
-			//asfis identifier (alphacode)
-			String alphacode = mapping.getSource().getId().getElementId().toString().split("urn:")[1];
 			
 			//worms identifier (aphiaId)
 			List<MappingDetail> details = (List<MappingDetail>) mapping.getTargets();
@@ -139,22 +156,108 @@ public class WormsGlue {
 			
 			//building new row
 			Map<QName,String> data = new HashMap<QName,String>();
-			data.put(columns.get(0).name(), alphacode);
-			data.put(columns.get(1).name(), aphiaId);
 			
-			for(Column col : datasetToFilter.columns()){
-				if(!col.name().getLocalPart().equals("id")){
-					data.put(col.name(), srcRow.get(col));
+			for(Column col : columns){
+				
+				if(col.name().getLocalPart().equals("species")){
+					data.put(col.name(), aphiaId);
+					
+				}else{
+					String content = srcRow.get(col.name().getLocalPart());
+					if(!content.equals("")){
+						Row refRow = nameRows.stream().filter(p -> p.get("scientific_name").equals(content)).collect(toList()).get(0);
+						String otherAphiaId = refRow.get("id");
+						data.put(col.name(), otherAphiaId);
+					}
 				}
+
 			}
 			
 			Row trgRow = new Row(data);
-			trgRows.add(trgRow);			
+			trgRows.add(trgRow);
+		
+			System.out.println(count+" / "+total);
+			count++;
 			
 		}
 		
 		Table output = new DefaultTable(columns, trgRows.iterator());
 		return output;
+	}
+	
+	/**
+	 * Some facility to filter out the WoRMS dataset for all
+	 * taxonomic levels covered in the WorMs hierarchical dataset
+	 * produced (filtered on ASFIS species list)
+	 * 
+	 * @param hierarchicalDataset
+	 * @return a virtual-repository Table
+	 */
+	static Table buildWormsSubset(Table hierarchicalDataset, Table nameDataset) {
+		
+		List<Row> trgRows = new ArrayList<Row>();
+		
+		List<Column> columns = new ArrayList<Column>();
+		columns.add(new Column("aphiaId"));
+		columns.add(new Column("name"));
+		columns.add(new Column("rank"));
+		columns.add(new Column("author"));
+		
+		List<Column> srcColumns = hierarchicalDataset.columns();
+		
+		List<Row> nameRows = toRowsList(nameDataset);
+		Iterator<Row> it = hierarchicalDataset.iterator();
+		while(it.hasNext()){
+			Row codeRow = it.next();
+			
+			for(Column col : srcColumns){
+				
+				String aphiaId = codeRow.get(col);
+				
+				if(!aphiaId.equals("") && !aphiaId.equals("null")){
+					boolean yetRetrieved = trgRows.stream().filter(p -> p.get("aphiaId").equals(aphiaId)).collect(toList()).size() > 0;
+					if(!yetRetrieved){
+
+						Row nameRow = nameRows.stream().filter(p -> p.get("id").equals(aphiaId)).collect(toList()).get(0);
+						
+						Map<QName,String> data = new HashMap<QName,String>();
+						data.put(columns.get(0).name(), aphiaId);
+						data.put(columns.get(1).name(), nameRow.get("scientific_name"));
+						data.put(columns.get(2).name(), col.name().getLocalPart());
+						data.put(columns.get(3).name(), nameRow.get("author"));
+						
+						Row trgRow = new Row(data);
+						trgRows.add(trgRow);		
+					}
+				}
+			}
+		}
+		
+		Table output = new DefaultTable(columns, trgRows.iterator());
+		return output;
+	}
+	
+	/**
+	 * Some missing VR util?
+	 * 
+	 * @param table
+	 * @return
+	 */
+	static List<Row> toRowsList(Table table){
+		List<Row> nameRows = new ArrayList<Row>();
+		Iterator<Row> rit = table.iterator();
+		while(rit.hasNext()){
+			Row nameRow = rit.next();
+			
+			Map<QName,String> data = new HashMap<QName,String>();
+			for(Column col : table.columns()){
+				data.put(col.name(), nameRow.get(col));
+			}
+			
+			Row newRow = new Row(data);
+			nameRows.add(newRow);
+		}
+		return(nameRows);
 	}
 	
 }
