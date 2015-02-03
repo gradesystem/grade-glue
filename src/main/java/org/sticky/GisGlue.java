@@ -1,9 +1,13 @@
 package org.sticky;
 
-import static java.util.Arrays.asList;
-import static java.util.stream.Collectors.toList;
-import static javax.ws.rs.client.ClientBuilder.newClient;
-import static javax.ws.rs.core.HttpHeaders.CONTENT_TYPE;
+import static java.util.Arrays.*;
+import static java.util.stream.Collectors.*;
+import static javax.ws.rs.client.ClientBuilder.*;
+import static javax.ws.rs.core.HttpHeaders.*;
+import static org.fao.fi.comet.mapping.dsl.MappingDSL.*;
+import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.*;
+import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.*;
+import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.*;
 import static org.sticky.Glues.*;
 
 import java.io.IOException;
@@ -21,12 +25,6 @@ import javax.ws.rs.client.WebTarget;
 import org.fao.fi.comet.mapping.model.Mapping;
 import org.fao.fi.comet.mapping.model.MappingData;
 import org.fao.fi.comet.mapping.model.MappingElement;
-
-import static org.fao.fi.comet.mapping.dsl.MappingDSL.map;
-import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.target;
-import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.wrap;
-import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.asElement;
-
 import org.geotoolkit.wms.xml.AbstractLayer;
 import org.geotoolkit.wms.xml.v130.Identifier;
 import org.geotoolkit.wms.xml.v130.Layer;

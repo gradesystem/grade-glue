@@ -1,11 +1,7 @@
 package org.sticky;
 
-import static org.sticky.Glues.grade;
-import static org.sticky.Glues.load;
-import static org.sticky.Glues.loadMapping;
-import static org.sticky.Glues.repository;
-import static org.sticky.Glues.store;
 import static java.util.stream.Collectors.*;
+import static org.sticky.Glues.*;
 
 import java.nio.charset.Charset;
 import java.util.ArrayList;

@@ -1,11 +1,10 @@
 package org.sticky;
 
+import static org.fao.fi.comet.mapping.dsl.MappingDSL.*;
+import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.*;
+import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.*;
+import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.*;
 import static org.sticky.Glues.*;
-
-import static org.fao.fi.comet.mapping.dsl.MappingDSL.map;
-import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.target;
-import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.wrap;
-import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.asElement;
 
 import java.util.ArrayList;
 import java.util.Date;

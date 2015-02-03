@@ -2,6 +2,9 @@ package org.sticky;
 
 import static javax.ws.rs.client.ClientBuilder.*;
 import static org.junit.Assert.*;
+import static org.sticky.GradePublisher.*;
+import static org.sticky.GradePublisher.Deployment.*;
+import static org.sticky.GradePublisher.UploadType.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -33,13 +36,9 @@ import org.geotoolkit.feature.xml.jaxp.JAXPStreamFeatureWriter;
 import org.glassfish.jersey.filter.LoggingFilter;
 import org.junit.Test;
 import org.opengis.feature.Feature;
-import org.virtualrepository.Asset;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.VirtualRepository;
-import org.virtualrepository.impl.AbstractAsset;
-import org.virtualrepository.impl.AbstractType;
 import org.virtualrepository.impl.Repository;
-import org.virtualrepository.impl.Type;
 import org.virtualrepository.ows.Features;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.Row;
@@ -74,19 +73,15 @@ public class Glues {
 		
 	}
 	
-	
 	@Test
 	public void pushRfb() {
 		
-		//invent an asset type on the spot just for this ad-hoc xml
-		
-		Type<Asset> sometype =  new AbstractType<Asset>("sometype") {};
-		
-		Asset someasset =  new AbstractAsset(sometype,"rfb",grade) {};
-		
-		repository.publish(someasset,load("rfb.xml"));
+		drop("rfb.xml").with(xml).in(ami).as("rfb-test");
 		
 	}
+	
+	
+	
 	
 	//////////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -193,5 +188,7 @@ public class Glues {
 		
 		return JAXBDeSerializationUtils.fromDocument(doc);
 	}
+	
+	
 	
 }
