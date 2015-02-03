@@ -2,6 +2,7 @@ package org.sticky;
 
 import static au.com.bytecode.opencsv.CSVReader.*;
 import static java.lang.String.*;
+import static java.util.UUID.*;
 import static java.util.logging.Logger.*;
 import static javax.ws.rs.client.ClientBuilder.*;
 import static javax.ws.rs.client.Entity.*;
@@ -12,14 +13,16 @@ import static org.sticky.Glues.*;
 
 import java.io.InputStream;
 import java.nio.charset.Charset;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Variant;
 import javax.ws.rs.core.Response.Status.Family;
+import javax.ws.rs.core.Variant;
 
 import lombok.Cleanup;
 import lombok.Data;
@@ -56,7 +59,7 @@ public class GradePublisher {
 	
 	@Data
 	@EqualsAndHashCode(callSuper=false)
-	public static class Csv extends UploadInfo {
+	public static class Csv extends UploadType {
 
 		static final String cpart_name = "content";
 		static final String ipart_name = "info";
@@ -78,6 +81,9 @@ public class GradePublisher {
 		@SneakyThrows
 		Entity<?> bodyWith(InputStream content) {
 			
+			Map<String,String> params = new HashMap<>();
+			params.put("boundary", randomUUID().toString());
+			
 			ContentDisposition content_part = type("form-data;name=\""+cpart_name+"\"").build();
 			ContentDisposition info_part = type("form-data;name=\""+ipart_name+"\"").build();
 			
@@ -86,20 +92,23 @@ public class GradePublisher {
 			
 			@Cleanup MultiPart multipart = new MultiPart().bodyPart(cpart).bodyPart(ipart);
 			
-			return entity(multipart,MULTIPART_FORM_DATA_TYPE);
+			return entity(multipart,new Variant(new MediaType("multipart","form-data",params),(String)null,"gzip"));
+			
+			
+			
 		}
 	}
 	
-	public static UploadInfo xml = new UploadInfo(APPLICATION_XML_TYPE,"xml");
-	public static UploadInfo json = new UploadInfo(APPLICATION_JSON_TYPE,"json");
+	public static UploadType xml = new UploadType(APPLICATION_XML_TYPE,"xml");
+	public static UploadType json = new UploadType(APPLICATION_JSON_TYPE,"json");
 	public static Csv csv() { return new Csv();}
 	
 	//dsl
 	@FunctionalInterface
-	public interface TypeClause { TargetClause with(UploadInfo type);}
+	public interface TypeClause { TargetClause with(UploadType type);}
 	
 	@FunctionalInterface
-	public interface InfoClause { TargetClause with(UploadInfo type);}
+	public interface InfoClause { TargetClause with(UploadType type);}
 	@FunctionalInterface
 	public interface TargetClause { NameClause in(Deployment target); }
 	@FunctionalInterface
@@ -110,7 +119,7 @@ public class GradePublisher {
 	private Deployment deployment;
 	
 	@NonNull
-	private UploadInfo info; 
+	private UploadType info; 
 	
 	@NonNull
 	InputStream content;
@@ -147,7 +156,7 @@ public class GradePublisher {
 	
 	
 	@RequiredArgsConstructor
-	private static class UploadInfo{
+	private static class UploadType {
 
 		@NonNull
 		private final MediaType media; 
