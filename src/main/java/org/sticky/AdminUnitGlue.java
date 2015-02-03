@@ -1,6 +1,8 @@
 package org.sticky;
 
 import static org.sticky.Glues.*;
+import static org.sticky.GradePublisher.*;
+import static org.sticky.GradePublisher.Deployment.*;
 
 import java.io.StringWriter;
 import java.nio.charset.Charset;
@@ -22,8 +24,8 @@ import lombok.SneakyThrows;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.sticky.GradePublisher.Csv;
 import org.virtualrepository.csv.CsvAsset;
-import org.virtualrepository.csv.CsvCodelist;
 import org.virtualrepository.csv.CsvTable;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.DefaultTable;
@@ -84,19 +86,10 @@ public class AdminUnitGlue {
 	@Test @SneakyThrows
 	public void pushAdminUnits(){
 		
-		CsvCodelist asset = new CsvCodelist("admin-units",0, grade);
+		Csv csv = csv().delimiter(',').encoding("UTF-16");
 		
-		asset.hasHeader(true);
-		asset.setDelimiter(',');
-		asset.setEncoding(Charset.forName("UTF-16"));
+		drop("admin-units.txt").with(csv).in(ami).as("admin-units");
 		
-		Table table = new CsvTable(asset,load("admin-units.txt"));
-		
-		//Csv2Xml t = new Csv2Xml();
-		
-		//$print(t.toXml(table, asset));
-		
-		repository.publish(asset, table);
 	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////

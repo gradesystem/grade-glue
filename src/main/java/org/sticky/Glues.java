@@ -4,7 +4,6 @@ import static javax.ws.rs.client.ClientBuilder.*;
 import static org.junit.Assert.*;
 import static org.sticky.GradePublisher.*;
 import static org.sticky.GradePublisher.Deployment.*;
-import static org.sticky.GradePublisher.UploadType.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -76,7 +75,7 @@ public class Glues {
 	@Test
 	public void pushRfb() {
 		
-		drop("rfb.xml").with(xml).in(ami).as("rfb-test");
+		drop("rfb.xml").with(xml).in(ami).as("rfb");
 		
 	}
 	
