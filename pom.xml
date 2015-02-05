@@ -11,6 +11,14 @@
 		<geotk.version>4.x-SNAPSHOT</geotk.version>
 	</properties>
 
+
+   <distributionManagement>
+    <snapshotRepository>
+      <id>${snapshots-name}</id>
+      <url>${snapshots-url}</url>
+    </snapshotRepository>
+  </distributionManagement>
+  
 	<repositories>
 		<repository>
 			<id>${snapshots-name}</id>
