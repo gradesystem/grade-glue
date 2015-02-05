@@ -1,64 +1,35 @@
 package org.sticky;
 
 import static javax.ws.rs.client.ClientBuilder.*;
-import static org.junit.Assert.*;
-import static org.sticky.GradePublisher.*;
-import static org.sticky.GradePublisher.Deployment.*;
+import static org.grade.client.upload.Grade.*;
+import static org.sticky.Common.*;
+import static org.sticky.Common.TestDeployment.*;
+import static org.sticky.aux.AdminUnits.*;
+import static org.sticky.aux.Eezs.*;
+import static org.sticky.aux.FsaHierarchy.*;
+import static org.sticky.aux.SpeciesDistribution.*;
+import static org.sticky.aux.Worms.*;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Logger;
 
 import javax.xml.namespace.QName;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import lombok.Cleanup;
-import lombok.SneakyThrows;
 
 import org.fao.fi.comet.mapping.model.MappingData;
-import org.fao.fi.comet.mapping.model.utils.jaxb.JAXBDeSerializationUtils;
-import org.geotoolkit.data.FeatureCollection;
-import org.geotoolkit.data.FeatureStoreUtilities;
-import org.geotoolkit.feature.xml.XmlFeatureWriter;
-import org.geotoolkit.feature.xml.jaxp.JAXPStreamFeatureWriter;
 import org.glassfish.jersey.filter.LoggingFilter;
+import org.grade.client.upload.csv.Csv;
 import org.junit.Test;
-import org.opengis.feature.Feature;
 import org.virtualrepository.RepositoryService;
-import org.virtualrepository.VirtualRepository;
-import org.virtualrepository.impl.Repository;
 import org.virtualrepository.ows.Features;
-import org.virtualrepository.tabular.Column;
-import org.virtualrepository.tabular.Row;
+import org.virtualrepository.ows.WfsFeatureType;
 import org.virtualrepository.tabular.Table;
-import org.w3c.dom.Document;
 
 public class Glues {
 	
-	static VirtualRepository repository = new Repository();
-	static RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
-	static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
-	static RepositoryService intersections = repository.services().lookup(new QName("intersections"));
-	static RepositoryService grade= repository.services().lookup(new QName("semantic-repository"));
-	
-	@Test
-	public void smokeTest() {
-		
-		assertTrue(repository.services().size()>=2);
-	}
-	
-	
+
 	@Test
 	public void grabRfb() {
 		
@@ -75,119 +46,207 @@ public class Glues {
 	@Test
 	public void pushRfb() {
 		
-		drop("rfb.xml").with(xml).in(ami).as("rfb");
+		drop(file("rfb.xml")).with(xml).in(ami).as("rfb");
+		
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////
+	
+	@Test
+	public void grabAdminUnits() {
+
+		Table countries = loadTable("gaul-codes.txt");
+		Table flagstates = loadTable("flagstates.txt", csv().delimiter(';'));
+		Table names = loadTable("gaul-names.txt",csv().delimiter('\t').encoding("UTF-16"));
+		
+		countries = enrichAdminUnitsTable(countries, flagstates);
+		countries = buildAdminUnitsTable(countries, names);
+		
+		storeTable("admin-units.txt", countries, csv().encoding("UTF-16"));
+	}
+	
+	@Test
+	public void pushAdminUnits(){
+		
+		Csv csv = csv().delimiter(',').encoding("UTF-16");
+		
+		drop(file("admin-units.txt")).with(csv).in(ami).as("admin-units");
+		
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////	
+	
+	@Test
+	public void grabEez() {
+
+		Features eez = eezs();
+		
+		storeFeatures("eez.xml",eez);
+		
+	}
+	
+	@Test
+	public void pushEez() {
+	
+		drop(file("eez.xml")).with(xml).in(ami).as("eez");
 		
 	}
 	
 	
+	@Test
+	public void grabMappingSovereignty() {
+		
+		Features eezs =  eezs(); 
+		Map<String,List<String>> codelist = buildEmbeddedCodelist(eezs);
+		MappingData mapping = buildMappingSovereignty(eezs, codelist);
 	
-	
-	//////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	@SneakyThrows(Exception.class)
-	static void store(String name, InputStream stream) {
-		
-		byte[] bytes = new byte[2048];
-		
-		File dest = new File("src/main/resources",name);
-		
-		@Cleanup FileOutputStream out = new FileOutputStream(dest);
-	
-		int read = 0;
-		
-		while ((read=stream.read(bytes))!=-1) 	out.write(bytes,0,read);
-		
-		out.flush();
-			
+		storeMapping("eez-country-sovereignty.xml", mapping);
 	}
+
+	@Test
+	public void pushMappingSovereignty() {
 	
-	@SuppressWarnings({ "deprecation", "unchecked" })
-	@SneakyThrows(Exception.class)
-	static void store(String name, Features features){
-		
-		@Cleanup OutputStream out = new FileOutputStream(new File("src/main/resources", name));
-		XmlFeatureWriter featureWriter = new JAXPStreamFeatureWriter();
-		
-		final Collection<org.geotoolkit.feature.Feature> geotkFeatures = new ArrayList<org.geotoolkit.feature.Feature>();
-		for(Feature f : features.all()){
-			geotkFeatures.add((org.geotoolkit.feature.Feature) f);
-		}
-		final FeatureCollection<org.geotoolkit.feature.Feature> fc = FeatureStoreUtilities
-				.collection((org.geotoolkit.feature.type.FeatureType) features.all().get(0).getType(), geotkFeatures);
-		
-		featureWriter.write(fc, out);
-	}
-	
-	@SneakyThrows(Exception.class)
-	static void store(String name, Table table, String charsetName, char delimiter){
-		
-		File file = new File("src/main/resources", name);
-		OutputStream os = new FileOutputStream(file);
-		
-		OutputStreamWriter osw = new OutputStreamWriter(os, charsetName); 
-		@Cleanup BufferedWriter bufferedWriter = new BufferedWriter(osw);
-		
-		//writing header
-		List<Column> columns = table.columns();
-		for(int i=0;i<columns.size();i++){
-			bufferedWriter.append(columns.get(i).name().toString());
-			if(i < columns.size()-1) bufferedWriter.append(delimiter);
-		}
-		bufferedWriter.newLine();
-		
-		//writing content
-		Iterator<Row> it = table.iterator();
-		while(it.hasNext()){
-			Row row = it.next();
-			for(int i=0;i<columns.size();i++){
-				bufferedWriter.append(row.get(columns.get(i)));
-				if(i < columns.size()-1) bufferedWriter.append(delimiter);
-			}
-			
-			if(it.hasNext()) bufferedWriter.newLine();
-		}
-		
-		bufferedWriter.flush();
+		drop(file("eez-country-sovereignty.xml")).with(xml).in(ami).as("eez-country-sovereignty");
 		
 	}
 	
-	@SneakyThrows(Exception.class)
-	static void store(String name, MappingData mapping){
+	@Test
+	public void grabMappingExploitation() {
 		
-		String xml = JAXBDeSerializationUtils.toXML(mapping);
+		Table adminUnits = loadTable("admin-units.txt",csv().encoding("UTF-16"));
+		Features eezs =  eezs(); 
+		Map<String,List<String>> codelist = buildEmbeddedCodelist(eezs);
 		
-		File dest = new File("src/main/resources",name);
+		MappingData mapping = buildMappingExploitation(eezs, codelist, adminUnits);
+	
+		storeMapping("eez-flagstate-exploitation.xml", mapping);
+	}
+	
+	@Test
+	public void pushMappingExploitation() {
+	
+		drop(file("eez-flagstate-exploitation.xml")).with(xml).in(ami).as("eez-flagstate-exploitation");
 		
-		@Cleanup FileOutputStream out = new FileOutputStream(dest);
+
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////	
+
+	
+	@Test
+	public void grabFsaHierarchy() {
 		
-		out.write(xml.getBytes());
-		out.flush();
+		RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
+		
+		WfsFeatureType asset = new WfsFeatureType("fifao-areas","fifao:FAO_AREAS");
+		
+		asset.setService(faoareas);
+		
+		//retrieve features
+		Features features = repository.retrieve(asset, Features.class);
+		
+		//enrich features
+		Features trgFeatures = buildFsaHierarchy(features);
+		
+		//write enriched features to GML (xml)
+		storeFeatures("fao-areas.xml", trgFeatures);
+	}
+	
+	@Test
+	public void pushFsaHierarchy() {
+	
+		drop(file("fao-areas.xml")).with(xml).in(ami).as("fsa-hierarchy");
 		
 	}
 	
-	@SneakyThrows(Exception.class)
-	static InputStream load(String name) {
 	
-		return new FileInputStream(new File("src/main/resources",name));
-				
-	}
+	//////////////////////////////////////////////////////////////////////////////////////////
 	
-	@SneakyThrows(Exception.class)
-	static MappingData loadMapping(String name){
+	@Test
+	public void grabSpeciesDistributions(){
 		
-		File srcFile = new File("src/main/resources", name);
+		String ep = "http://www.fao.org/figis/geoserver/species/ows";
 		
-		@Cleanup
-		InputStream is = new FileInputStream(srcFile);
+		MappingData out = buildGeographicReferences(ep);
 		
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		Document doc = dBuilder.parse(is);
-		doc.getDocumentElement().normalize();
+		storeMapping("species-distributions.xml", out);
 		
-		return JAXBDeSerializationUtils.fromDocument(doc);
 	}
 	
 	
+	@Test
+	public void pushSpeciesDistributions(){
+		
+		drop(file("species-distributions.xml")).with(xml).in(ami).as("species-distributions");
+		
+	}
 	
+	
+	//////////////////////////////////////////////////////////////////////////////////////////
+	
+	@Test
+	public void grabEezFsa() {
+		
+		RepositoryService intersections = repository.services().lookup(new QName("intersections"));
+		
+		WfsFeatureType asset = new WfsFeatureType("eez-fsa_intersection","GeoRelationship:FAO_AREAS_x_EEZ_HIGHSEAS");
+		
+		asset.setService(intersections);
+		
+		InputStream stream = repository.retrieve(asset, InputStream.class);
+		
+		store("intersections.xml",stream);
+	}
+	
+	
+	@Test
+	public void pushEezFsa() {
+	
+		drop(file("intersections.xml")).with(xml).in(ami).as("eez-fsa_intersection");
+		
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////
+	
+	@Test
+	public void grabWormsHierarchy() {
+		
+		Table worms = loadTable("worms-pisces.csv");
+		MappingData wormsToAsfis = loadMapping("worms-to-asfis.xml");
+		
+		Table outHierarchy = buildWormsTaxonomicHierarchy(wormsToAsfis, worms);
+		
+		storeTable("worms-subset-hierarchy.txt", outHierarchy, csv().encoding("UTF-16").delimiter('\t'));
+	}
+	
+	@Test
+	public void pushWormsHierarchy(){
+		
+		Csv csv = csv().delimiter('\t').encoding("UTF-16");
+		
+		drop(file("worms-subset-hierarchy.txt")).with(csv).in(ami).as("worms-subset-hierarchy");
+	
+	}
+	
+	@Test
+	public void grabWormsCodelist() {
+		
+		Table worms = loadTable("worms-pisces.csv");
+		Table outHierarchy = loadTable("worms-subset-hierarchy.txt", 
+							           csv().delimiter('\t').encoding("UTF-16"));
+		
+		Table outSubset = buildWormsSubset(outHierarchy, worms);
+		
+		storeTable("worms-subset-codelist.txt", outSubset, csv().encoding("UTF-16").delimiter('\t'));
+	}
+	
+	@Test
+	public void pushWormsCodelist(){	
+		
+		Csv csv = csv().delimiter('\t').encoding("UTF-16");
+		
+		drop(file("worms-subset-codelist.txt")).with(csv).in(ami).as("worms-subset-codelist");
+	
+		
+	}
 }

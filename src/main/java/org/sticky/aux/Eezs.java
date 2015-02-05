@@ -1,10 +1,10 @@
-package org.sticky;
+package org.sticky.aux;
 
 import static org.fao.fi.comet.mapping.dsl.MappingDSL.*;
 import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.*;
 import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.*;
 import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.*;
-import static org.sticky.Glues.*;
+import static org.sticky.Common.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,18 +15,16 @@ import java.util.Map;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+import javax.xml.namespace.QName;
+
 import org.fao.fi.comet.mapping.model.Mapping;
 import org.fao.fi.comet.mapping.model.MappingData;
 import org.fao.fi.comet.mapping.model.MappingElement;
-import org.junit.Before;
-import org.junit.Test;
 import org.opengis.feature.Feature;
 import org.sticky.jaxb.Code;
 import org.sticky.jaxb.Country;
 import org.sticky.jaxb.Eez;
-import org.virtualrepository.comet.CometAsset;
-import org.virtualrepository.csv.CsvAsset;
-import org.virtualrepository.csv.CsvTable;
+import org.virtualrepository.RepositoryService;
 import org.virtualrepository.ows.Features;
 import org.virtualrepository.ows.WfsFeatureType;
 import org.virtualrepository.tabular.Row;
@@ -38,116 +36,19 @@ import org.virtualrepository.tabular.Table;
  * @author Emmanuel Blondel
  *
  */
-public class EezGlue {
-
-	Features features;
+public class Eezs {
 	
-	Map<String,List<String>> codelist;
+	public static RepositoryService vliz = repository.services().lookup(new QName("vliz"));
 	
-	Table adminUnits;
 	
-	/**
-	 * Retrieves and reads Eez
-	 * 
-	 */
-	@Before
-	public void before(){
+	public static Features eezs() {
 		
-		//read eez asset
 		WfsFeatureType asset = new WfsFeatureType("eez","MarineRegions:eez");
 		asset.setService(vliz);
 		
-		features = repository.retrieve(asset, Features.class);
-		
-		//prepare embedded Iso3 code list
-		codelist = buildEmbeddedCodelist(features);
-		
-		//read admin units reference (with flagstate information)
-		CsvAsset asset2 = new CsvAsset("someid","admin-units");
-		asset2.hasHeader(true);
-		asset2.setDelimiter(',');
-		adminUnits = new CsvTable(asset2, load("admin-units.txt"));
-		
-	}
-	
-	
-	/**
-	 * Grabs the EEZ data
-	 * 
-	 */
-	@Test
-	public void grabEez() {
-
-		store("eez.xml",features);
-		
+		return repository.retrieve(asset, Features.class);
 	}
 
-	/**
-	 * Pushes the EEZ data
-	 * 
-	 */
-	@Test
-	public void pushEez() {
-	
-		WfsFeatureType asset = new WfsFeatureType("eez","eez",grade);
-		
-		repository.publish(asset,load("eez.xml"));
-
-	}
-	
-	/**
-	 * Grabs the Country-EEZ sovereignty mapping
-	 * 
-	 */
-	@Test
-	public void grabMappingSovereignty() {
-		
-		MappingData mapping = buildMappingSovereignty(features, codelist);
-	
-		store("eez-country-sovereignty.xml", mapping);
-	}
-	
-	/**
-	 * Pushes the Country-EEZ sovereignty mapping
-	 * 
-	 */
-	@Test
-	public void pushMappingSovereignty() {
-	
-		CometAsset asset = new CometAsset("eez-country-sovereignty",grade);
-		
-		repository.publish(asset,load("eez-country-sovereignty.xml"));
-
-	}
-	
-	/**
-	 * Grabs the Flagstate-EEZ exploitation rights mapping
-	 * 
-	 */
-	@Test
-	public void grabMappingExploitation() {
-		
-		MappingData mapping = buildMappingExploitation(features, codelist, adminUnits);
-	
-		store("eez-flagstate-exploitation.xml", mapping);
-	}
-	
-	/**
-	 * Pushes the Flagstate-EEZ exploitation rights mapping
-	 * 
-	 */
-	@Test
-	public void pushMappingExploitation() {
-	
-		CometAsset asset = new CometAsset("eez-flagstate-exploitation",grade);
-		
-		repository.publish(asset,load("eez-flagstate-exploitation.xml"));
-
-	}
-	
-	
-	/////////////////////////////////////////////////////////////////////////////////////////////
-	
 	/**
 	* Get adhoc codelist (iso3code, name) built from the VLIZ EEZ layer
 	* The iso3code is set as value, the name as key, as for some EEZs
@@ -158,7 +59,7 @@ public class EezGlue {
 	*
 	* @return the required codelist
 	*/
-	static Map<String,List<String>> buildEmbeddedCodelist(Features features){
+	public static Map<String,List<String>> buildEmbeddedCodelist(Features features){
 		Map<String,List<String>> codelist = new HashMap<String,List<String>>();
 		
 		Iterator<Feature> it = features.all().iterator();
@@ -196,7 +97,7 @@ public class EezGlue {
 	 * @param codelist
 	 * @return the comet mapping
 	 */
-	static MappingData buildMappingSovereignty(Features features, Map<String,List<String>> codelist){
+	public static MappingData buildMappingSovereignty(Features features, Map<String,List<String>> codelist){
 
 		//mapping description
 		MappingData mappingData = new MappingData();
@@ -291,7 +192,7 @@ public class EezGlue {
 	 * @param codelist
 	 * @return the comet mapping
 	 */
-	static MappingData buildMappingExploitation(Features features,
+	public static MappingData buildMappingExploitation(Features features,
 												Map<String,List<String>> codelist,
 												Table adminUnits){
 		//mapping description

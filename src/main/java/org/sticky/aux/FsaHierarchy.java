@@ -1,6 +1,4 @@
-package org.sticky;
-
-import static org.sticky.Glues.*;
+package org.sticky.aux;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,17 +8,15 @@ import org.geotoolkit.feature.FeatureTypeBuilder;
 import org.geotoolkit.feature.simple.SimpleFeatureBuilder;
 import org.geotoolkit.feature.simple.SimpleFeatureType;
 import org.geotoolkit.feature.type.GeometryType;
-import org.junit.Test;
 import org.opengis.feature.AttributeType;
 import org.opengis.feature.Feature;
 import org.opengis.feature.FeatureType;
 import org.opengis.feature.Property;
 import org.opengis.feature.PropertyType;
 import org.virtualrepository.ows.Features;
-import org.virtualrepository.ows.WfsFeatureType;
 
 @SuppressWarnings("deprecation")
-public class FsaGlue {
+public class FsaHierarchy {
 
 	public static enum FsaLevel {
 		
@@ -52,33 +48,8 @@ public class FsaGlue {
 		
 	}
 	
-	@Test
-	public void grabFsaHierarchy() {
-		
-		WfsFeatureType asset = new WfsFeatureType("fifao-areas","fifao:FAO_AREAS");
-		
-		asset.setService(faoareas);
-		
-		//retrieve features
-		Features features = repository.retrieve(asset, Features.class);
-		
-		//enrich features
-		Features trgFeatures = buildFsaHierarchy(features);
-		
-		//write enriched features to GML (xml)
-		store("fao-areas.xml", trgFeatures);
-	}
-
-	@Test
-	public void pushFsaHierarchy() {
 	
-		WfsFeatureType asset = new WfsFeatureType("fsa-hierarchy","fsa-hierarchy",grade);
-		
-		repository.publish(asset,load("fao-areas.xml"));
-
-	}
-	
-	static Features buildFsaHierarchy(Features features){
+	public static Features buildFsaHierarchy(Features features){
 		
 		//building enriched featureType
 		FeatureType srcFeatureType = features.all().get(0).getType();

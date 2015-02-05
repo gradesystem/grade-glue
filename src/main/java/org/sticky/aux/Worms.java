@@ -1,9 +1,7 @@
-package org.sticky;
+package org.sticky.aux;
 
 import static java.util.stream.Collectors.*;
-import static org.sticky.Glues.*;
 
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -16,11 +14,6 @@ import javax.xml.namespace.QName;
 import org.fao.fi.comet.mapping.model.Mapping;
 import org.fao.fi.comet.mapping.model.MappingData;
 import org.fao.fi.comet.mapping.model.MappingDetail;
-import org.junit.Before;
-import org.junit.Test;
-import org.virtualrepository.csv.CsvAsset;
-import org.virtualrepository.csv.CsvCodelist;
-import org.virtualrepository.csv.CsvTable;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.DefaultTable;
 import org.virtualrepository.tabular.Row;
@@ -39,74 +32,8 @@ import org.virtualrepository.tabular.Table;
  * @author eblondel
  *
  */
-public class WormsGlue {
+public class Worms {
 
-	Table wormsDataset;
-	
-	MappingData wormsToAsfis;
-	
-	@Before
-	public void before(){
-		
-		//read worms asset
-		CsvAsset wormsAsset = new CsvAsset("someid","worms-pisces");
-		wormsAsset.hasHeader(true);
-		wormsAsset.setDelimiter(',');
-		wormsDataset = new CsvTable(wormsAsset, load("worms-pisces.csv"));
-		
-		//read worms-to-asfis mapping asset
-		wormsToAsfis = loadMapping("worms-to-asfis.xml");
-	}
-	
-	@Test
-	public void grabWormsHierarchy() {
-		
-		Table outHierarchy = buildWormsTaxonomicHierarchy(wormsToAsfis, wormsDataset);
-		Table outSubset = buildWormsSubset(outHierarchy, wormsDataset);
-		
-		store("worms-subset-hierarchy.txt", outHierarchy, "UTF16", '\t');
-		store("worms-subset-codelist.txt", outSubset, "UTF-16", '\t');
-	}
-	
-	@Test
-	public void pushWormsHierarchy(){
-		
-		CsvCodelist asset = new CsvCodelist("worms-subset-hierarchy",0, grade);
-		asset.hasHeader(true);
-		asset.setDelimiter('\t');
-		asset.setEncoding(Charset.forName("UTF-16"));
-		
-		Table table = new CsvTable(asset,load("worms-subset-hierarchy.txt"));
-		repository.publish(asset, table);
-	
-	}
-	
-	@Test
-	public void grabWormsCodelist() {
-		
-		CsvCodelist asset = new CsvCodelist("worms-subset-hierarchy",0, grade);
-		asset.hasHeader(true);
-		asset.setDelimiter('\t');
-		asset.setEncoding(Charset.forName("UTF-16"));
-		Table outHierarchy = new CsvTable(asset, load("worms-subset-hierarchy.txt"));
-		
-		Table outSubset = buildWormsSubset(outHierarchy, wormsDataset);
-		
-		store("worms-subset-codelist.txt", outSubset, "UTF-16", '\t');
-	}
-	
-	@Test
-	public void pushWormsCodelist(){	
-		
-		CsvCodelist asset = new CsvCodelist("worms-subset-codelist",0, grade);
-		asset.hasHeader(true);
-		asset.setDelimiter('\t');
-		asset.setEncoding(Charset.forName("UTF-16"));
-		
-		Table table = new CsvTable(asset,load("worms-subset-codelist.txt"));
-		repository.publish(asset, table);
-		
-	}
 	
 	/**
 	 * Some facility to build a pure 'AphiaId' taxonomic hierarchy. The business logic handles
@@ -116,7 +43,7 @@ public class WormsGlue {
 	 * @param datasetToFilter
 	 * @return a virtual-repository Table
 	 */
-	static Table buildWormsTaxonomicHierarchy(MappingData mappingData, Table datasetToFilter){
+	public static Table buildWormsTaxonomicHierarchy(MappingData mappingData, Table datasetToFilter){
 		
 		List<Row> trgRows = new ArrayList<Row>();
 		
@@ -189,7 +116,7 @@ public class WormsGlue {
 	 * @param hierarchicalDataset
 	 * @return a virtual-repository Table
 	 */
-	static Table buildWormsSubset(Table hierarchicalDataset, Table nameDataset) {
+	public static Table buildWormsSubset(Table hierarchicalDataset, Table nameDataset) {
 		
 		List<Row> trgRows = new ArrayList<Row>();
 		
@@ -239,7 +166,8 @@ public class WormsGlue {
 	 * @param table
 	 * @return
 	 */
-	static List<Row> toRowsList(Table table){
+	public static List<Row> toRowsList(Table table){
+		
 		List<Row> nameRows = new ArrayList<Row>();
 		Iterator<Row> rit = table.iterator();
 		while(rit.hasNext()){

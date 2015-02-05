@@ -20,6 +20,12 @@
 
 	<dependencies>
 
+    <dependency>
+      <groupId>org.grade</groupId>
+      <artifactId>grade-upload</artifactId>
+      <version>[0.0.1-SNAPSHOT,1.0.0-SNAPSHOT)</version>
+    </dependency>
+    
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -55,26 +61,7 @@
 			<artifactId>comet-mapping-format</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-		<dependency>
-			<groupId>org.glassfish.jersey.core</groupId>
-			<artifactId>jersey-client</artifactId>
-			<version>2.13</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.glassfish.jersey.media</groupId>
-			<artifactId>jersey-media-json-jackson</artifactId>
-			<scope>runtime</scope>
-			<version>2.13</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.glassfish.jersey.media</groupId>
-			<artifactId>jersey-media-multipart</artifactId>
-			<version>2.13</version>
-		</dependency>
-
+		
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>

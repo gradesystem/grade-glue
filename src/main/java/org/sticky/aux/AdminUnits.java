@@ -1,11 +1,6 @@
-package org.sticky;
-
-import static org.sticky.Glues.*;
-import static org.sticky.GradePublisher.*;
-import static org.sticky.GradePublisher.Deployment.*;
+package org.sticky.aux;
 
 import java.io.StringWriter;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -22,75 +17,14 @@ import javax.xml.transform.stream.StreamResult;
 
 import lombok.SneakyThrows;
 
-import org.junit.Before;
-import org.junit.Test;
-import org.sticky.GradePublisher.Csv;
-import org.virtualrepository.csv.CsvAsset;
-import org.virtualrepository.csv.CsvTable;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.DefaultTable;
 import org.virtualrepository.tabular.Row;
 import org.virtualrepository.tabular.Table;
 
 
-public class AdminUnitGlue {
+public class AdminUnits {
 
-	Table countries;
-	
-	Table flagstates;
-	
-	@Before
-	public void before(){
-		
-		//countries
-		CsvAsset asset1 = new CsvAsset("someid","gaul-codes");
-		asset1.hasHeader(true);
-		asset1.setDelimiter(',');
-		countries = new CsvTable(asset1, load("gaul-codes.txt"));
-		
-		//flagstates
-		CsvAsset asset3 = new CsvAsset("someid","flagstates");
-		asset3.hasHeader(true);
-		asset3.setDelimiter(';');
-		flagstates = new CsvTable(asset3, load("flagstates.txt"));
-		
-		countries = enrichAdminUnitsTable(countries, flagstates);
-		
-		//adding names
-		CsvAsset asset2 = new CsvAsset("someid","gaul-names");
-		asset2.hasHeader(true);
-		asset2.setDelimiter('\t');
-		asset2.setEncoding(Charset.forName("UTF-16"));
-		Table namesTable = new CsvTable(asset2, load("gaul-names.txt"));
-		
-		countries = buildAdminUnitsTable(countries, namesTable);
-		
-	}
-	
-	/**
-	 * Grabs the GAUL codelist after joining codes and names
-	 * and adding flagstate information
-	 * 
-	 */
-	@Test
-	public void grabAdminUnits(){
-		
-		store("admin-units.txt", countries, "UTF16", ',');
-	}
-	
-	/**
-	 * Push the GAUL codelist after joining codes and names
-	 * and adding flagstate information
-	 * 
-	 */
-	@Test @SneakyThrows
-	public void pushAdminUnits(){
-		
-		Csv csv = csv().delimiter(',').encoding("UTF-16");
-		
-		drop("admin-units.txt").with(csv).in(ami).as("admin-units");
-		
-	}
 	
 	////////////////////////////////////////////////////////////////////////////////////////////
 	
@@ -99,7 +33,7 @@ public class AdminUnitGlue {
 	 * 
 	 * @return a VR Table
 	 */
-	static Table buildAdminUnitsTable(Table codes, Table names){
+	public static Table buildAdminUnitsTable(Table codes, Table names){
 		
 		//new columns
 		List<Column> columns = codes.columns();
@@ -157,7 +91,7 @@ public class AdminUnitGlue {
 	 * @returns a VR Table
 	 * 
 	 */
-	static Table enrichAdminUnitsTable(Table countries, Table flagstates){
+	public static Table enrichAdminUnitsTable(Table countries, Table flagstates){
 		
 		//extract flagstate list
 		Set<String> fsCodes = new HashSet<String>();

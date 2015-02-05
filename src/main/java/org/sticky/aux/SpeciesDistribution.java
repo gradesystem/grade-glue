@@ -1,4 +1,4 @@
-package org.sticky;
+package org.sticky.aux;
 
 import static java.util.Arrays.*;
 import static java.util.stream.Collectors.*;
@@ -8,7 +8,6 @@ import static org.fao.fi.comet.mapping.dsl.MappingDSL.*;
 import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.*;
 import static org.fao.fi.comet.mapping.dsl.MappingElementDSL.*;
 import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXB2DOMUtils.*;
-import static org.sticky.Glues.*;
 
 import java.io.IOException;
 import java.util.Date;
@@ -32,11 +31,9 @@ import org.geotoolkit.wms.xml.v130.MetadataURL;
 import org.geotoolkit.wms.xml.v130.WMSCapabilities;
 import org.glassfish.jersey.client.filter.EncodingFilter;
 import org.glassfish.jersey.message.GZipEncoder;
-import org.junit.Test;
 import org.sticky.jaxb.Code;
 import org.sticky.jaxb.Entity;
 import org.sticky.jaxb.GeographicReference;
-import org.virtualrepository.comet.CometAsset;
 
 /**
  * Glue to push Gis mappings to Grade. By Gis mapping, we mean the mapping
@@ -48,27 +45,7 @@ import org.virtualrepository.comet.CometAsset;
  * @author Emmanuel Blondel
  *
  */
-public class GisGlue {
-	
-	@Test
-	public void grabSpeciesDistributions(){
-		
-		String ep = "http://www.fao.org/figis/geoserver/species/ows";
-		
-		MappingData out = buildGeographicReferences(ep);
-		
-		store("species-distributions.xml", out);
-		
-	}
-	
-	@Test
-	public void pushSpeciesDistributions(){
-		
-		CometAsset asset = new CometAsset("species-distributions", grade);
-		
-		repository.publish(asset, load("species-distributions.xml"));
-		
-	}
+public class SpeciesDistribution {
 	
 	/**
 	 * Builds the mapping between a FLOD domain object uri and a Geonetwork
@@ -76,7 +53,7 @@ public class GisGlue {
 	 * 
 	 * @return the mapping in comet format
 	 */
-	static MappingData buildGeographicReferences(String endpoint){
+	public static MappingData buildGeographicReferences(String endpoint){
 		
 		//read WMS GetCapabilities document
 		Client client = newClient()

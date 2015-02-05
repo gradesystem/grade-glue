@@ -1062,7 +1062,7 @@
       <static name="COUNTRY_ISO3_CIV" value="Côte d'Ivoire"/>
       <static name="COUNTRY_ISO3_CMR" value="Cameroon"/>
       <static name="COUNTRY_ISO3_COD" value="Dem. Rep. of the Congo"/>
-      <static name="COUNTRY_ISO3_COG" value="Republic of Congo"/>
+      <static name="COUNTRY_ISO3_COG" value="Congo"/>
       <static name="COUNTRY_ISO3_COK" value="Cook Islands"/>
       <static name="COUNTRY_ISO3_COL" value="Colombia"/>
       <static name="COUNTRY_ISO3_COM" value="Comoros"/>
