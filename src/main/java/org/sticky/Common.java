@@ -1,5 +1,9 @@
 package org.sticky;
 
+import static java.nio.file.Files.*;
+import static java.nio.file.Paths.*;
+import static java.nio.file.StandardCopyOption.*;
+import static org.fao.fi.comet.mapping.model.utils.jaxb.JAXBDeSerializationUtils.*;
 import static org.grade.client.upload.Grade.*;
 
 import java.io.BufferedWriter;
@@ -15,8 +19,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.stream.StreamSource;
 
 import lombok.Cleanup;
 import lombok.Getter;
@@ -24,7 +27,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 
 import org.fao.fi.comet.mapping.model.MappingData;
-import org.fao.fi.comet.mapping.model.utils.jaxb.JAXBDeSerializationUtils;
 import org.geotoolkit.data.FeatureCollection;
 import org.geotoolkit.data.FeatureStoreUtilities;
 import org.geotoolkit.feature.xml.XmlFeatureWriter;
@@ -40,7 +42,6 @@ import org.virtualrepository.ows.Features;
 import org.virtualrepository.tabular.Column;
 import org.virtualrepository.tabular.Row;
 import org.virtualrepository.tabular.Table;
-import org.w3c.dom.Document;
 
 public class Common {
 
@@ -66,25 +67,15 @@ public class Common {
 		return "src/main/resources/"+name;
 	}
 	
-	@SneakyThrows(Exception.class)
+	@SneakyThrows
 	public static void store(String name, InputStream stream) {
 		
-		byte[] bytes = new byte[2048];
-		
-		File dest = new File(file(name));
-		
-		@Cleanup FileOutputStream out = new FileOutputStream(dest);
-	
-		int read = 0;
-		
-		while ((read=stream.read(bytes))!=-1) 	out.write(bytes,0,read);
-		
-		out.flush();
+		copy(stream, get(file(name)), REPLACE_EXISTING);
 			
 	}
 	
 	@SuppressWarnings({ "deprecation", "unchecked" })
-	@SneakyThrows(Exception.class)
+	@SneakyThrows
 	public static void storeFeatures(String name, Features features){
 		
 		@Cleanup OutputStream out = new FileOutputStream(new File(file(name)));
@@ -139,17 +130,10 @@ public class Common {
 		
 	}
 	
-	@SneakyThrows(Exception.class)
+	@SneakyThrows
 	public static void storeMapping(String name, MappingData mapping){
 		
-		String xml = JAXBDeSerializationUtils.toXML(mapping);
-		
-		File dest = new File(file(name));
-		
-		@Cleanup FileOutputStream out = new FileOutputStream(dest);
-		
-		out.write(xml.getBytes());
-		out.flush();
+		write(get(file(name)), toXML(mapping).getBytes());
 		
 	}
 	
@@ -185,11 +169,6 @@ public class Common {
 		@Cleanup
 		InputStream is = load(name);
 		
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-		Document doc = dBuilder.parse(is);
-		doc.getDocumentElement().normalize();
-		
-		return JAXBDeSerializationUtils.fromDocument(doc);
+		return fromSource(new StreamSource(is));
 	}
 }
