@@ -1,4 +1,4 @@
-package org.sticky.aux;
+package org.sticky.process;
 
 import static org.fao.fi.comet.mapping.dsl.MappingDSL.*;
 import static org.fao.fi.comet.mapping.dsl.MappingDetailDSL.*;

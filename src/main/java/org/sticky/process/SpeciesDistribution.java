@@ -1,4 +1,4 @@
-package org.sticky.aux;
+package org.sticky.process;
 
 import static java.util.Arrays.*;
 import static java.util.stream.Collectors.*;

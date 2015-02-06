@@ -1,4 +1,4 @@
-package org.sticky.aux;
+package org.sticky.process;
 
 import java.io.StringWriter;
 import java.util.ArrayList;

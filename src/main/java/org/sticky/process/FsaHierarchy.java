@@ -1,4 +1,4 @@
-package org.sticky.aux;
+package org.sticky.process;
 
 import java.util.ArrayList;
 import java.util.Iterator;

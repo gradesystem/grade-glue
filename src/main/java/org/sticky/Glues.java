@@ -4,11 +4,11 @@ import static javax.ws.rs.client.ClientBuilder.*;
 import static org.grade.client.upload.Grade.*;
 import static org.sticky.Common.*;
 import static org.sticky.Common.TestDeployment.*;
-import static org.sticky.aux.AdminUnits.*;
-import static org.sticky.aux.Eezs.*;
-import static org.sticky.aux.FsaHierarchy.*;
-import static org.sticky.aux.SpeciesDistribution.*;
-import static org.sticky.aux.Worms.*;
+import static org.sticky.process.AdminUnits.*;
+import static org.sticky.process.Eezs.*;
+import static org.sticky.process.FsaHierarchy.*;
+import static org.sticky.process.SpeciesDistribution.*;
+import static org.sticky.process.Worms.*;
 
 import java.io.InputStream;
 import java.net.URI;
@@ -46,7 +46,7 @@ public class Glues {
 	@Test
 	public void pushRfb() {
 		
-		drop(file("rfb.xml")).with(xml).in(ami).as("rfb");
+		drop(file("rfb.xml")).with(xml).in(preproduction).as("rfb");
 		
 	}
 	
@@ -70,7 +70,7 @@ public class Glues {
 		
 		Csv csv = csv().delimiter(',').encoding("UTF-16");
 		
-		drop(file("admin-units.txt")).with(csv).in(ami).as("admin-units");
+		drop(file("admin-units.txt")).with(csv).in(preproduction).as("admin-units");
 		
 	}
 	
