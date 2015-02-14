@@ -52,8 +52,8 @@ public class Common {
 	@Getter
 	public static enum TestDeployment implements Deployment {
 		
-		ami("http://grade.ddns.net:8080","staging"),
-		preproduction("http://figisapps.fao.org/grade","staging");
+		ami("http://grade.ddns.net:8080","upload"),
+		preproduction("http://figisapps.fao.org/grade","upload");
 		
 		final String uri; 
 		final String endpoint;
