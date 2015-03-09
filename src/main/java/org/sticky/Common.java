@@ -32,7 +32,7 @@ import org.geotoolkit.data.FeatureStoreUtilities;
 import org.geotoolkit.feature.xml.XmlFeatureWriter;
 import org.geotoolkit.feature.xml.jaxp.JAXPStreamFeatureWriter;
 import org.grade.client.upload.Deployment;
-import org.grade.client.upload.csv.Csv;
+import org.grade.client.upload.csv.CsvParams;
 import org.opengis.feature.Feature;
 import org.virtualrepository.VirtualRepository;
 import org.virtualrepository.csv.CsvAsset;
@@ -52,7 +52,7 @@ public class Common {
 	@Getter
 	public static enum TestDeployment implements Deployment {
 		
-		ami("http://grade.ddns.net:8080","upload"),
+		ami("http://grade.ddns.net:8080","staging"),
 		preproduction("http://figisapps.fao.org/grade","upload");
 		
 		final String uri; 
@@ -93,11 +93,11 @@ public class Common {
 	
 	
 	public static void storeTable(String name, Table table){
-		storeTable(name,table,csv());
+		storeTable(name,table,csvparams());
 	}
 	
 	@SneakyThrows
-	public static void storeTable(String name, Table table, Csv info){
+	public static void storeTable(String name, Table table, CsvParams info){
 		
 		File file = new File(file(name));
 		OutputStream os = new FileOutputStream(file);
@@ -149,11 +149,11 @@ public class Common {
 	
 	public static Table loadTable(String file){
 		
-		return loadTable(file,csv());
+		return loadTable(file,csvparams());
 	}
 	
 	@SneakyThrows
-	public static Table loadTable(String file, Csv info){
+	public static Table loadTable(String file, CsvParams info){
 	
 		CsvAsset a = new CsvAsset("someid","somename");
 		a.hasHeader(true);

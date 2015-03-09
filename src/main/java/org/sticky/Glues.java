@@ -20,7 +20,7 @@ import javax.xml.namespace.QName;
 
 import org.fao.fi.comet.mapping.model.MappingData;
 import org.glassfish.jersey.filter.LoggingFilter;
-import org.grade.client.upload.csv.Csv;
+import org.grade.client.upload.csv.CsvParams;
 import org.junit.Test;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.ows.Features;
@@ -56,19 +56,19 @@ public class Glues {
 	public void grabAdminUnits() {
 
 		Table countries = loadTable("gaul-codes.txt");
-		Table flagstates = loadTable("flagstates.txt", csv().delimiter(';'));
-		Table names = loadTable("gaul-names.txt",csv().delimiter('\t').encoding("UTF-16"));
+		Table flagstates = loadTable("flagstates.txt", csvparams().delimiter(';'));
+		Table names = loadTable("gaul-names.txt",csvparams().delimiter('\t').encoding("UTF-16"));
 		
 		countries = enrichAdminUnitsTable(countries, flagstates);
 		countries = buildAdminUnitsTable(countries, names);
 		
-		storeTable("admin-units.txt", countries, csv().encoding("UTF-16"));
+		storeTable("admin-units.txt", countries, csvparams().encoding("UTF-16"));
 	}
 	
 	@Test
 	public void pushAdminUnits(){
 		
-		Csv csv = csv().delimiter(',').encoding("UTF-16");
+		CsvParams csv = csvparams().delimiter(',').encoding("UTF-16");
 		
 		drop(file("admin-units.txt")).with(csv).in(preproduction).as("admin-units");
 		
@@ -113,7 +113,7 @@ public class Glues {
 	@Test
 	public void grabMappingExploitation() {
 		
-		Table adminUnits = loadTable("admin-units.txt",csv().encoding("UTF-16"));
+		Table adminUnits = loadTable("admin-units.txt",csvparams().encoding("UTF-16"));
 		Features eezs =  eezs(); 
 		Map<String,List<String>> codelist = buildEmbeddedCodelist(eezs);
 		
@@ -216,13 +216,13 @@ public class Glues {
 		
 		Table outHierarchy = buildWormsTaxonomicHierarchy(wormsToAsfis, worms);
 		
-		storeTable("worms-subset-hierarchy.txt", outHierarchy, csv().encoding("UTF-16").delimiter('\t'));
+		storeTable("worms-subset-hierarchy.txt", outHierarchy, csvparams().encoding("UTF-16").delimiter('\t'));
 	}
 	
 	@Test
 	public void pushWormsHierarchy(){
 		
-		Csv csv = csv().delimiter('\t').encoding("UTF-16");
+		CsvParams csv = csvparams().delimiter('\t').encoding("UTF-16");
 		
 		drop(file("worms-subset-hierarchy.txt")).with(csv).in(ami).as("worms-subset-hierarchy");
 	
@@ -232,18 +232,17 @@ public class Glues {
 	public void grabWormsCodelist() {
 		
 		Table worms = loadTable("worms-pisces.csv");
-		Table outHierarchy = loadTable("worms-subset-hierarchy.txt", 
-							           csv().delimiter('\t').encoding("UTF-16"));
+		Table outHierarchy = loadTable("worms-subset-hierarchy.txt", csvparams().delimiter('\t').encoding("UTF-16"));
 		
 		Table outSubset = buildWormsSubset(outHierarchy, worms);
 		
-		storeTable("worms-subset-codelist.txt", outSubset, csv().encoding("UTF-16").delimiter('\t'));
+		storeTable("worms-subset-codelist.txt", outSubset, csvparams().encoding("UTF-16").delimiter('\t'));
 	}
 	
 	@Test
 	public void pushWormsCodelist(){	
 		
-		Csv csv = csv().delimiter('\t').encoding("UTF-16");
+		CsvParams csv = csvparams().delimiter('\t').encoding("UTF-16");
 		
 		drop(file("worms-subset-codelist.txt")).with(csv).in(ami).as("worms-subset-codelist");
 	
