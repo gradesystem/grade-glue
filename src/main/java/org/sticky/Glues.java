@@ -7,7 +7,7 @@ import static org.sticky.Common.TestDeployment.*;
 import static org.sticky.process.AdminUnits.*;
 import static org.sticky.process.Eezs.*;
 import static org.sticky.process.FsaHierarchy.*;
-import static org.sticky.process.SpeciesDistribution.*;
+import static org.sticky.process.GeoBinder.*;
 import static org.sticky.process.Worms.*;
 
 import java.io.InputStream;

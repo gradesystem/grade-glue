@@ -45,7 +45,7 @@ import org.sticky.jaxb.GeographicReference;
  * @author Emmanuel Blondel
  *
  */
-public class SpeciesDistribution {
+public class GeoBinder {
 	
 	/**
 	 * Builds the mapping between a FLOD domain object uri and a Geonetwork
