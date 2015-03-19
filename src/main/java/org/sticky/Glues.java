@@ -171,16 +171,31 @@ public class Glues {
 		
 		storeMapping("species-distributions.xml", out);
 		
-	}
-	
+	}	
 	
 	@Test
 	public void pushSpeciesDistributions(){
 		
 		drop(file("species-distributions.xml")).with(xml).in(ami).as("species-distributions");
 		
+	}	
+	
+	@Test
+	public void grabRfbCompetenceAreas() {
+
+		String ep = "http://www.fao.org/figis/geoserver/rfb/ows";
+
+		MappingData out = buildGeographicReferences(ep);
+
+		storeMapping("rfb-competence-areas.xml", out);
 	}
 	
+	@Test
+	public void pushRfbCompetenceAreas() {
+
+		drop(file("rfb-competence-areas.xml")).with(xml).in(ami).as("rfb-competence-areas");
+
+	}	
 	
 	//////////////////////////////////////////////////////////////////////////////////////////
 	
