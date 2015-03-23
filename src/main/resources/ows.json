@@ -3,7 +3,7 @@
    "services" : [
       {
         "name" : "fao-areas",
-        "uri" : "http://www.fao.org/figis/geoserver/fifao/ows",
+        "uri" : "http://www.fao.org/figis/geoserver/area/ows",
         "excludeGeom" : true,
         "compress" : true
       },
