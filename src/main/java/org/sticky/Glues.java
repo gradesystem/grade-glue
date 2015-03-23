@@ -21,6 +21,7 @@ import javax.xml.namespace.QName;
 import org.fao.fi.comet.mapping.model.MappingData;
 import org.glassfish.jersey.filter.LoggingFilter;
 import org.grade.client.upload.csv.CsvParams;
+import org.junit.Before;
 import org.junit.Test;
 import org.virtualrepository.RepositoryService;
 import org.virtualrepository.ows.Features;
@@ -29,6 +30,12 @@ import org.virtualrepository.tabular.Table;
 
 public class Glues {
 	
+	TestDeployment current;
+	
+	@Before
+	public void configure(){
+		current = preproduction;
+	}
 
 	@Test
 	public void grabRfb() {
@@ -46,7 +53,7 @@ public class Glues {
 	@Test
 	public void pushRfb() {
 		
-		drop(file("rfb.xml")).with(xml).in(preproduction).as("rfb");
+		drop(file("rfb.xml")).with(xml).in(current).as("rfb");
 		
 	}
 	
@@ -70,7 +77,7 @@ public class Glues {
 		
 		CsvParams csv = csvparams().delimiter(',').encoding("UTF-16");
 		
-		drop(file("admin-units.txt")).with(csv).in(preproduction).as("admin-units");
+		drop(file("admin-units.txt")).with(csv).in(current).as("admin-units");
 		
 	}
 	
@@ -88,7 +95,7 @@ public class Glues {
 	@Test
 	public void pushEez() {
 	
-		drop(file("eez.xml")).with(xml).in(ami).as("eez");
+		drop(file("eez.xml")).with(xml).in(current).as("eez");
 		
 	}
 	
@@ -106,7 +113,7 @@ public class Glues {
 	@Test
 	public void pushMappingSovereignty() {
 	
-		drop(file("eez-country-sovereignty.xml")).with(xml).in(ami).as("eez-country-sovereignty");
+		drop(file("eez-country-sovereignty.xml")).with(xml).in(current).as("eez-country-sovereignty");
 		
 	}
 	
@@ -125,7 +132,7 @@ public class Glues {
 	@Test
 	public void pushMappingExploitation() {
 	
-		drop(file("eez-flagstate-exploitation.xml")).with(xml).in(ami).as("eez-flagstate-exploitation");
+		drop(file("eez-flagstate-exploitation.xml")).with(xml).in(current).as("eez-flagstate-exploitation");
 		
 
 	}
@@ -138,7 +145,7 @@ public class Glues {
 		
 		RepositoryService faoareas = repository.services().lookup(new QName("fao-areas"));
 		
-		WfsFeatureType asset = new WfsFeatureType("fifao-areas","fifao:FAO_AREAS");
+		WfsFeatureType asset = new WfsFeatureType("fifao-areas","area:FAO_AREAS");
 		
 		asset.setService(faoareas);
 		
@@ -155,7 +162,7 @@ public class Glues {
 	@Test
 	public void pushFsaHierarchy() {
 	
-		drop(file("fao-areas.xml")).with(xml).in(ami).as("fsa-hierarchy");
+		drop(file("fao-areas.xml")).with(xml).in(current).as("fsa-hierarchy");
 		
 	}
 	
@@ -176,7 +183,7 @@ public class Glues {
 	@Test
 	public void pushSpeciesDistributions(){
 		
-		drop(file("species-distributions.xml")).with(xml).in(ami).as("species-distributions");
+		drop(file("species-distributions.xml")).with(xml).in(current).as("species-distributions");
 		
 	}	
 	
@@ -193,7 +200,7 @@ public class Glues {
 	@Test
 	public void pushRfbCompetenceAreas() {
 
-		drop(file("rfb-competence-areas.xml")).with(xml).in(ami).as("rfb-competence-areas");
+		drop(file("rfb-competence-areas.xml")).with(xml).in(current).as("rfb-competence-areas");
 
 	}	
 	
@@ -217,7 +224,7 @@ public class Glues {
 	@Test
 	public void pushEezFsa() {
 	
-		drop(file("intersections.xml")).with(xml).in(ami).as("eez-fsa_intersection");
+		drop(file("intersections.xml")).with(xml).in(current).as("eez-fsa_intersection");
 		
 	}
 	
@@ -239,7 +246,7 @@ public class Glues {
 		
 		CsvParams csv = csvparams().delimiter('\t').encoding("UTF-16");
 		
-		drop(file("worms-subset-hierarchy.txt")).with(csv).in(ami).as("worms-subset-hierarchy");
+		drop(file("worms-subset-hierarchy.txt")).with(csv).in(current).as("worms-subset-hierarchy");
 	
 	}
 	
@@ -259,7 +266,7 @@ public class Glues {
 		
 		CsvParams csv = csvparams().delimiter('\t').encoding("UTF-16");
 		
-		drop(file("worms-subset-codelist.txt")).with(csv).in(ami).as("worms-subset-codelist");
+		drop(file("worms-subset-codelist.txt")).with(csv).in(current).as("worms-subset-codelist");
 	
 		
 	}
