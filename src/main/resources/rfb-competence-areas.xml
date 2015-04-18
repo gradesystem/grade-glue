@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MappingData on="2015-04-18T23:12:24.961+02:00" producedBy="Emmanuel Blondel"
+	version="1.0">
+	<Description>Mapping between LOD entities and geographic references
+		from the following GIS collection: Geoserver WMS of the Regional
+		Fishery Bodies geographic areas collection</Description>
+	<ProcessConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:nil="true" />
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/6cf32b3ec98a6ff2313e070f5cbcc10af98b4f18" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Agreement on the Conservation of Albatrosses and Petrels (ACAP)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-acap" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/b20d046646b0f77dfe5b29b26f87f0394ed0dddb" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Asia Pacific Fisheries Commission (APFIC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-apfic" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/07eb87188a980f76614d09e390ec140837465a55" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Central Asia and Caucasus Fisheries and Aquaculture Commission (CACFish)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-cacfish" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/8af036cc6a1e764cfb91998e69c20daa01e2d548" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ccamlr" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/9d0b0259f13d7562cf3b563626adb23218728e4d" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Convention on the Conservation and Management of Pollock Resources in the Central Bering Sea (CCBSP)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ccbsp" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/fff7a112ca7705230e1677a58eb611a9b4fc1daa" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Commission for the Conservation of Southern Bluefin Tuna (CCSBT)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ccsbt" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/cadb74dd2cb91173d9eaa7b063e3f1aa8582b727" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Fishery Committee for the Eastern Central Atlantic (CECAF)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-cecaf" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/e163855ab872e0ee43d28eeef770c5487bc379a7" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Committee on Inland Fisheries and Aquaculture of Africa (CIFAA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-cifaa" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/635ac20863e2e9e83f101a9ac39b628863fb1b31" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Commission for Inland Fisheries and Aquaculture of Latin America and the Caribbean (COPESCAALC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-copescaalc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/3652c7c3fe038f556998e41da92414b97d4b82a7" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Comite Regional des Peches du Golfe de Guinee (COREP)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-corep" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/19627b6440eb3974865f1bb17b2b604ac7e72a4f" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Comisi�n Permanente del Pacifico Sur (CPPS)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-cpps" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/96604883b6c8c0faef77352e6622f90cbb2ebd88" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Caribbean Regional Fisheries Mechanism (CRFM)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-crfm" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/77f323c93c6b341902d939ed02e5514614424b53" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Joint Technical Commission of the Maritime Front (CTMFM)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ctmfm" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/2d498a055fa6ae28392058fe4dc138a79fdc597a" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of European Inland Fisheries and Aquaculture Advisory Commission (EIFAAC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-eifaac" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/e52ebf4edef57ab35b518459d450960cc585b237" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Fishery Committee of the West Central Gulf of Guinea (FCWC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-fcwc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/7ba24bfe92fe33eb9aef9c3a42e9b4894947efea" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Forum Fisheries Agency (FFA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ffa" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/42cbcf0ea7fd01c7b06ada574dff15e6fdb2c62e" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of General Fisheries Commission for the Mediterranean (GFCM)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-gfcm" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/a81fa88055577118fd9d63f2c88e052b11476033" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Inter-American Tropical Tuna Commission (IATTC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-iattc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/fd041c739a74d16002cca9d523f7ed7b524e2f79" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of International Commission for the Conservation of Atlantic Tunas (ICCAT)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-iccat" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/d60114d91e5e676b581019acc09dab968f13ec17" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of International Council for the Exploration of the Sea (ICES)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ices" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/0db39467c9d8d6f9fa8c0d2fad4dd1c6a72e262c" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Indian Ocean Tuna Commission (IOTC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-iotc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/3680f1bc6c92707c3ec34e9feab9057a5c23e1b7" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of International Pacific Halibut Commission (IPHC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-iphc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/d164ce3aefee94ed32621e88b632489439212c09" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of International Whaling Commission (IWC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-iwc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/1f09d299e03ca300b00d56b64cd7e4ab4f1fc719" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Lake Tanganyika Authority (LTA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-lta" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/f0f6598efbb4fb00003b274c1f9b0784bb95b290" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Lake Victoria Fisheries Organization (LVFO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-lvfo" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/26719cae29e75aadeebd58fdae8c68d19ebc9aea" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Mekong River Commission (MRC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-mrc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/265b2f9f9810fadebf997a6ffd632be7567aadf5" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Network of Aquaculture Centers in Asia-Pacific (NACA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-naca" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/bf85566b8fcafcd948e24443e986e24bdd09d89b" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Northwest Atlantic Fisheries Organization (NAFO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-nafo" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/8fcb93e1c46c67ad9073c458fa7badb97b46a9e6" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North Atlantic Marine Mammal Commission (NAMMCO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-nammco" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/2d41a472d44716771e06ea9caf7fd21187860ac5" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North Atlantic Salmon Conservation Organization (NASCO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-nasco" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/56d54db05cc3f1133ae7d5daa8494417e8c5bc14" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North-East Atlantic Fisheries Commission (NEAFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-neafc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/b0b85a900d05d2ae17bb34d2c376c3cc5327603f" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North Pacific Anadromous Fish Commission (NPAFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-npafc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/e13a5a669e42da5ba77676010c28de5e958ed907" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North Pacific Fisheries Commission (NPFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-npfc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/f682b7f23ac05076bee01aada7689662608b781c" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Latin-American Fisheries Development Organization (OLDEPESCA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-oldepesca" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/40c30bddf5fe8072c696eb5296a80997f7571a57" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Central America Fisheries and Aquaculture Organization (OSPESCA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-ospesca" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/290bbe29dcd71d168fd5cba075d9ce5b911388db" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Red Sea and Gulf of Aden Environment Programme (PERSGA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-persga" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/7e693f255ff66a11b6471f4d9ba96ea112d95c15" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of North Pacific Marine Science Organization (PICES)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-pices" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/553386af96c814567f1616e5141f46c3b46b8006" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Pacific Salmon Commission (PSC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-psc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/c7e166d523058e6f94a134ba72eb4f6cd11c00ab" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Regional Commission for Fisheries (RECOFI)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-recofi" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/33be1b6138f67d5f3152debf6d82ed4badf7c013" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Southeast Asian Fisheries Development Center (SEAFDEC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-seafdec" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/6784e880ce551d78d480108acfefe718da29d655" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of South East Atlantic Fisheries Organisation (SEAFO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-seafo" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/aafff8ebc0060d7a08bb69980975645191203c6f" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of South Indian Ocean Fisheries Agreement (SIOFA)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-siofa" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/df4476ea74dd70b9301d0ee1037fe0692b9809ea" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Secretariat of the Pacific Community (SPC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-spc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/62a22bcdf516dc22e2f9fb713c107de1526add90" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of South Pacific Regional Fisheries Management Organisation (SPRFMO)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-sprfmo" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/4150968d2fca3f5f821d8c92a92bfcd69cfcfc8a" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Subregional Fisheries Commission (SRFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-srfc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/ff186685c43643827270b166ff58d132171eabca" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Southwest Indian Ocean Fisheries Commission (SWIOFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-swiofc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/3fab4b67ddeb6bcc3f4df9530d07e6e133a66d59" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Western and Central Pacific Fisheries Commission (WCPFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-wcpfc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+	<Mapping>
+		<SourceElement>
+			<Entity>
+				<Code type="uri"
+					value="http://www.fao.org/figis/lod/flod/entities/codedentity/19ffcf0a3eeac55d9f84ff68d9f53be6dee6c2e7" />
+			</Entity>
+		</SourceElement>
+		<TargetElementMappings>
+			<MappingDetail score="0.0">
+				<TargetElement>
+					<GeographicReference>
+						<Code
+							label="Geographic Area of Competence of Western Central Atlantic Fishery Commission (WECAFC)"
+							type="uri"
+							value="http://www.fao.org/geonetwork/srv/en/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http://www.isotc211.org/2005/gmd&amp;id=fao-rfb-map-wecafc" />
+					</GeographicReference>
+				</TargetElement>
+			</MappingDetail>
+		</TargetElementMappings>
+	</Mapping>
+</MappingData>
