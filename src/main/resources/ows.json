@@ -10,6 +10,7 @@
       {
         "name" : "vliz",
         "uri" : "http://geo.vliz.be/geoserver/MarineRegions/ows",
+        "version": "1.0.0",
         "excludeGeom" : true,
         "compress" : true
       }, 
