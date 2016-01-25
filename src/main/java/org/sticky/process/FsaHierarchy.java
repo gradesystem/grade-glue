@@ -4,10 +4,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.geotoolkit.feature.DefaultFeature;
+import org.geotoolkit.feature.FeatureBuilder;
 import org.geotoolkit.feature.FeatureTypeBuilder;
-import org.geotoolkit.feature.simple.SimpleFeatureBuilder;
 import org.geotoolkit.feature.simple.SimpleFeatureType;
 import org.geotoolkit.feature.type.GeometryType;
+import org.geotoolkit.feature.type.PropertyDescriptor;
 import org.opengis.feature.AttributeType;
 import org.opengis.feature.Feature;
 import org.opengis.feature.FeatureType;
@@ -52,19 +54,20 @@ public class FsaHierarchy {
 	public static Features buildFsaHierarchy(Features features){
 		
 		//building enriched featureType
-		FeatureType srcFeatureType = features.all().get(0).getType();
+		DefaultFeature feat = (DefaultFeature) features.all().get(0);
+		org.geotoolkit.feature.type.FeatureType srcFeatureType = feat.getType();
 		final FeatureTypeBuilder ftb = new FeatureTypeBuilder();
 		ftb.setName(srcFeatureType.getName().toString());
 
 		
-		for(PropertyType prop : srcFeatureType.getProperties(false)){
-			if(prop instanceof GeometryType){
-				ftb.add(prop.getName().toString(),
-						((GeometryType) prop).getValueClass(),
-						((GeometryType) prop).getCoordinateReferenceSystem());
+		for(PropertyDescriptor prop : srcFeatureType.getDescriptors()){
+			if(prop.getType() instanceof GeometryType){
+				ftb.add(prop.getName().tip().toString(),
+						((GeometryType) prop.getType()).getValueClass(),
+						((GeometryType) prop.getType()).getCoordinateReferenceSystem());
 				
-			}else if(prop instanceof AttributeType){
-				String name = prop.getName().toString();
+			}else if(prop.getType() instanceof AttributeType){
+				String name = prop.getName().tip().toString();
 				
 				//reducing nb of properties for more transparency for grade
 				if(name.equals("F_AREA")
@@ -74,16 +77,18 @@ public class FsaHierarchy {
 				   || name.equals("F_SUBUNIT")){
 					name = name.replaceFirst("F_", "PARTOF_");
 				}
-				System.out.println(name);
-				ftb.add(name,((AttributeType<?>) prop).getValueClass());
+				
+				if(!prop.getName().head().toString().contains("gml")){
+					ftb.add(name,((AttributeType<?>) prop.getType()).getClass(),
+							1, 1, true, null);
+				}
 			}
 		}
 		
-		FeatureType trgFeatureType = ftb.buildSimpleFeatureType();
+		org.geotoolkit.feature.type.FeatureType trgFeatureType = ftb.buildSimpleFeatureType();
 		
 		//building new features
 		List<Feature> trgFeatureList = new ArrayList<Feature>();	
-		SimpleFeatureBuilder sfb = new SimpleFeatureBuilder((SimpleFeatureType) trgFeatureType);
 		
 		Iterator<Feature> it = features.all().iterator();
 		while(it.hasNext()){
@@ -106,9 +111,10 @@ public class FsaHierarchy {
 			}
 			
 			//build new feature
-			for(PropertyType prop : trgFeatureType.getProperties(false)){
+			List<Object> values = new ArrayList<Object>();
+			for(PropertyDescriptor prop : trgFeatureType.getDescriptors()){
 				
-				String propertyName = prop.getName().toString();
+				String propertyName = prop.getName().tip().toString();
 				if(propertyName.startsWith("PARTOF_")) propertyName = propertyName.replaceFirst("PARTOF_", "F_");
 				Property property = f.getProperty(propertyName);
 				
@@ -118,12 +124,14 @@ public class FsaHierarchy {
 					if(value.startsWith("_")) value = value.substring(1,value.length());
 				}
 				
-				sfb.add(value);
+				values.add(value);
 				
 			}
 			
 			//add trgFeature
-			trgFeatureList.add(sfb.buildFeature("fao-area-"+code));
+			Feature trgFeature = FeatureBuilder.build((org.geotoolkit.feature.type.FeatureType) trgFeatureType, values, "fao-area-"+code);
+			trgFeatureList.add(trgFeature);
+			
 		}
 		
 		Features trgFeatures = new Features(trgFeatureList);

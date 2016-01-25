@@ -8,7 +8,7 @@
 	<properties>
 		<snapshots-name>gcube-snapshots</snapshots-name>
 		<snapshots-url>http://maven.research-infrastructures.eu:8081/nexus/content/repositories/gcube-snapshots</snapshots-url>
-		<geotk.version>4.x-SNAPSHOT</geotk.version>
+		<geotk.version>4.0-M4</geotk.version>
 	</properties>
 
 
@@ -23,6 +23,11 @@
 		<repository>
 			<id>${snapshots-name}</id>
 			<url>${snapshots-url}</url>
+		</repository>
+		<repository>
+			<id>geotoolkit</id>
+			<name>Geotk repository</name>
+			<url>http://maven.geotoolkit.org</url>
 		</repository>
 	</repositories>
 

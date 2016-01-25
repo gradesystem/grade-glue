@@ -85,7 +85,7 @@ public class Common {
 		for(Feature f : features.all()){
 			geotkFeatures.add((org.geotoolkit.feature.Feature) f);
 		}
-		final FeatureCollection<org.geotoolkit.feature.Feature> fc = FeatureStoreUtilities
+		final FeatureCollection fc = FeatureStoreUtilities
 				.collection((org.geotoolkit.feature.type.FeatureType) features.all().get(0).getType(), geotkFeatures);
 		
 		featureWriter.write(fc, out);
