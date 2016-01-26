@@ -261,6 +261,7 @@ public class Eezs {
 						Feature f = fit.next();
 						
 						String eezCode = f.getPropertyValue("iso_3digit").toString();
+						
 						if(eezCode != null){
 							if(eezCode.equals(srcCode)) {
 								if(isFlagstate){
@@ -273,16 +274,16 @@ public class Eezs {
 								}
 
 							} else {
-
-								String sovName = f.getPropertyValue("sovereign").toString();	
-								if(codelist.get(srcCode).contains(sovName)){
+								Boolean isEezFlagstate = refadmin.get(eezCode);
+								if(isEezFlagstate == null) isEezFlagstate = false;
+								if(!isEezFlagstate){
 									String mrgid = f.getPropertyValue("mrgid").toString();
 									Integer mrgidValue = Integer.valueOf(Double.valueOf(mrgid).intValue());
 									if(!trgCodes.containsKey(mrgid)){
 										String label = f.getPropertyValue("eez").toString();
 										trgCodes.put(mrgidValue, label);
 									}
-								} 
+								}
 							}
 							
 						}
